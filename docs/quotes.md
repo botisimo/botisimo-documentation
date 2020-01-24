@@ -1,5 +1,5 @@
 # Twitch.Center Quote System
-Botisimo does not have a quote system, however you can use the `$(fetch)`, `$(query)`, and `$(urlencode)` [response variables](/docs/variables) combined with a third-party api to make your own.
+Botisimo does not have a quote system, however you can use the `$(fetch)`, `$(query)`, and `$(urlencode)` [response variables](</variables>) combined with a third-party api to make your own.
 
 ## What can it do?
 

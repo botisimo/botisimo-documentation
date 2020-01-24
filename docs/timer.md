@@ -1,5 +1,5 @@
 # !timer
-The `!timer` command is used to create/edit/delete/start/stop [custom timers](/account/timers) via chat
+The `!timer` command is used to create/edit/delete/start/stop [custom timers](https://botisimo.com/account/timers) via chat
 
 **NOTE:** Timers are only activated if 10 or more messages have been sent since the last time it was activated
 

@@ -1,7 +1,7 @@
 # !poll
-The `!poll` command is used to create/view/close/end [polls](/account/polls) via chat
+The `!poll` command is used to create/view/close/end [polls](https://botisimo.com/account/polls) via chat
 
-**NOTE:** You can display the active poll in your stream using the [stream overlay](/account/overlays) for polls
+**NOTE:** You can display the active poll in your stream using the [stream overlay](https://botisimo.com/account/overlays) for polls
 
   - `close` - Close voting for a poll [view docs](#close)
   - `end` - End a poll [view docs](#end)

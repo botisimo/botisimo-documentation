@@ -13,19 +13,19 @@ Below is a list of the default commands available with Botisimo. They are groupe
   - `!buy <key>` - Purchase an item from the shop using currency
   - `!clip [username]` - Responds with the top Twitch clip for the current user or the `username` (must be a twitch username)
   - `!commands` - Receive list of custom commands available to you via whisper
-  - `!enter` - Enter the giveaway [view docs](/docs/enter)
+  - `!enter` - Enter the giveaway [view docs](</enter>)
   - `!help` - Link to Botisimo docs
   - `!leaderboard` - Display link to the leaderboard
   - `!optin` - Opt in to Level Up and DyneOps announcements for your user
   - `!optout` - Opt out of Level Up and DyneOps announcements for your user
-  - `!queue` - Join or leave player queue [view docs](/docs/queue)
+  - `!queue` - Join or leave player queue [view docs](</queue>)
   - `!rank [username]` - Display rank information for the current user or the `username`
   - `!reddit <subreddit>` - Get the latest post(s) for a subreddit. Returns top 10 results in Discord and top result in Twitch & Mixer
   - `!shop` - Display available shop items for channel in chat
-  - `!songrequest <youtube_video_url>` or `!sr <youtube_video_url>` - Request a song (works with the [music player](/account/music))
+  - `!songrequest <youtube_video_url>` or `!sr <youtube_video_url>` - Request a song (works with the [music player](https://botisimo.com/account/music))
   - `!stackoverflow <query>` - Search Stackoverflow questions. Returns top 10 results in Discord and top result in Twitch & Mixer
   - `!twit <username>` or `!twitter <username>` - Responds with the latest tweet from the given `username` (must be a twitter username)
-  - `!vote` - Vote in poll [view docs](/docs/vote)
+  - `!vote` - Vote in poll [view docs](</vote>)
   - `!wikipedia <topic>` or `!wiki <topic>` - Search Wikipedia topics. Returns top 10 results in Discord and top result in Twitch & Mixer
 
 #### Twitch, Mixer, & Youtube only
@@ -37,24 +37,24 @@ Below is a list of the default commands available with Botisimo. They are groupe
 
   - `!login [platform=twitch]` - Receive a link to authorize chat mirroring for your Discord user (platform can be `twitch` or `mixer`)
   - `!logout [platform=twitch]` - Disable chat mirroring for your Discord user (platform can be `twitch` or `mixer`)
-  - `!playlists` - List Youtube playlists from connected account (must have [linked youtube account](/account/connections))
+  - `!playlists` - List Youtube playlists from connected account (must have [linked youtube account](https://botisimo.com/account/connections))
 
 ## Mod Commands
 
 #### All platforms
 
-  - `!command` - Manage custom commands [view docs](/docs/command)
+  - `!command` - Manage custom commands [view docs](</command>)
   - `!gameall <game>` - Set the game on all connections on the account
   - `!give <amount> <username> [username] [username] ...` - Give currency to 1 or more users
   - `!give <amount> all` - Give currency to everyone
   - `!give <amount> chat` - Give currency to everyone currently in chat
-  - `!giveaway` - Manage giveaways [view docs](/docs/giveaway)
+  - `!giveaway` - Manage giveaways [view docs](</giveaway>)
   - `!irregular <username>` - Remove this user from regulars
-  - `!nextsong` or `!ns` - Skip the current song (works with the [music player](/account/music))
+  - `!nextsong` or `!ns` - Skip the current song (works with the [music player](https://botisimo.com/account/music))
   - `!ping` - Responds with `pong` in chat (quick way to check if Botisimo is responding in your channel)
-  - `!poll` - Manage polls [view docs](/docs/poll)
+  - `!poll` - Manage polls [view docs](</poll>)
   - `!regular <username>` - Add this user to regulars
-  - `!timer` - Manage custom timers [view docs](/docs/timer)
+  - `!timer` - Manage custom timers [view docs](</timer>)
   - `!titleall <title>` - Set the title on all connections on the account
   - `!winner [message] [|minutes]` - Pick a random winner from chat who sent a message in last 10 minutes. Optionally, use the `message` to filter users who typed a specific message (default: any message). You can also alter the minutes by using the `|` character followed by a number (example: `!winner enter|30`)
 
@@ -65,7 +65,7 @@ Below is a list of the default commands available with Botisimo. They are groupe
 
 #### Discord only
 
-  - `!bridge` - Manage Discord bridges [view docs](/docs/bridge)
+  - `!bridge` - Manage Discord bridges [view docs](</bridge>)
   - `!clear <number>` - Clear a number of messages from the chat (max: 99)
   - `!subscribe <platform> <username>` - Subscribe to other Botisimo users' stream up announcements (platform should be `twitch` or `mixer`)
   - `!unsubscribe <platform> <username>` - Unsubscribe from other Botisimo users' stream up announcements (platform should be `twitch` or `mixer`)
@@ -74,7 +74,7 @@ Below is a list of the default commands available with Botisimo. They are groupe
 
 #### All platforms
 
-  - `!leave` - Disable Botisimo for your channel (can be reenabled on the [connections page](/account/connections) of your account)
+  - `!leave` - Disable Botisimo for your channel (can be reenabled on the [connections page](https://botisimo.com/account/connections) of your account)
   - `!prefix [prefix=]` - Get or set the Botisimo command prefix (only affects Botisimo's built-in commands)
 
 ###### * We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.

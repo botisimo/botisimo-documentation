@@ -1,5 +1,5 @@
 # !enter
-The `!enter` command is used to enter [giveaways](/account/giveaways) via chat
+The `!enter` command is used to enter [giveaways](https://botisimo.com/account/giveaways) via chat
 
 ## Enter giveaway
 Enter the current giveaway

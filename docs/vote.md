@@ -1,5 +1,5 @@
 # !vote
-The `!vote` command is used to vote in [polls](/account/polls) via chat
+The `!vote` command is used to vote in [polls](https://botisimo.com/account/polls) via chat
 
 If a command argument is required it will be wrapped in `< >` and if the argument is optional it will be wrapped in `[ ]`.
 

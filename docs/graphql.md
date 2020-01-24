@@ -10,13 +10,13 @@ The Botisimo GraphQL API endpoint is located at:
 
 ## Authentication
 
-The Botisimo GraphQL API requires a Client ID to make authenticated requests. You can obtain your Client ID by visiting your [account settings](/account/settings) and copying the Client ID found in the "Developer" section. Keep this Client ID a secret because anyone who has it has access to your account.
+The Botisimo GraphQL API requires a Client ID to make authenticated requests. You can obtain your Client ID by visiting your [account settings](https://botisimo.com/account/settings) and copying the Client ID found in the "Developer" section. Keep this Client ID a secret because anyone who has it has access to your account.
 
 This Client ID will need to be included as a `Client-ID` header in all GraphQL requests.
 
 ## Query the API
 
-You can access the Botisimo GraphQL API endpoint using [cURL](https://curl.haxx.se/) or any other HTTP client. For the following example, make sure to replace **<CLIENT_ID>** with the Client ID you copied from your [account settings](/account/settings).
+You can access the Botisimo GraphQL API endpoint using [cURL](https://curl.haxx.se/) or any other HTTP client. For the following example, make sure to replace **<CLIENT_ID>** with the Client ID you copied from your [account settings](https://botisimo.com/account/settings).
 
 ### cURL
 

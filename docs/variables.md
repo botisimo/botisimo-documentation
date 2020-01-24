@@ -1,5 +1,5 @@
 # Response Variables
-Response variables are used to make dynamic [custom command](/account/commands) responses. See also [response directives](/docs/directives).
+Response variables are used to make dynamic [custom command](https://botisimo.com/account/commands) responses. See also [response directives](</directives>).
 
   - `Arguments` - Resolve arguments from command [view docs](#arguments)
   - `bot` - Resolve bot username [view docs](#bot)
@@ -88,7 +88,7 @@ $(botplain)
 ## cache
 Resolve a value from the cache
 
-Values can be save to the cache using the [cache directive](/docs/directives#cache).
+Values can be save to the cache using the [cache directive](</directives:cache>).
 
 #### Usage
 $(cache `<key>`)
@@ -310,7 +310,7 @@ $(rotate `<option>` | `[option]` | `[option]` | ...)
 `!rotate` -> `First response`
 
 ## songrequester
-Resolve the requester text of the current song playing on the [music player](/account/music)
+Resolve the requester text of the current song playing on the [music player](https://botisimo.com/account/music)
 
 #### Usage
 $(songrequester)
@@ -323,7 +323,7 @@ Outputs ` (requested by @username)` if the song was requested by a user or outpu
 `!song` -> `Now Playing: Culture Code - Make Me Move (feat. Karra) [NCS Release] (requested by @username)`
 
 ## songthumbnail
-Resolve the url to the thumbnail of the current song playing on the [music player](/account/music)
+Resolve the url to the thumbnail of the current song playing on the [music player](https://botisimo.com/account/music)
 
 #### Usage
 $(songthumbnail)
@@ -334,7 +334,7 @@ $(songthumbnail)
 `!songthumbnail` -> `https://i1.ytimg.com/vi/vBGiFtb8Rpw/mqdefault.jpg`
 
 ## songtitle
-Resolves the title of the song currently set to play on the [music player](/account/music)
+Resolves the title of the song currently set to play on the [music player](https://botisimo.com/account/music)
 
 #### Usage
 $(songtitle)
@@ -345,7 +345,7 @@ $(songtitle)
 `!song` -> `Now Playing: Culture Code - Make Me Move (feat. Karra) [NCS Release]`
 
 ## songurl
-Resolves the url of the song currently set to play on the [music player](/account/music)
+Resolves the url of the song currently set to play on the [music player](https://botisimo.com/account/music)
 
 #### Usage
 $(songurl)
@@ -356,7 +356,7 @@ $(songurl)
 `!song` -> `Now Playing: https://youtube.com/watch?v=vBGiFtb8Rpw`
 
 ## songusername
-Resolve the requester text of the current song playing on the [music player](/account/music)
+Resolve the requester text of the current song playing on the [music player](https://botisimo.com/account/music)
 
 #### Usage
 $(songusername)

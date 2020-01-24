@@ -2,7 +2,7 @@
 
 DyneOps is a fun chat game that will test your memory and put your 10-key numpad typing skills to the test. This page defines some important terms and concepts to understand to be able to play DyneOps.
 
-If you are a streamer and you have Botisimo in your channel, you can [enable DyneOps here](/account/dyneops).
+If you are a streamer and you have Botisimo in your channel, you can [enable DyneOps here](https://botisimo.com/account/dyneops).
 
 **NOTE:** If viewers are not receiving whispers from Botisimo in Twitch, they may need to send it a whisper first to get it working for their account.
 
@@ -86,7 +86,7 @@ That's it, now you're ready to TranceDecrypt HYPERDynes!
 
 ## Goldfrags
 
-Goldfrags are the currency of DyneOps and can be gained randomly as you chat or by unlocking Dynes. Viewers can exchange their currency for items in the [Shop](#shop). If you are a streamer using Botisimo you can [change the currency name here](/account/settings)
+Goldfrags are the currency of DyneOps and can be gained randomly as you chat or by unlocking Dynes. Viewers can exchange their currency for items in the [Shop](#shop). If you are a streamer using Botisimo you can [change the currency name here](https://botisimo.com/account/settings)
 
 ## Shop
 
@@ -114,7 +114,7 @@ If you have enough currency to buy the item, Botisimo will announce the purchase
 Botisimo: @streamer TwitchRPG TwitchRPG TwitchRPG @viewer1 has purchased Song Request!
 ```
 
-If you are a streamer, you can [configure your shop here](/account/shop).
+If you are a streamer, you can [configure your shop here](https://botisimo.com/account/shop).
 
 ## Decryption Chips
 

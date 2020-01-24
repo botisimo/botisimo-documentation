@@ -1,7 +1,7 @@
 # !giveaway
-The `!giveaway` command is used to create/view/close/end [giveaways](/account/giveaways) via chat
+The `!giveaway` command is used to create/view/close/end [giveaways](https://botisimo.com/account/giveaways) via chat
 
-**NOTE:** You can display the active giveaway in your stream using the [stream overlay](/account/overlays) for giveaways
+**NOTE:** You can display the active giveaway in your stream using the [stream overlay](https://botisimo.com/account/overlays) for giveaways
 
   - `close` - Close entry for the current giveaway [view docs](#close)
   - `end` - End a giveaway [view docs](#end)

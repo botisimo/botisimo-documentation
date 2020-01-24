@@ -1,5 +1,5 @@
 # !command
-The `!command` command is used to create/edit/delete/enable/disable [custom commands](/account/commands) via chat
+The `!command` command is used to create/edit/delete/enable/disable [custom commands](https://botisimo.com/account/commands) via chat
 
   - `delete` - Delete command [view docs](#delete)
   - `disable` - Disable command [view docs](#disable)

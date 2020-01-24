@@ -1,5 +1,5 @@
 # Response Directives
-Response directives are used to make dynamic actions for your [custom commands](/account/commands). Directives will be processed after [response variables](/docs/variables) and in the order they appear in the response text.
+Response directives are used to make dynamic actions for your [custom commands](https://botisimo.com/account/commands). Directives will be processed after [response variables](</variables>) and in the order they appear in the response text.
 
   - `cache` - Cache a value [view docs](#cache)
   - `chain` - Chain multiple responses together [view docs](#chain)
@@ -27,7 +27,7 @@ If a directive requires a parameter it will be wrapped in `< >` and if the param
 ## cache
 Saves a value temporarily to be used in other commands
 
-Fetch values from the cache using the [cache variable](/docs/variables#cache). The cache is not meant to be used as a long term or permanent place to store any sensitive or important information. This cache could be reset at any time without warning.
+Fetch values from the cache using the [cache variable](</variables:cache>). The cache is not meant to be used as a long term or permanent place to store any sensitive or important information. This cache could be reset at any time without warning.
 
 #### Usage
 $[cache `<key>` `<seconds>` `<value>`]
@@ -50,9 +50,9 @@ $[chain]
 
 Breaks the response into multiple responses
 
-- [Pro members](/membership.html) are limited to chaining 3 responses
-- [Master members](/membership.html) are limited to chaining 5 responses
-- [Guild members](/membership.html) are limited to chaining 10 responses
+- [Pro members](https://botisimo.com/membership.html) are limited to chaining 3 responses
+- [Master members](https://botisimo.com/membership.html) are limited to chaining 5 responses
+- [Guild members](https://botisimo.com/membership.html) are limited to chaining 10 responses
 
 `!chain`
  -> `This is the first response`
@@ -160,7 +160,7 @@ Removes the user from the wizard role and responds
 `!muggle` -> `You have been removed from the wizard role`
 
 ## event
-Sends a custom event to the [events overlay](/account/overlays)
+Sends a custom event to the [events overlay](https://botisimo.com/account/overlays)
 
 #### Usage
 $[event `[text]` | `[subtext]` | `[milliseconds=3000]` | `[thumbnail]` | `[sound]`]
@@ -224,7 +224,7 @@ Sends the response but does not relay it to the other platforms
 Same as [$[cooldown]](#cooldown) but applied before parsing command variables
 
 ## precost
-Same as [$[cost]](#cost) but applied before parsing [command variables](/docs/variables)
+Same as [$[cost]](#cost) but applied before parsing [command variables](</variables>)
 
 ## predelay
 Same as [$[delay]](#delay) but applied before parsing command variables
@@ -263,7 +263,7 @@ Sends the response in a direct message
 `!whisper` -> `This response will be sent in a direct message`
 
 ## Advanced Example
-This example shows you how to combine the `$(pick)` and `$(repeat)` [response variables](/docs/variables) with the `$[cost]` and `$[give]` response directives to make a !gamble command
+This example shows you how to combine the `$(pick)` and `$(repeat)` [response variables](</variables>) with the `$[cost]` and `$[give]` response directives to make a !gamble command
 
 #### Example
     $[cost 100] $(pick $(repeat 5 $[give 100] You broke even +0 | )$(repeat 5 You lost it all -100 | )$(repeat 5 $[give 150] You got a return on your investment +50 | )$[give 300] You hit the jackpot! +200)

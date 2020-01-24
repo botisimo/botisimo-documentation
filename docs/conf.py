@@ -50,4 +50,5 @@ html_theme = 'classic'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+master_doc = 'index'
 source_suffix = ['.rst', '.md']

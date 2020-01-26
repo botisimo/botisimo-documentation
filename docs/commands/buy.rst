@@ -1,15 +1,13 @@
 !buy
 ====
-Purchase an item from the shop using currency
+
+Purchase an item from the shop using currency.
 
 Usage
------
-!buy `<key>`
+    !buy ``<key>``
 
 Example
--------
-::
+    Purchase item 1 from the shop using currency::
 
-    !buy 1
+        !buy 1
 
-Purchase item 1 from the shop using currency

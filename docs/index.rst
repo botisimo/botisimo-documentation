@@ -1,6 +1,8 @@
 Botisimo Documentation
 ======================
 
+Botisimo is a cross-platform chat bot & viewer engagement tools as a service for Twitch, Mixer, YouTube, & Discord. Botisimo provides viewer loyalty tracking, custom commands, polls, chat logs, stream overlays, and more. Learn more at `botisimo.com <https://botisimo.com>`_.
+
 Commands
 ^^^^^^^^
 

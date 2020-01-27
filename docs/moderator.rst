@@ -1,5 +1,7 @@
-Making Botisimo Moderator
-=========================
+:orphan:
+
+Make Botisimo Moderator
+=======================
 
 Many features of Botisimo will require moderator privileges in your channel. For example, if you want to create commands to respond with hyperlinks or if you want to use the spam filters to automatically delete unwanted messages and timeout users.
 

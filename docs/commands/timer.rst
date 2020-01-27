@@ -21,10 +21,6 @@ __ #stop
 
 .. note::
 
-    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
-
-.. note::
-
     Timers are started and stopped based on the platform (Twitch, Mixer, YouTube, etc.) the command was issued from. Timers will only post to a single channel per platform.
 
 .. note::

@@ -26,19 +26,12 @@ Many features of Botisimo require moderator privileges in your channel. It is hi
 
 :doc:`Learn How to Make Botisimo a Moderator → <moderator>`
 
-.. toctree::
-   :maxdepth: 1
-   :name: sec-moderation
-   :hidden:
-
-   moderator
-
 Commands
 ^^^^^^^^
 
 Commands are used to allow you and your moderators/users to interact with the bot via chat.
 
-:doc:`View All Available Commands → <commands/index>`
+:doc:`View All Commands → <commands/index>`
 
 .. toctree::
    :maxdepth: 1
@@ -47,12 +40,12 @@ Commands are used to allow you and your moderators/users to interact with the bo
 
    commands/index
 
-Response Variables
-^^^^^^^^^^^^^^^^^^
+Variables
+^^^^^^^^^
 
 Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ responses.
 
-:doc:`View All Available Variables → <variables/index>`
+:doc:`View All Variables → <variables/index>`
 
 .. toctree::
    :maxdepth: 1
@@ -61,12 +54,12 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
 
    variables/index
 
-Response Directives
-^^^^^^^^^^^^^^^^^^^
+Directives
+^^^^^^^^^^
 
 Response directives are used to make dynamic actions for your `custom commands <https://botisimo.com/account/commands>`_. Directives will be processed after :doc:`response variables <variables/index>` and in the order they appear in the response text.
 
-:doc:`View All Available Directives → <directives/index>`
+:doc:`View All Directives → <directives/index>`
 
 .. toctree::
    :maxdepth: 1

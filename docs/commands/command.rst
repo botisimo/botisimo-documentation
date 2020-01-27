@@ -23,10 +23,6 @@ __ #permission
 
 .. note::
 
-    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
-
-.. note::
-
     Commands are enabled and disabled based on the platform (Twitch, Mixer, YouTube, etc.) the command was issued from. Commands will respond to the channel they are called from.
 
 delete

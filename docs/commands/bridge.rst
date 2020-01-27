@@ -11,10 +11,6 @@ __ #delete
 __ #join
 __ #new
 
-.. note::
-
-    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
-
 delete
 ^^^^^^
 Delete a bridge

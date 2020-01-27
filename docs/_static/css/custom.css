@@ -1,0 +1,20 @@
+.wy-side-nav-search {
+    background-color: black;
+}
+
+a {
+    color: #5BC2A8;
+}
+
+a:visited {
+    color: #5BC2A8;
+}
+
+a:active {
+    color: #5BC2A8;
+}
+
+a:hover {
+    color: #5BC2A8;
+    text-decoration: underline;
+}

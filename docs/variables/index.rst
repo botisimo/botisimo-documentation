@@ -3,6 +3,10 @@ Variables
 
 Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ responses. See also :doc:`response directives </directives/index>`.
 
+.. note::
+
+    If a variable argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
+
 .. toctree::
    :maxdepth: 1
    :name: toc-variables

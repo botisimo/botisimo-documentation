@@ -1,3 +1,5 @@
+:orphan:
+
 !logout (Discord only)
 ======================
 

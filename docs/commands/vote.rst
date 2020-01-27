@@ -3,10 +3,6 @@
 
 The ``!vote`` command is used to vote in `polls <https://botisimo.com/account/polls>`_ via chat.
 
-.. note::
-
-    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
-
 .. warning::
 
     Casting multiple votes for a poll may disqualify you from the poll if enabled by the streamer.

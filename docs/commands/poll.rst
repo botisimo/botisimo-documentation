@@ -19,10 +19,6 @@ __ #winner
 
 .. note::
 
-    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
-
-.. note::
-
     You can display the active poll in your stream using the `stream overlay <https://botisimo.com/account/overlays>`_ for polls.
 
 close

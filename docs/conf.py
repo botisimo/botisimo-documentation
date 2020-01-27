@@ -47,6 +47,34 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+# Theme options
+html_theme_options = {
+    # 'typekit_id': 'hiw1hhg',
+    # 'analytics_id': '',
+    # 'sticky_navigation': True  # Set to False to disable the sticky nav while scrolling.
+    'logo_only': True,  # if we have a html_logo below, this shows /only/ the logo with no title text
+    'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
+    # 'display_version': True,  # Display the docs version
+    # 'navigation_depth': 4,  # Depth of the headers shown in the navigation bar
+}
+
+# VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "botisimochatbot", # Username
+    "github_repo": "botisimo-documentation", # Repo name
+    "github_version": "master", # Version
+    "conf_py_path": "/", # Path in the checkout to the docs root
+}
+
+html_logo = 'images/botisimo-logo.png'
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

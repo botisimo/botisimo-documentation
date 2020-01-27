@@ -5,6 +5,10 @@ Commands are used to allow you and your moderators/users to interact with the bo
 
 .. note::
 
+    If a command argument is required it will be wrapped in ``<`` ``>`` and if the argument is optional it will be wrapped in ``[`` ``]``.
+
+.. note::
+
     If viewers are not receiving whispers from Botisimo in Twitch, they may need to send it a whisper first to get it working for their account.
 
 .. toctree::

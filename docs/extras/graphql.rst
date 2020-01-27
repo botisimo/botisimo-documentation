@@ -3,10 +3,13 @@ GraphQL API
 
 Welcome to the Botisimo GraphQL API. If you are new to GraphQL you can learn more about it here `https://graphql.org/learn <https://graphql.org/learn>`_.
 
-Documentation
-^^^^^^^^^^^^^
+.. toctree::
+   :maxdepth: 1
+   :name: toc-extras-graphql
+   :caption: Additional Resources
 
-`https://botisimo.com/docs/graphql/reference/ <https://botisimo.com/docs/graphql/reference/>`_
+   Reference <https://botisimo.com/docs/graphql/reference/>
+   Playground <https://botisimo.com/graphql/playground>
 
 GraphQL Endpoint
 ^^^^^^^^^^^^^^^^

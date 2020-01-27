@@ -1,4 +1,4 @@
 $[precost]
 ==========
 
-Same as `$[cost] </directives/cost>`_ but applied before parsing `command variables </variables>`_.
+Same as :doc:`$[cost] </directives/cost>` but applied before parsing :doc:`command variables </variables/index>`.

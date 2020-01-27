@@ -1,4 +1,4 @@
 $[predelay]
 ===========
 
-Same as `$[delay] </directives/delay>`_ but applied before parsing `command variables </variables>`_.
+Same as :doc:`$[delay] </directives/delay>` but applied before parsing :doc:`command variables </variables/index>`.

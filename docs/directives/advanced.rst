@@ -1,7 +1,7 @@
 Advanced Example
 ================
 
-This example shows you how to combine the ``$(pick)`` and ``$(repeat)`` `response variables </variables>`_ with the ``$[cost]`` and ``$[give]`` response directives to make a !gamble command.
+This example shows you how to combine the ``$(pick)`` and ``$(repeat)`` :doc:`response variables </variables/index>` with the ``$[cost]`` and ``$[give]`` :doc:`response directives</directives/index>` to make a !gamble command.
 
 Example
     This command will cost the user ``100`` currency to run and will give them a 5:16 chance to break even, a 5:16 chance to lose it, a 5:16 chance to get a return, and a 1:16 chance to hit the jackpot::

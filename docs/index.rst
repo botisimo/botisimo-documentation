@@ -1,146 +1,85 @@
-Botisimo Documentation
-======================
+Welcome!
+========
 
-Botisimo is a cross-platform chat bot & viewer engagement tools as a service for Twitch, Mixer, YouTube, & Discord. Botisimo provides viewer loyalty tracking, custom commands, polls, chat logs, stream overlays, and more. Learn more at `botisimo.com <https://botisimo.com>`_.
+What is Botisimo?
+^^^^^^^^^^^^^^^^^
+
+Botisimo is a cross-platform chat bot & viewer engagement tools as a service for Twitch, Mixer, YouTube, & Discord. Botisimo provides viewer loyalty tracking, custom commands, polls, chat logs, stream overlays, and more.
+
+`Learn More at Botisimo.com → <https://botisimo.com>`_
+
+Membership
+^^^^^^^^^^
+
+Using Botisimo requires a monthly or annual membership.
+
+    - **Pro** ($5/mo)
+    - **Master** ($10/mo)
+    - **Guild** (starting at $50/mo)
+
+`View Membership Details → <https://botisimo.com/membership.html>`_
+
+Moderation
+^^^^^^^^^^
+
+Many features of Botisimo require moderator privileges in your channel. It is highly recommended that you make Botisimo a moderator on all streaming channels you use.
+
+:doc:`Learn How to Make Botisimo a Moderator → <moderator>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-moderation
+   :hidden:
+
+   moderator
 
 Commands
 ^^^^^^^^
 
 Commands are used to allow you and your moderators/users to interact with the bot via chat.
 
+:doc:`View All Available Commands → <commands/index>`
+
 .. toctree::
    :maxdepth: 1
+   :name: sec-commands
+   :hidden:
 
-   commands/amazon
-   commands/bridge
-   commands/buy
-   commands/clear
-   commands/clip
-   commands/command
-   commands/commands
-   commands/enter
-   commands/game
-   commands/gameall
-   commands/give
-   commands/giveaway
-   commands/help
-   commands/irregular
-   commands/leaderboard
-   commands/leave
-   commands/link
-   commands/live
-   commands/nextsong
-   commands/optin
-   commands/optout
-   commands/ping
-   commands/poll
-   commands/prefix
-   commands/queue
-   commands/rank
-   commands/reddit
-   commands/regular
-   commands/shop
-   commands/songrequest
-   commands/stackoverflow
-   commands/subscribe
-   commands/timer
-   commands/title
-   commands/titleall
-   commands/twitter
-   commands/unsubscribe
-   commands/uptime
-   commands/vote
-   commands/wikipedia
-   commands/winner
+   commands/index
 
 Response Variables
 ^^^^^^^^^^^^^^^^^^
 
-Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ responses. See also `response directives <directives>`_.
+Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ responses.
+
+:doc:`View All Available Variables → <variables/index>`
 
 .. toctree::
    :maxdepth: 1
+   :name: sec-variables
+   :hidden:
 
-   variables/arguments
-   variables/bot
-   variables/botplain
-   variables/cache
-   variables/channel
-   variables/count
-   variables/countdown
-   variables/currency
-   variables/discord
-   variables/fetch
-   variables/fetchp
-   variables/hours
-   variables/js
-   variables/lastfm
-   variables/level
-   variables/minutes
-   variables/mixer
-   variables/pick
-   variables/query
-   variables/rank
-   variables/repeat
-   variables/rng
-   variables/rotate
-   variables/songrequester
-   variables/songthumbnail
-   variables/songtitle
-   variables/songurl
-   variables/songusername
-   variables/streamer
-   variables/streamerplain
-   variables/stripchar
-   variables/target
-   variables/targetplain
-   variables/total
-   variables/twitch
-   variables/urlencode
-   variables/userid
-   variables/username
-   variables/usernameplain
-   variables/usertype
-   variables/winner
-   variables/xp
-   variables/youtube
-   variables/advanced
+   variables/index
 
 Response Directives
 ^^^^^^^^^^^^^^^^^^^
 
-Response directives are used to make dynamic actions for your `custom commands <https://botisimo.com/account/commands>`_. Directives will be processed after `response variables <variables>`_ and in the order they appear in the response text.
+Response directives are used to make dynamic actions for your `custom commands <https://botisimo.com/account/commands>`_. Directives will be processed after :doc:`response variables <variables/index>` and in the order they appear in the response text.
+
+:doc:`View All Available Directives → <directives/index>`
 
 .. toctree::
    :maxdepth: 1
+   :name: sec-directives
+   :hidden:
 
-   directives/cache
-   directives/chain
-   directives/cooldown
-   directives/cost
-   directives/delay
-   directives/delete
-   directives/discord
-   directives/event
-   directives/give
-   directives/hours
-   directives/norelay
-   directives/precooldown
-   directives/precost
-   directives/predelay
-   directives/prehours
-   directives/transfer
-   directives/whisper
-   directives/advanced
+   directives/index
 
 Extras
 ^^^^^^
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :name: sec-extras
 
-   extras/alexa
-   extras/dyneops
-   extras/graphql
-   extras/moderator
-   extras/quotes
+   extras/index

@@ -1,7 +1,7 @@
 $(fetchp)
 =========
 
-Resolves the response from the url using a POST request. Similar to `$(fetch) </variables/fetch>`_.
+Resolves the response from the url using a POST request. Similar to :doc:`$(fetch) </variables/fetch>`.
 
 .. note::
 

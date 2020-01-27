@@ -3,13 +3,21 @@
 
 The ``!timer`` command is used to create/edit/delete/start/stop `custom timers <https://botisimo.com/account/timers>`_ via chat.
 
-    - ``delete`` - Delete a timer `view docs <#delete>`_
-    - ``edit`` - Edit a timer `view docs <#edit>`_
-    - ``info`` - View timer info `view docs <#info>`_
-    - ``list`` - List timers `view docs <#list>`_
-    - ``new`` - Create a new timer `view docs <#new>`_
-    - ``start`` - Start a timer `view docs <#start>`_
-    - ``stop`` - Stop a timer `view docs <#stop>`_
+    - ``delete`` - Delete a timer `view docs`__
+    - ``edit`` - Edit a timer `view docs`__
+    - ``info`` - View timer info `view docs`__
+    - ``list`` - List timers `view docs`__
+    - ``new`` - Create a new timer `view docs`__
+    - ``start`` - Start a timer `view docs`__
+    - ``stop`` - Stop a timer `view docs`__
+
+__ #delete
+__ #edit
+__ #info
+__ #list
+__ #new
+__ #start
+__ #stop
 
 .. note::
 

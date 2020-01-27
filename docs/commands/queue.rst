@@ -2,15 +2,25 @@
 ======
 The ``!queue`` command is used to join/leave/list users in the queue via chat
 
-    - ``clear`` - Clear the queue `view docs <#clear>`_
-    - ``close`` - Close the queue `view docs <#close>`_
-    - ``join`` - Join the queue `view docs <#join>`_
-    - ``leave`` - Leave the queue `view docs <#leave>`_
-    - ``list`` - List users in queue `view docs <#list>`_
-    - ``next`` - Get the next user in the queue `view docs <#next>`_
-    - ``open`` - Open the queue `view docs <#open>`_
-    - ``permission`` - Edit queue minimum permission `view docs <#permission>`_
-    - ``random`` - Gets a random user in the queue as the next user `view docs <#random>`_
+    - ``clear`` - Clear the queue `view docs`__
+    - ``close`` - Close the queue `view docs`__
+    - ``join`` - Join the queue `view docs`__
+    - ``leave`` - Leave the queue `view docs`__
+    - ``list`` - List users in queue `view docs`__
+    - ``next`` - Get the next user in the queue `view docs`__
+    - ``open`` - Open the queue `view docs`__
+    - ``permission`` - Edit queue minimum permission `view docs`__
+    - ``random`` - Gets a random user in the queue as the next user `view docs`__
+
+__ #clear
+__ #close
+__ #join
+__ #leave
+__ #list
+__ #next
+__ #open
+__ #permission
+__ #random
 
 clear
 ^^^^^

@@ -3,13 +3,21 @@
 
 The ``!giveaway`` command is used to create/view/close/end `giveaways <https://botisimo.com/account/giveaways>`_ via chat.
 
-    - ``close`` - Close entry for the current giveaway `view docs <#close>`_
-    - ``end`` - End a giveaway `view docs <#end>`_
-    - ``new`` - Create a new giveaway `view docs <#new>`_
-    - ``open`` - Open entry for the current giveaway `view docs <#open>`_
-    - ``rules`` - View the rules for the current giveaway `view docs <#rules>`_
-    - ``view`` - View current giveaway `view docs <#view>`_
-    - ``winner`` - Select a winner `view docs <#winner>`_
+    - ``close`` - Close entry for the current giveaway `view docs`__
+    - ``end`` - End a giveaway `view docs`__
+    - ``new`` - Create a new giveaway `view docs`__
+    - ``open`` - Open entry for the current giveaway `view docs`__
+    - ``rules`` - View the rules for the current giveaway `view docs`__
+    - ``view`` - View current giveaway `view docs`__
+    - ``winner`` - Select a winner `view docs`__
+
+__ #close
+__ #end
+__ #new
+__ #open
+__ #rules
+__ #view
+__ #winner
 
 .. note::
 

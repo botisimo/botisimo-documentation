@@ -3,14 +3,23 @@
 
 The ``!command`` command is used to create/edit/delete/enable/disable `custom commands <https://botisimo.com/account/commands>`_ via chat.
 
-    - ``delete`` - Delete command `view docs <#delete>`_
-    - ``disable`` - Disable command `view docs <#disable>`_
-    - ``edit`` - Edit command response `view docs <#edit>`_
-    - ``enable`` - Enable command `view docs <#enable>`_
-    - ``info`` - View command info `view docs <#info>`_
-    - ``list`` - List commands `view docs <#list>`_
-    - ``new`` - Create a new command `view docs <#new>`_
-    - ``permission`` - Edit command minimum permission `view docs <#permission>`_
+    - ``delete`` - Delete command `view docs`__
+    - ``disable`` - Disable command `view docs`__
+    - ``edit`` - Edit command response `view docs`__
+    - ``enable`` - Enable command `view docs`__
+    - ``info`` - View command info `view docs`__
+    - ``list`` - List commands `view docs`__
+    - ``new`` - Create a new command `view docs`__
+    - ``permission`` - Edit command minimum permission `view docs`__
+
+__ #delete
+__ #disable
+__ #edit
+__ #enable
+__ #info
+__ #list
+__ #new
+__ #permission
 
 .. note::
 

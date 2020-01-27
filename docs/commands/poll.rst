@@ -3,12 +3,19 @@
 
 The ``!poll`` command is used to create/view/close/end `polls <https://botisimo.com/account/polls>`_ via chat.
 
-    - ``close`` - Close voting for a poll `view docs <#close>`_
-    - ``end`` - End a poll `view docs <#end>`_
-    - ``new`` - Create a new poll `view docs <#new>`_
-    - ``open`` - Open voting for a poll `view docs <#open>`_
-    - ``view`` - View current poll `view docs <#view>`_
-    - ``winner`` - Select a winner `view docs <#winner>`_
+    - ``close`` - Close voting for a poll `view docs`__
+    - ``end`` - End a poll `view docs`__
+    - ``new`` - Create a new poll `view docs`__
+    - ``open`` - Open voting for a poll `view docs`__
+    - ``view`` - View current poll `view docs`__
+    - ``winner`` - Select a winner `view docs`__
+
+__ #close
+__ #end
+__ #new
+__ #open
+__ #view
+__ #winner
 
 .. note::
 

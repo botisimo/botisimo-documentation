@@ -3,9 +3,9 @@
 
 The ``!link`` command is used to link users from different platforms together to share currency and XP. Each group of linked users can have 1 user from each platform linked (Twitch, Mixer, YouTube, and Discord). You must have login access to the user account on each platform to be able to link them.
 
-    - `Link Users <#link-users>`_
-    - `Check Linked Users <#check-linked-users>`_
-    - `Unlink Users <#unlink-users>`_
+    - `Link Users`_
+    - `Check Linked Users`_
+    - `Unlink Users`_
 
 Link Users
 ^^^^^^^^^^

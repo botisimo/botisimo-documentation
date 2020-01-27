@@ -1,4 +1,4 @@
 $[prehours]
 ===========
 
-Same as `$[hours] </directives/hours>`_ but applied before parsing `command variables </variables>`_.
+Same as :doc:`$[hours] </directives/hours>` but applied before parsing :doc:`command variables </variables/index>`.

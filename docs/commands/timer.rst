@@ -31,82 +31,89 @@ delete
 ^^^^^^
 Delete a timer
 
-Usage
+Usage:
     !timer delete ``<name>``
 
-Example
-    Delete the timer named ``social``::
+Example:
+    ::
 
-        !timer delete social
+        user:     !timer delete social
+        botisimo: ​​Timer deleted: social
 
 edit
 ^^^^
 Edit a timer
 
-Usage
+Usage:
     !timer edit ``<name>`` ``<interval>`` ``<message>``
 
-Example
-    Edit the timer named ``social`` to post the message every 10 minutes in the current channel::
+Example:
+    ::
 
-        !timer edit social 10 Follow me on twitter and instagram @botisimo
+        user:     !timer edit social 10 Follow me on twitter and instagram @botisimo
+        botisimo: Timer updated: social
 
 info
 ^^^^
 Get info for a timer
 
-Usage
+Usage:
     !timer info ``<name>``
 
-Example
-    Output the details for the ``social`` timer::
+Example:
+    ::
 
-        !timer info social
+        user:     !timer info social
+        botisimo: Timer info: social | 5m | started | Follow me on twitter @botisimo
 
 list
 ^^^^
 List timers
 
-Usage
+Usage:
     !timer list
 
-Example
-    List timers available in Botisimo::
+Example:
+    ::
 
-        !timer list
+        user:     !timer list
+        botisimo: ​Timers: social, follow, botisimo
 
 new
 ^^^
 Create a new timer
 
-Usage
+Usage:
     !timer new ``<name>`` ``<interval>`` ``<message>``
 
-Example
-    Create a new timer named ``social`` that posts the message every 5 minutes in the current channel::
+Example:
+    ::
 
-        !timer new social 5 Follow me on twitter @botisimo
+        user:     !timer new social 5 Follow me on twitter @botisimo
+        botisimo: ​New timer: social
 
 start
 ^^^^^
 Starts a timer in the current channel
 
-Usage
+Usage:
     !timer start ``<name>``
 
-Example
-    Start the timer named ``social`` in the current channel::
+Example:
+    ::
 
-        !timer start social
+        user:     !timer start social
+        botisimo: ​Timer started: social
 
 stop
 ^^^^
 Stops a timer
 
-Usage
+Usage:
     !timer stop ``<name>``
 
-Example
-    Stop the timer named ``social`` but does not delete it::
+Example:
+    ::
 
-        !timer stop social
+        user:     !timer stop social
+        botisimo: ​Timer stopped: social

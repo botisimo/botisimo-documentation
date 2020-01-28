@@ -3,10 +3,11 @@
 
 Skip the current song (works with the `music player <https://botisimo.com/account/music>`_).
 
-Usage
+Usage:
     !nextsong
 
-Example
+Example:
     ::
 
-        !nextsong
+        user:     !nextsong
+        botisimo: ​Song skipped

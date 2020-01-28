@@ -3,10 +3,11 @@
 
 Responds with the top Twitch clip for the current user or the ``username`` (must be a Twitch username).
 
-Usage
+Usage:
     !clip ``[username]``
 
-Example
-    Gets the URL to the top clip for Twitch user "botisimo"::
+Example:
+    ::
 
-        !clip botisimo
+        user:     !clip drdisrespect
+        botisimo: https://clips.twitch.tv/VivaciousEncouragingSparrowCeilingCat

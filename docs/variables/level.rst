@@ -3,12 +3,15 @@ $(level)
 
 Resolve the level of the command issuer.
 
-Usage
+Usage:
     $(level)
 
-Example
-    Output ``5`` if the user's level is ``5``::
+Example Command:
+    **name**: !level
 
-        Get on my level: $(level)
+    **response**: Get on my level: $(level)
 
-    ``!level`` -> ``Get on my level: 5``
+    **output**::
+
+        user:     !level
+        botisimo: Get on my level: 5

@@ -3,12 +3,15 @@ $(targetplain)
 
 Resolve targeted username from command without @ symbol.
 
-Usage
+Usage:
     $(targetplain)
 
-Example
-    ::
+Example Command:
+    **name**: !follow
 
-        Go to mixer.com/$(targetplain) and drop a follow!
+    **response**: Go to mixer.com/$(targetplain) and drop a follow!
 
-    ``!follow @bob`` -> ``Go to mixer.com/bob and drop a follow!``
+    **output**::
+
+        user:     !follow @bob
+        botisimo: Go to mixer.com/bob and drop a follow!

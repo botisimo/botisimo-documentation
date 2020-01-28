@@ -3,12 +3,15 @@ $(js)
 
 Resolves the value of a javascript expression
 
-Usage
+Usage:
     $(js ``<javascript>``)
 
-Example
-    ::
+Example Command:
+    **name**: !js
 
-        $(js ['need', 'a', 'better', 'example'].join(' '))
+    **response**: $(js ['need', 'a', 'better', 'example'].join(' '))
 
-    ``!js`` -> ``need a better example``
+    **output**::
+
+        user:     !js
+        botisimo: need a better example

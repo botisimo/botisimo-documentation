@@ -3,12 +3,15 @@ $(urlencode)
 
 Resolves a url encoded string.
 
-Usage
+Usage:
     $(urlencode ``<string>``)
 
-Example
-    ::
+Example Command:
+    **name**: !encode
 
-        $(urlencode please encode me)
+    **response**: $(urlencode please encode me)
 
-    ``!encode`` -> ``please%20encode%20me``
+    **output**::
+
+        user:     !encode
+        botisimo: please%20encode%20me

@@ -3,10 +3,11 @@
 
 The ``!enter`` command is used to enter `giveaways <https://botisimo.com/account/giveaways>`_ via chat.
 
-Usage
+Usage:
     !enter
 
-Example
-    Enter the user into the current giveaway::
+Example:
+    ::
 
-        !enter
+        user:     !enter
+        botisimo: You have been entered into the giveaway

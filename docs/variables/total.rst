@@ -3,12 +3,15 @@ $(total)
 
 Resolves the total numbers of ranked users.
 
-Usage
+Usage:
     $(rank)
 
-Example
-    Output ``300`` if the there are ``300`` ranked users::
+Example Command:
+    **name**: !total
 
-        Total users: $(total)
+    **response**: Total users: $(total)
 
-    ``!total`` -> ``Total users: 300``
+    **output**::
+
+        user:     !total
+        botisimo: Total users: 300

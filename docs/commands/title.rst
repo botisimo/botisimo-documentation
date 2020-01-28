@@ -3,10 +3,17 @@
 
 Get or set the title for the stream.
 
-Usage
+Usage:
     !title ``[title]``
 
-Example
-    Set the title to ``Streamin like a demon! Let's GOOO!!!!``::
+Example:
+    ::
 
-        !title Streamin like a demon! Let's GOOO!!!!
+        user:     !title Streamin like a demon! Let's GOOO!!!!
+        botisimo: Title updated: Streamin like a demon! Let's GOOO!!!!
+
+Example:
+    ::
+
+        user:     !title 
+        botisimo: Current title: Streamin like a demon! Let's GOOO!!!!

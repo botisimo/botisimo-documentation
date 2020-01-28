@@ -3,10 +3,11 @@
 
 Unsubscribe from other Botisimo users' stream up announcements (platform should be ``twitch`` or ``mixer``).
 
-Usage
+Usage:
     !unsubscribe ``<platform>`` ``<username>``
 
-Example
-    Unsubscribe from stream up announcements for user ``botisimo`` on Twitch::
+Example:
+    ::
 
-        !unsubscribe twitch botisimo
+        user:     !unsubscribe twitch bob
+        botisimo: ​You have unsubscribed from stream up announcements for #bob on Twitch

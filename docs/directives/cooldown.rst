@@ -3,16 +3,17 @@ $[cooldown]
 
 Directs the bot to enforce a cooldown in seconds for the command.
 
-Usage
+Usage:
     $[cooldown ``<seconds>``]
 
-Example
-    Send the response if it has been ``30`` seconds since the last time the user sent the command::
+Example Command:
+    **name**: !cool
 
-        $[cooldown 30] This response will be sent only if 30 seconds has passed
+    **response**: $[cooldown 30] This response will be sent only if 30 seconds has passed
 
-    ``!cool`` -> ``This response will be sent only if 30 seconds has passed``
+    **output**::
 
-    If it has not been long enough to meet the cooldown they will receive a direct message explaining
-
-    ``!cool`` -> ``You must wait 30 seconds between !cool commands``
+        user:     !cool
+        botisimo: This response will be sent only if 30 seconds has passed
+        user:     !cool
+        botisimo: You must wait 30 seconds between !cool commands

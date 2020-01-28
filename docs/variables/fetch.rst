@@ -5,14 +5,17 @@ Resolves the response from the url using a GET request.
 
 .. note::
 
-    Responses are cached for 5 seconds.
+    To avoid hitting any rate limits against remote APIs, all responses are cached for 5 seconds.
 
-Usage
+Usage:
     $(fetch ``<url>``)
 
-Example
-    ::
+Example Command:
+    **name**: !foaas
 
-        $(fetch https://foaas.com/you/Peter/Bob)
+    **response**: $(fetch https://foaas.com/you/Peter/Bob)
 
-    ``!foaas`` -> ``Fuck you, Peter. -Bob``
+    **output**::
+
+        user:     !foaas
+        botisimo: Fuck you, Peter. -Bob

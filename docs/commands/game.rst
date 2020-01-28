@@ -3,10 +3,17 @@
 
 Get or set the game for the stream.
 
-Usage
+Usage:
     !game ``[game]``
 
-Example
-    Set the game to ``Pickle Wars``::
+Example:
+    ::
 
-        !game Pickle Wars
+        user:     !game Pickle Wars
+        botisimo: Game updated: Pickle Wars
+
+Example:
+    ::
+
+        user:     !game 
+        botisimo: Current game: Pickle Wars

@@ -27,83 +27,89 @@ close
 ^^^^^
 Closes the giveaway to stop further entry, but keeps the results live
 
-Usage
+Usage:
     !giveaway close
 
-Example
+Example:
     ::
 
-        !giveaway close
+        user:     !giveaway close
+        botisimo: Giveaway closed: Xbox Controller Giveaway
 
 end
 ^^^
 Ends the giveaway
 
-Usage
+Usage:
     !giveaway end
 
-Example
+Example:
     ::
 
-        !giveaway end
+        user:     !giveaway end
+        botisimo: Giveaway ended: Xbox Controller Giveaway
 
 new
 ^^^
 Create a new giveaway. This will end the current giveaway if it exists.
 
-Usage
+Usage:
     !giveaway new ``<title>`` | ``[cost=0]`` | ``[multiple_entries]`` | ``[max_entries=0]`` | ``[multiple_wins]``
 
-Example
-    Create a new giveaway with the title ``Xbox Controller Giveaway`` that costs ``1500`` currency to enter. This giveaway allows unlimited entries per user and allows them to win multiple times::
+Example:
+    ::
 
-        !giveaway new Xbox Controller Giveaway | 1500 | 1 | 0 | 1
+        user:     !giveaway new Xbox Controller Giveaway | 1500 | 1 | 0 | 1
+        botisimo: New giveaway: Xbox Controller Giveaway **Type !enter to join**
 
 open
 ^^^^
 Opens the giveaway to allow entry
 
-Usage
+Usage:
     !giveaway open
 
-Example
+Example:
     ::
 
-        !giveaway open
+        user:     !giveaway open
+        botisimo: Giveaway opened: Xbox Controller Giveaway **Type !enter to join**
 
 rules
 ^^^^^
 Get the rules for the current giveaway
 
-Usage
+Usage:
     !giveaway rules
 
-Example
-    Output the current giveaway rules to the chat. If there is no giveaway or no rules then there is no response::
+Example:
+    ::
 
-        !giveaway rules
-
+        user:     !giveaway rules
+        botisimo: Giveaway rules: Must be following the channel. Must be present when doing the giveaway raffle.
 
 view
 ^^^^
 Get the current giveaway info
 
-Usage
+Usage:
     !giveaway
 
-Example
-    Outputs the current giveaway to the chat. If there is no giveaway then there is no response::
+Example:
+    ::
 
-        !giveaway
+        user:     !giveaway
+        botisimo: Current giveaway: Xbox Controller Giveaway **Type !enter to join**
 
 winner
 ^^^^^^
 Select a random winner for the giveaway
 
-Usage
+Usage:
     !giveaway winner
 
-Example
-    Selects a random winner for the giveaway::
+Example:
+    ::
 
-        !giveaway winner
+        user:     !giveaway winner
+        botisimo: @username has won the Xbox Controller Giveaway Giveaway!

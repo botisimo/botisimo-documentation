@@ -3,10 +3,11 @@
 
 Search Wikipedia topics. Returns top 10 results in Discord and top result in Twitch & Mixer.
 
-Usage
+Usage:
     !wikipedia ``<search>``
 
-Example
-    Get topics related to ``quadratic equation``::
+Example:
+    ::
 
-        !wikipedia quadradic equation
+        user:     !wikipedia quadratic equation
+        botisimo: ​Quadratic equation - No description found - https://en.wikipedia.org/wiki/Quadratic_equation

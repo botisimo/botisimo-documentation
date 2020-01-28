@@ -3,12 +3,15 @@ $(count)
 
 Resolve the number of times the command has been used.
 
-Usage
+Usage:
     $(count)
 
-Example
-    ::
+Example Command:
+    **name**: !count
 
-        This command has been used $(count) times
+    **response**: This command has been used $(count) times
 
-    ``!count`` -> ``This command has been used 25 times``
+    **output**::
+
+        user:     !count
+        botisimo: This command has been used 25 times

@@ -3,11 +3,11 @@
 
 Purchase an item from the shop using currency.
 
-Usage
+Usage:
     !buy ``<key>``
 
-Example
-    Purchase item 1 from the shop using currency::
+Example:
+    ::
 
-        !buy 1
-
+        bob:      !buy 1
+        botisimo: @user 💰 💰 💰 @bob purchased Super Cool Shoutout for 250 Points

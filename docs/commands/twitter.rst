@@ -3,10 +3,11 @@
 
 Responds with the latest tweet from the given ``username`` (must be a Twitter username).
 
-Usage
+Usage:
     !twitter ``<username>``
 
-Example
-    Get the latest tweet from Twitter user ``botisimo``::
+Example:
+    ::
 
-        !twitter botisimo
+        user:     !twitter Dadsaysjokes
+        botisimo: What do you call an angsty teenage robot? A sigh borg. - @Dadsaysjokes (22 minutes ago)

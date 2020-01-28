@@ -26,106 +26,116 @@ clear
 ^^^^^
 Clear the queue
 
-Usage
+Usage:
     !queue clear
 
-Example
-    Clear everyone from the queue::
+Example:
+    ::
 
-        !queue clear
+        user:     !queue clear
+        botisimo: Queue cleared
 
 close
 ^^^^^
 Close the queue
 
-Usage
+Usage:
     !queue close
 
-Example
-    Close the queue::
+Example:
+    ::
 
-        !queue close
+        user:     !queue close
+        botisimo: ​Queue closed
 
 join
 ^^^^
 Join the queue
 
-Usage
+Usage:
     !queue join
 
-Example
-    Join the command issuer to the queue::
+Example:
+    ::
 
-        !queue join
+        user:     !queue join
+        botisimo: Added to queue: @user
 
 leave
 ^^^^^
 Leave the queue
 
-Usage
+Usage:
     !queue leave
 
-Example
-    Remove the command issuer from the queue::
+Example:
+    ::
 
-        !queue leave
+        user:     !queue leave
+        botisimo: ​Removed from queue: @user
 
 list
 ^^^^
 List queue
 
-Usage
+Usage:
     !queue list
 
-Example
-    List users in the queue::
+Example:
+    ::
 
-        !queue list
+        user:     !queue list
+        botisimo: Queue: @user
 
 next
 ^^^^
 Retrieve the next user(s) from the queue
 
-Usage
+Usage:
     !queue next ``[users=1]``
 
-Example
-    Output the name(s) of the next user(s) in the queue and removes them from the queue. Default is ``1`` user::
+Example:
+    ::
 
-        !queue next 5
+        user:     !queue next
+        botisimo: Next in queue: @user
 
 open
 ^^^^
 Open the queue
 
-Usage
+Usage:
     !queue open
 
-Example
-    Open the queue::
+Example:
+    ::
 
-        !queue open
+        user:     !queue open
+        botisimo: ​Queue opened
 
 permission
 ^^^^^^^^^^
 Edit queue minimum permission
 
-Usage
+Usage:
     !queue permission ``<permission=everyone|regs|subs|mods|admin>``
 
-Example
-    Edit the minimum permission for the queue to allow only ``regular`` users and above to use it::
+Example:
+    ::
 
-        !queue permission regular
+        user:     !queue permission everyone
+        botisimo: Queue permission updated: everyone
+
 
 random
 ^^^^^^
 Retrieve a random user from the queue as the next user
 
-Usage
+Usage:
     !queue random
 
-Example
-    Output the name of the randomly selected user in the queue and removes them from the queue::
+Example:
+    ::
 
-        !queue random
+        user:     !queue random
+        botisimo: ​Next in queue: @user

@@ -3,10 +3,11 @@
 
 Add this user to regulars.
 
-Usage
+Usage:
     !regular ``<username>``
 
-Example
-    Adds user ``botisimo`` to the regulars::
+Example:
+    ::
 
-        !regular botisimo
+        user:     !regular username
+        botisimo: username is now a regular

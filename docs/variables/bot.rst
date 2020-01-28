@@ -3,12 +3,15 @@ $(bot)
 
 Resolve bot username.
 
-Usage
+Usage:
     $(bot)
 
-Example
-    ::
+Example Command:
+    **name**: !checkin
 
-        $(bot) is here!
+    **response**: $(bot) is here!
 
-    ``!checkin`` -> ``@botisimo is here!``
+    **output**::
+
+        user:     !checkin
+        botisimo: @botisimo is here!

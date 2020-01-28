@@ -3,12 +3,15 @@ $(query)
 
 Resolves the query string from the command.
 
-Usage
+Usage:
     $(query ``[offset]``)
 
-Example
-    Output the query string starting with the 2nd word then the full query string::
+Example Command:
+    **name**: !query
 
-        $(query 2) $(query)
+    **response**: $(query) $(query 2)
 
-    ``!query this is the query`` -> ``is the query this is the query``
+    **output**::
+
+        user:     !query this is the query
+        botisimo: this is is the query is the query

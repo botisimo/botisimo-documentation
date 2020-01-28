@@ -3,12 +3,15 @@ $(stripchar)
 
 Strip a character from text.
 
-Usage
+Usage:
     $(stripchar ``<character>`` ``<text>``)
 
-Example
-    ::
+Example Command:
+    **name**: !shoutout
 
-        $(1) is one cool streamer, check them out at https://mixer.com/$(stripchar @ $(1))
+    **response**: $(1) is one cool streamer, check them out at https://mixer.com/$(stripchar @ $(1))
 
-    ``!shoutout @username`` -> ``@username is one cool streamer, check them out at https://mixer.com/username``
+    **output**::
+
+        user:     !shoutout @username
+        botisimo: @username is one cool streamer, check them out at https://mixer.com/username

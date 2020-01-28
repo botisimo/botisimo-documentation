@@ -3,10 +3,10 @@
 
 Clear a number of messages from the chat (max: 99).
 
-Usage
+Usage:
     !clear ``<number>``
 
-Example
-    Remove last 50 messages from chat::
+Example:
+    ::
 
-        !clear 50
+        user: !clear 50

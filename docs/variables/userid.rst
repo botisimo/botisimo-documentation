@@ -3,12 +3,15 @@ $(userid)
 
 Resolves the command issuer's user id for the platform the command was issued.
 
-Usage
+Usage:
     $(userid)
 
-Example
-    ::
+Example Command:
+    **name**: !id
 
-        Your user id is $(userid)
+    **response**: Your user id is $(userid)
 
-    ``!id`` -> ``Your user id is 837455``
+    **output**::
+
+        user:     !id
+        botisimo: Your user id is 837455

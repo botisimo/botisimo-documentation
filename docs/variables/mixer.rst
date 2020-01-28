@@ -3,14 +3,20 @@ $(mixer)
 
 Show text in Mixer chat only.
 
-Usage
+Usage:
     $(mixer ``<message>``)
 
-Example
-    Output "You are a super awesome and cool dude!" when responding via Twitch chat::
+Example Command:
+    **name**: !example
 
-        You are a $(mixer super awesome and) cool dude$(mixer !)
+    **response**: You are a $(mixer super awesome and) cool dude$(mixer !)
 
-    ``!example`` -> mixer -> ``You are a super awesome and cool dude!``
+    **mixer output**::
 
-    ``!example`` -> twitch/youtube/discord -> ``You are a cool dude``
+        user:     !example
+        botisimo: You are a super awesome and cool dude!
+
+    **twitch/youtube/discord output**::
+
+        user:     !example
+        botisimo: You are a cool dude

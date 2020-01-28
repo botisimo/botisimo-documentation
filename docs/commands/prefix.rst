@@ -3,10 +3,13 @@
 
 Get or set the Botisimo command prefix (only affects Botisimo's built-in commands).
 
-Usage
+Usage:
     !prefix ``[prefix]``
 
-Example
-    Set the command prefix on the account to ``!``::
+Example:
+    ::
 
-        !prefix !
+        user:     !prefix #
+        botisimo: ​Prefix has been updated: #
+        user:     #prefix !
+        botisimo: Prefix has been updated: !

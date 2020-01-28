@@ -3,18 +3,21 @@ $(rotate)
 
 Resolves a response from the given options in sequence.
 
-Usage
+Usage:
     $(rotate ``<option>`` | ``[option]`` | ``[option]`` | ...)
 
-Example
-    ::
+Example Command:
+    **name**: !rotate
 
-        $(rotate First response | Second response | Third response)
+    **response**: $(rotate First response | Second response | Third response)
 
-    ``!rotate`` -> ``First response``
+    **output**::
 
-    ``!rotate`` -> ``Second response``
-
-    ``!rotate`` -> ``Third response``
-
-    ``!rotate`` -> ``First response``
+        user:     !rotate
+        botisimo: First response
+        user:     !rotate
+        botisimo: Second response
+        user:     !rotate
+        botisimo: Third response
+        user:     !rotate
+        botisimo: First response

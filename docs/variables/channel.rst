@@ -3,12 +3,15 @@ $(channel)
 
 Resolves the current channel name.
 
-Usage
+Usage:
     $(channel)
 
-Example
-    ::
+Example Command:
+    **name**: !channel
 
-        Welcome to $(channel)!
+    **response**: Welcome to $(channel)!
 
-    ``!channel`` -> ``Welcome to #bob!``
+    **output**::
+
+        user:     !channel
+        botisimo: Welcome to #botisimo!

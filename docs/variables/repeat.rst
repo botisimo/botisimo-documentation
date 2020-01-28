@@ -3,12 +3,15 @@ $(repeat)
 
 Resolves a repeated string.
 
-Usage
+Usage:
     $(repeat ``<count>`` ``<string>``)
 
-Example
-    ::
+Example Command:
+    **name**: !repeat
 
-        $(repeat 5 PogChamp Kappa)
+    **response**: $(repeat 5 PogChamp Kappa)
 
-    ``!repeat`` -> ``PogChamp Kappa PogChamp Kappa PogChamp Kappa PogChamp Kappa PogChamp Kappa``
+    **output**::
+
+        user:     !repeat
+        botisimo: PogChamp Kappa PogChamp Kappa PogChamp Kappa PogChamp Kappa PogChamp Kappa

@@ -3,14 +3,17 @@ $(rng)
 
 Resolve a random number between given numbers.
 
-Usage
+Usage:
     $(rng ``<min>`` ``<max>``)
 
-Example
-    Output a randomly selected number between 1 and 100 (including 1 and 100)::
+Example Command:
+    **name**: !roll
 
-        You rolled a $(rng 1 100)
+    **response**: You rolled a $(rng 1 100)
 
-    ``!roll`` -> ``You rolled a 76``
+    **output**::
 
-    ``!roll`` -> ``You rolled a 33``
+        user:     !roll
+        botisimo: You rolled a 76
+        user:     !roll
+        botisimo: You rolled a 33

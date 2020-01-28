@@ -3,14 +3,20 @@ $(twitch)
 
 Show text in Twitch chat only.
 
-Usage
+Usage:
     $(twitch ``<message>``)
 
-Example
-    Output "You are a super awesome and cool dude!" when responding via Twitch chat::
+Example Command:
+    **name**: !example
 
-        You are a $(twitch super awesome and) cool dude$(twitch !)
+    **response**: You are a $(twitch super awesome and) cool dude$(twitch !)
 
-    ``!example`` -> twitch -> ``You are a super awesome and cool dude!``
+    **twitch output**::
 
-    ``!example`` -> mixer/youtube/discord -> ``You are a cool dude``
+        user:     !example
+        botisimo: You are a super awesome and cool dude!
+
+    **mixer/youtube/discord output**::
+
+        user:     !example
+        botisimo: You are a cool dude

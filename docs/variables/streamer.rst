@@ -3,12 +3,15 @@ $(streamer)
 
 Resolve streamer username.
 
-Usage
+Usage:
     $(streamer)
 
-Example
-    ::
+Example Command:
+    **name**: !schedule
 
-        $(streamer) is live Mon-Fri 12-3pm!
+    **response**: $(streamer) is live Mon-Fri 12-3pm!
 
-    ``!schedule`` -> ``@streamername is live Mon-Fri 12-3pm!``
+    **output**::
+
+        user:     !schedule
+        botisimo: @streamername is live Mon-Fri 12-3pm!

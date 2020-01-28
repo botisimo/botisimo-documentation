@@ -5,14 +5,17 @@ Resolves the response from the url using a POST request. Similar to :doc:`$(fetc
 
 .. note::
 
-    Responses are cached for 5 seconds.
+    To avoid hitting any rate limits against remote APIs, all responses are cached for 5 seconds.
 
-Usage
+Usage:
     $(fetchp ``<url>`` ``[data]``)
 
-Example
-    ::
+Example Command:
+    **name**: !foaas
 
-        $(fetchp https://foaas.com/you/Peter/Bob)
+    **response**: $(fetchp https://foaas.com/you/Peter/Bob)
 
-    ``!foaas`` -> ``Fuck you, Peter. -Bob``
+    **output**::
+
+        user:     !foaas
+        botisimo: Fuck you, Peter. -Bob

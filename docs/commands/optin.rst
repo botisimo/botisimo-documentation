@@ -3,10 +3,11 @@
 
 Opt in to Level Up and DyneOps announcements for your user.
 
-Usage
+Usage:
     !optin
 
-Example
+Example:
     ::
 
-        !optin
+        user:     !optin
+        botisimo: You have been opted back in to Botisimo levels and DyneOps notifications

@@ -3,12 +3,15 @@ $(botplain)
 
 Resolve bot username without @ symbol.
 
-Usage
+Usage:
     $(botplain)
 
-Example
-    ::
+Example Command:
+    **name**: !checkin
 
-        $(botplain) is here!
+    **response**: $(botplain) is here!
 
-    ``!checkin`` -> ``botisimo is here!``
+    **output**::
+
+        user:     !checkin
+        botisimo: botisimo is here!

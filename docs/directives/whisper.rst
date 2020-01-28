@@ -3,12 +3,15 @@ $[whisper]
 
 Directs the bot to respond to the command via a direct message.
 
-Usage
+Usage:
     $[whisper]
 
-Example
-    Send the response in a direct message::
+Example Command:
+    **name**: !whisper
 
-        $[whisper] This response will be sent in a direct message
+    **response**: $[whisper] This response will be sent in a direct message
 
-    ``!whisper`` -> ``This response will be sent in a direct message``
+    **output**::
+
+        user:             !whisper
+        botisimo -> user: This response will be sent in a direct message

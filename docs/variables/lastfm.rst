@@ -3,12 +3,15 @@ $(lastfm)
 
 Resolves the last scrobbled song from lastfm for the given username (must be lastfm username).
 
-Usage
+Usage:
     $(lastfm ``<username>``)
 
-Example
-    ::
+Example Command:
+    **name**: !lastfm
 
-        $(lastfm botisimo)
+    **response**: $(lastfm botisimo)
 
-    ``!lastfm`` -> ``Egzod - Universe``
+    **output**::
+
+        user:     !lastfm
+        botisimo: Egzod - Universe

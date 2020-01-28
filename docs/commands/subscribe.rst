@@ -3,10 +3,11 @@
 
 Subscribe to other Botisimo users' stream up announcements (platform should be ``twitch`` or ``mixer``).
 
-Usage
+Usage:
     !subscribe ``<platform>`` ``<username>``
 
-Example
-    Subscribes to stream up announcements for user ``botisimo`` on Twitch::
+Example:
+    ::
 
-        !subscribe twitch botisimo
+        user:     !subscribe twitch bob
+        botisimo: You have subscribed to stream up announcement for #bob on Twitch

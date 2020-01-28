@@ -3,16 +3,17 @@ $[hours]
 
 Directs the bot to require minimum hours for the command.
 
-Usage
+Usage:
     $[hours ``<hours>``]
 
-Example
-    Send the response if the user has watched the stream for ``10`` hours::
+Example Command:
+    **name**: !special
 
-        $[hours 10] This response will be sent only if the user has watched the stream for 10 hours
+    **response**: $[hours 10] This response will be sent only if the user has watched the stream for 10 hours
 
-    ``!special`` -> ``This response will be sent only if the user has watched the stream for 10 hours``
+    **output**::
 
-    If the user has not watched the stream for long enough they will receive a direct message explaining
-
-    ``!special`` -> ``You must watch the stream for 10 hours to unlock the !special command``
+        user:     !special
+        botisimo: This response will be sent only if the user has watched the stream for 10 hours
+        newbie:   !special
+        botisimo: You must watch the stream for 10 hours to unlock the !special command

@@ -13,42 +13,39 @@ __ #new
 
 delete
 ^^^^^^
-Delete a bridge
+Delete the entire bridge if you are the host. Disconnect from the bridge if you are not the host
 
-Usage
+Usage:
     !bridge delete
 
-Example
-    Delete the entire bridge if you are the host. Disconnect from the bridge if you are not the host::
+Example:
+    ::
 
-        !bridge delete
-
-    ``!bridge delete`` -> ``Bridge deleted``
+        user:     !bridge delete
+        botisimo: Bridge deleted
 
 join
 ^^^^
 Join a bridge using a token
 
-Usage
+Usage:
     !bridge ``<token>``
 
-Example
-    Join the bridge with token ``ggh4jd7f``::
+Example:
+    ::
 
-        !bridge ggh4jd7f
-
-    ``!bridge ggh4jd7f`` -> ``You have been connected to the bridge``
+        user:     !bridge ggh4jd7f
+        botisimo: You have been connected to the bridge
 
 new
 ^^^
-Create a new bridge
+Create a new bridge and get a token for other channels to join the bridge
 
-Usage
+Usage:
     !bridge
 
-Example
-    Create a new bridge and get a token for other channels to join the bridge::
+Example:
+    ::
 
-        !bridge
-
-    ``!bridge`` -> ``This channel is now hosting a bridge. Add other channels to this bridge by typing '!bridge ggh4jd7f' in those channels.``
+        user:     !bridge
+        botisimo: This channel is now hosting a bridge. Add other channels to this bridge by typing '!bridge ggh4jd7f' in those channels.

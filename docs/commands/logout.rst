@@ -5,10 +5,11 @@
 
 Disable chat mirroring for your Discord user (platform can be ``twitch`` or ``mixer``).
 
-Usage
+Usage:
     !logout ``<platform>``
 
-Example
-    Deauthorize your Twitch account::
+Example:
+    ::
 
-        !logout twitch
+        user:     !logout twitch
+        botisimo: ​You have been logged out of the twitch mirror

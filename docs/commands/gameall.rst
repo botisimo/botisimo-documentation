@@ -3,10 +3,11 @@
 
 Set the game on all connections on the account.
 
-Usage
+Usage:
     !gameall ``<game>``
 
-Example
-    Sets the game to ``Pickle Wars``::
+Example:
+    ::
 
-        !gameall Pickle Wars
+        user:     !gameall Pickle Wars
+        botisimo: Game updated: Pickle Wars

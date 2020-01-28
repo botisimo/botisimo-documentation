@@ -3,10 +3,11 @@
 
 Disable Botisimo for your channel (can be reenabled on the `connections page <https://botisimo.com/account/connections>`_ of your account).
 
-Usage
+Usage:
     !leave
 
-Example
+Example:
     ::
 
-        !leave
+        user:     !leave
+        botisimo: ​Bye!

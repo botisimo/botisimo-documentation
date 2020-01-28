@@ -3,12 +3,15 @@ $(xp)
 
 Resolves the command issuers xp.
 
-Usage
+Usage:
     $(xp)
 
-Example
-    Output ``5,000`` if the user has ``5,000`` xp::
+Example Command:
+    **name**: !xp
 
-        You have $(xp) XP
+    **response**: You have $(xp) XP
 
-    ``!xp`` -> ``You have 5,000 XP``
+    **output**::
+
+        user:     !xp
+        botisimo: You have 5,000 XP

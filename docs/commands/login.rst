@@ -5,10 +5,11 @@
 
 Receive a link to authorize chat mirroring for your Discord user (platform can be ``twitch`` or ``mixer``).
 
-Usage
+Usage:
     !login ``<platform>``
 
-Example
-    Request a link to authorize your Twitch account::
+Example:
+    ::
 
-        !login twitch
+        user:     !login twitch
+        botisimo: ​https://oauth.twitch.tv/...

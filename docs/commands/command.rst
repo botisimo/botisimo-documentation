@@ -29,94 +29,103 @@ delete
 ^^^^^^
 Delete command
 
-Usage
+Usage:
     !command delete ``<name>``
 
-Example
-    Delete the command named ``!social``::
+Example:
+    ::
 
-        !command delete !social
+        user:     !command delete !social
+        botisimo: ​Command deleted: !social
 
 disable
 ^^^^^^^
 Disable command
 
-Usage
+Usage:
     !command disable ``<name>``
 
-Example
-    Disable the command named ``social`` but does not delete it::
+Example:
+    ::
 
-        !command disable !social
+        user:     !command disable !social
+        botisimo: ​Command disabled: !social
 
 edit
 ^^^^
 Edit command response
 
-Usage
+Usage:
     !command edit ``<name>`` ``<response>``
 
-Example
-    Edit the command named ``!social`` to respond with ``You can follow me on twitter and instagram @botisimo``::
+Example:
+    ::
 
-        !command edit !social You can follow me on twitter and instagram @botisimo
+        user:     !command edit !social You can follow me on twitter and instagram @botisimo
+        botisimo: Command updated: !social
 
 enable
 ^^^^^^
 Enable command
 
-Usage
+Usage:
     !command enable ``<name>``
 
-Example
-    Enable the command named ``social``::
+Example:
+    ::
 
-        !command enable !social
+        user:     !command enable !social
+        botisimo: Command enabled: !social
 
 info
 ^^^^
 Get info for a command
 
-Usage
+Usage:
     !command info ``<name>``
 
-Example
-    Output the details for the ``!social`` command::
+Example:
+    ::
 
-        !command info !social
+        user:     !command info !social
+        botisimo: Command info: !social | enabled | You can follow me on twitter @botisimo
 
 list
 ^^^^
 List commands
 
-Usage
+Usage:
     !command list
 
-Example
-    List commands available in Botisimo::
+Example:
+    ::
 
-        !command list
+        user:     !command list
+        botisimo: Commands: !social, !wizard, !roll, !super
+
 
 new
 ^^^
 Create a new command
 
-Usage
+Usage:
     !command new ``<name>`` ``<response>``
 
-Example
-    Create a new command named ``!social`` that responds with ``You can follow me on twitter @botisimo``::
+Example:
+    ::
 
-        !command new !social You can follow me on twitter @botisimo
+        user:     !command new !social You can follow me on twitter @botisimo
+        botisimo: New command: !social
 
 permission
 ^^^^^^^^^^
 Edit command minimum permission
 
-Usage
+Usage:
     !command permission ``<name>`` ``<permission=everyone|regs|subs|mods|admin>``
 
-Example
-    Edit the minimum permission for the command named ``!social`` to allow ``everyone`` to use it::
+Example:
+    ::
 
-        !command permission !social everyone
+        user:     !command permission !social everyone
+        botisimo: Command updated: !social

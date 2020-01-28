@@ -25,70 +25,76 @@ close
 ^^^^^
 Closes the poll to stop further voting, but keeps the results live
 
-Usage
+Usage:
     !poll close
 
-Example
+Example:
     ::
 
-        !poll close
+        user:     !poll close
+        botisimo: ​Poll voting closed
 
 end
 ^^^
 Ends the poll
 
-Usage
+Usage:
     !poll end
 
-Example
+Example:
     ::
 
-        !poll end
+        user:     !poll end
+        botisimo: ​poll ended
 
 new
 ^^^
 Create a new poll. This will end the current poll if it exists.
 
-Usage
+Usage:
     !poll new ``<option>`` | ``[option]`` | ``[option]`` | ...
 
-Example
-    Creates a new poll with the options ``yes``, ``no``, ``hell no``, and ``what a stupid poll``::
+Example:
+    ::
 
-        !poll new Is this a fun poll? | yes | no | hell no | what a stupid poll
+        user:     !poll new Is this a fun poll? | yes | no | hell no | what a stupid poll
+        botisimo: New poll: Is this a fun poll? 1. yes (0 votes) 2. no (0 votes) 3. hell no (0 votes) 4. what a stupid poll (0 votes)
 
 open
 ^^^^
 Opens the poll to allow voting
 
-Usage
+Usage:
     !poll open
 
-Example
+Example:
     ::
 
-        !poll open
+        user:     !poll open
+        botisimo: Poll voting opened: Is this a fun poll? 1. yes (0 votes) 2. no (0 votes) 3. hell no (0 votes) 4. what a stupid poll (0 votes)
 
 view
 ^^^^
 Get the current poll info
 
-Usage
+Usage:
     !poll
 
-Example
-    Outputs the current poll and standings to the chat. If there is no poll there is no response::
+Example:
+    ::
 
-        !poll
+        user:     !poll
+        botisimo: ​​Current poll: Is this a fun poll? 1. yes (0 votes) 2. no (0 votes) 3. hell no (0 votes) 4. what a stupid poll (0 votes)
 
 winner
 ^^^^^^
 Select a random winner from the given option
 
-Usage
+Usage:
     !poll winner ``<option>``
 
-Example
-    Sets the winning option to option ``1`` and rewards and users who voted on that option with currency based on their bet::
+Example:
+    ::
 
-        !poll winner 1
+        user:     !poll winner 1
+        botisimo: ​#1 yes wins!

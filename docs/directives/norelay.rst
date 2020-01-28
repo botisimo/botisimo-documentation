@@ -3,12 +3,15 @@ $[norelay]
 
 Directs the bot to not relay the response to this command.
 
-Usage
+Usage:
     $[norelay]
 
-Example
-    Send the response but does not relay it to the other platforms::
+Example Command:
+    **name**: !norelay
 
-        $[norelay] This response will not be sent to other platforms via relay
+    **response**: $[norelay] This response will not be sent to other platforms via relay
 
-    ``!norelay`` -> ``This response will not be sent to other platforms via relay``
+    **output**::
+
+        user:     !norelay
+        botisimo: This response will not be sent to other platforms via relay

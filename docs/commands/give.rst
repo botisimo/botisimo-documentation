@@ -1,27 +1,35 @@
 !give
 =====
 
-Usage
+Give to users by username
+
+Usage:
     !give ``<amount>`` ``<username>`` ``[username]`` ``[username]`` ...
 
-Example
-    Give currency by username::
+Example:
+    ::
 
-        !give 500 @username1 @username2
+        user:     !give 500 @username1 @username2
+        botisimo: @username1 @username2 received 500 currency! !currency
 
-Usage
+Give to all users
+
+Usage:
     !give ``<amount>`` all
 
-Example
-    Give currency to everyone::
+Example:
+    ::
 
-        !give 500 all
+        user:     !give 500 all
+        botisimo: All users received 500 currency! !currency
 
+Give to users currently active in chat
 
-Usage
-    !give `<amount>` chat
+Usage:
+    !give ``<amount>`` chat
 
-Example
-    Give currency to everyone in chat::
+Example:
+    ::
 
-        !give 500 chat
+        user:     !give 500 chat
+        botisimo: @username1 received 500 currency! !currency

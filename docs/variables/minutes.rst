@@ -3,12 +3,15 @@ $(minutes)
 
 Resolves the number of minutes the command issuers has watched the live stream.
 
-Usage
+Usage:
     $(minutes)
 
-Example
-    Output ``600`` if the user has watched for ``600`` minutes::
+Example Command:
+    **name**: !minutes
 
-        Minutes: $(minutes)
+    **response**: Minutes: $(minutes)
 
-    ``!minutes`` -> ``Minutes: 600``
+    **output**::
+
+        user:     !minutes
+        botisimo: Minutes: 600

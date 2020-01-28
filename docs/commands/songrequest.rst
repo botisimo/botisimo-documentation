@@ -3,10 +3,11 @@
 
 Request a song (works with the `music player <https://botisimo.com/account/music>`_).
 
-Usage
-    !songrequest ``<youtube_video_url>``
+Usage:
+    !songrequest ``<search>``
 
-Example
+Example:
     ::
 
-        !songrequest
+        user:     !songrequest dont stop believing
+        botisimo: ​Song added to queue: Journey - Don't Stop Believin'

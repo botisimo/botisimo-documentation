@@ -3,19 +3,25 @@ $[give]
 
 Directs the bot to give currency to the user who uses the command or optionally the targeted user.
 
-Usage
+Usage:
     $[give ``<amount>`` ``[target]``]
 
-Example
-    Give ``50`` currency to the user when they use the command and outputs the response::
+Example Command:
+    **name**: !give
 
-        $[give 50] You just received 50 Goldfrags for using this command, woo!
+    **response**: $[give 50] You just received 50 Goldfrags for using this command, woo!
 
-    ``!give`` -> ``You just received 50 Goldfrags for using this command, woo!``
+    **output**::
 
-Example
-    Give ``50`` currency to the targeted user when the command is used and outputs the response::
+        user:     !give
+        botisimo: You just received 50 Goldfrags for using this command, woo!
 
-        $[give 50 $(1)] $(1) just received 50 Goldfrags, woo!
+Example Command:
+    **name**: !give
 
-    ``!give @username`` -> ``@username just received 50 Goldfrags, woo!``
+    **response**: $[give 50 $(1)] $(1) just received 50 Goldfrags, woo!
+
+    **output**::
+
+        user:     !give @username
+        botisimo: @username just received 50 Goldfrags, woo!

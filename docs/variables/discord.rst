@@ -3,14 +3,20 @@ $(discord)
 
 Show text in Discord chat only.
 
-Usage
+Usage:
     $(discord ``<message>``)
 
-Example
-    Output "You are a super awesome and cool dude!" when responding via Discord chat::
+Example Command:
+    **name**: !example
 
-        You are a $(discord super awesome and) cool dude$(discord !)
+    **response**: You are a $(discord super awesome and) cool dude$(discord !)
 
-    ``!example`` -> discord -> ``You are a super awesome and cool dude!``
+    **discord output**::
 
-    ``!example`` -> twitch/mixer/youtube -> ``You are a cool dude``
+        user:     !example
+        botisimo: You are a super awesome and cool dude!
+
+    **twitch/mixer/youtube output**::
+
+        user:     !example
+        botisimo: You are a cool dude

@@ -3,14 +3,17 @@ Arguments
 
 Resolves the argument from the command input.
 
-Usage
+Usage:
     $(``<argument>`` ``[fallback]``)
 
-Example
-    Output the 2nd argument after the command and optionally uses the ``fallback`` text if no argument found::
+Example Command:
+    **name**: !example
 
-        $(2 default text)
+    **response**: $(2 default text)
 
-    ``!example this is a test`` -> ``is``
+    **output**::
 
-    ``!example this`` -> ``default text``
+        user:     !example this is a test
+        botisimo: is
+        user:     !example this
+        botisimo: default text

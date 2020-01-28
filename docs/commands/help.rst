@@ -3,10 +3,11 @@
 
 Link to Botisimo docs.
 
-Usage
+Usage:
     !help
 
-Example
+Example:
     ::
 
-        !help
+        user:     !help
+        botisimo: https://docs.botisimo.com/

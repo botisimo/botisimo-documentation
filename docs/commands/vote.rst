@@ -7,10 +7,11 @@ The ``!vote`` command is used to vote in `polls <https://botisimo.com/account/po
 
     Casting multiple votes for a poll may disqualify you from the poll if enabled by the streamer.
 
-Usage
+Usage:
     !vote ``<option>`` ``[bet]``
 
-Example
-    Submit a vote for option ``1`` for the current poll and bets ``100`` currency. Betting is optional::
+Example:
+    ::
 
-        !vote 1 100
+        user:     !vote 1
+        botisimo: ​Your vote has been tallied!

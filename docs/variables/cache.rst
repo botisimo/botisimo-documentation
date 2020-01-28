@@ -3,12 +3,15 @@ $(cache)
 
 Resolve a value from the cache. Values can be save to the cache using the :doc:`cache directive </directives/cache>`.
 
-Usage
+Usage:
     $(cache ``<key>``)
 
-Example
-    Output the value in the cache for the username, if any::
+Example Command:
+    **name**: !cache
 
-        You have a cached value of "$(cache $(username))"
+    **response**: You have a cached value of "$(cache $(username))"
 
-    ``!cache`` -> ``You have a cached value of "some value to save for later"``
+    **output**::
+
+        user:     !cache
+        botisimo: You have a cached value of "some value to save for later"

@@ -3,12 +3,15 @@ $(streamerplain)
 
 Resolve streamer username without @ symbol.
 
-Usage
+Usage:
     $(streamerplain)
 
-Example
-    ::
+Example Command:
+    **name**: !schedule
 
-        $(streamerplain) is here!
+    **response**: $(streamerplain) is live Mon-Fri 12-3pm!
 
-    ``!schedule`` -> ``streamername is live Mon-Fri 12-3pm!``
+    **output**::
+
+        user:     !schedule
+        botisimo: streamername is live Mon-Fri 12-3pm!

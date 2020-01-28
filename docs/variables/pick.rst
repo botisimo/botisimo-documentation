@@ -3,14 +3,17 @@ $(pick)
 
 Resolves a random response from the given options.
 
-Usage
+Usage:
     $(pick ``<option>`` | ``[option]`` | ``[option]`` | ...)
 
-Example
-    ::
+Example Command:
+    **name**: !pick
 
-        I'm thinking...$(pick yes | no | maybe so | I don't know)
+    **response**: I'm thinking...$(pick yes | no | maybe so | I don't know)
 
-    ``!pick`` -> ``I'm thinking...maybe so``
+    **output**::
 
-    ``!pick`` -> ``I'm thinking...yes``
+        user:     !pick
+        botisimo: I'm thinking...maybe so
+        user:     !pick
+        botisimo: I'm thinking...yes

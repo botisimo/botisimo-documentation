@@ -3,10 +3,11 @@
 
 Set the title on all connections on the account.
 
-Usage
+Usage:
     !titleall ``<title>``
 
-Example
-    Set the title to ``Streamin like a demon! Let's GOOO!!!!``::
+Example:
+    ::
 
-        !titleall Streamin like a demon! Let's GOOO!!!!
+        user:     !titleall Streamin like a demon! Let's GOOO!!!!
+        botisimo: Title updated: Streamin like a demon! Let's GOOO!!!!

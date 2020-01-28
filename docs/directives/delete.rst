@@ -3,12 +3,15 @@ $[delete]
 
 Directs the bot to delete the command message before responding.
 
-Usage
+Usage:
     $[delete]
 
-Example
-    Delete the command message before responding::
+Example Command:
+    **name**: !delete
 
-        $[delete] Your command message was deleted
+    **response**: $[delete] Your command message was deleted
 
-    ``!delete`` -> ``Your command message was deleted``
+    **output**::
+
+        user:     !delete
+        botisimo: Your command message was deleted

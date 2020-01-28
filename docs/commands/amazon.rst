@@ -3,15 +3,14 @@
 
 Search Amazon products. Returns top 10 results in Discord and top result in Twitch, Mixer, & YouTube.
 
-Usage
+Usage:
     !amazon ``<search>``
 
-Example
+Example:
     ::
 
-        !amazon dr. seuss
-
-    Searches amazon for ``dr. seuss`` and returns top result(s)
+        user:     !amazon dr. seuss
+        botisimo: ...
 
 .. note::
 

@@ -3,12 +3,15 @@ $(usertype)
 
 Resolves the command issuer's user type (everyone, regular, subscriber, moderator, admin).
 
-Usage
+Usage:
     $(usertype)
 
-Example
-    ::
+Example Command:
+    **name**: !type
 
-        Your user type is $(usertype)
+    **response**: Your user type is $(usertype)
 
-    ``!type`` -> ``Your user type is moderator``
+    **output**::
+
+        user:     !type
+        botisimo: Your user type is moderator

@@ -3,12 +3,15 @@ $(winner)
 
 Resolve the username as a mention of a random user currently online in the channel.
 
-Usage
+Usage:
     $(winner ``[minutes=10]`` ``[keyword=]``)
 
-Example
-    Output a randomly selected user who is online and sent the message ``enter`` in the last 5 minutes. The keyword is case sensitive::
+Example Command:
+    **name**: !winner
 
-        The winners is $(winner 5 enter)!
+    **response**: The winners is $(winner 5 enter)!
 
-    ``!winner`` -> ``The winner is @gary!``
+    **output**::
+
+        user:     !winner
+        botisimo: The winner is @bob!

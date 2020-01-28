@@ -3,10 +3,11 @@
 
 Remove user from regulars.
 
-Usage
+Usage:
     !irregular ``<username>``
 
-Example
-    Remove user ``botisimo`` from the regulars::
+Example:
+    ::
 
-        !irregular botismo
+        user:     !irregular username
+        botisimo: username is no longer a regular

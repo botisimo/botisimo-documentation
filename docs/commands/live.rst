@@ -3,10 +3,10 @@
 
 Force a stream up announcement in Discord (useful in case the automatic announcement fails).
 
-Usage
+Usage:
     !live
 
-Example
+Example:
     ::
 
-        !live
+        user: !live

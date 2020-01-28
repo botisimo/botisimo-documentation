@@ -3,42 +3,51 @@ $[discord role add]
 
 Adds a role to the user issuing the command.
 
-Usage
+Usage:
     $[discord role add ``<role>``]
 
-Example
-    Add a user to the wizard role and responds::
+Example Command:
+    **name**: !wizard
 
-        $[discord role add wizard] You have been added to the wizard role
+    **response**: $[discord role add wizard] You have been added to the wizard role
 
-    ``!wizard`` -> ``You have been added to the wizard role``
+    **output**::
+
+        user:     !wizard
+        botisimo: You have been added to the wizard role
 
 $[discord role check]
 =====================
 
 Requires a user to have a discord role.
 
-Usage
+Usage:
     $[discord role check ``<role>``]
 
-Example
-    Check that a user has the wizard role and responds if they do::
+Example Command:
+    **name**: !expelliarmus
 
-        $[discord role check wizard] (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
+    **response**: $[discord role check wizard] (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
-    ``!expelliarmus`` -> ``(∩｀-´)⊃━☆ﾟ.*･｡ﾟ``
+    **output**::
+
+        user:     !expelliarmus
+        botisimo: (∩｀-´)⊃━☆ﾟ.*･｡ﾟ
 
 $[discord role remove]
 ======================
 
 Removes a role from the user issuing the command.
 
-Usage
+Usage:
     $[discord role remove ``<role>``]
 
-Example
-    Remove the user from the wizard role and responds::
+Example Command:
+    **name**: !muggle
 
-        $[discord role remove wizard] You have been removed from the wizard role
+    **response**: $[discord role remove wizard] You have been removed from the wizard role
 
-    ``!muggle`` -> ``You have been removed from the wizard role``
+    **output**::
+
+        user:     !muggle
+        botisimo: You have been removed from the wizard role

@@ -3,10 +3,11 @@
 
 Receive list of custom commands available to you via whisper.
 
-Usage
+Usage:
     !commands
 
-Example
+Example:
     ::
 
-        !commands
+        user:     !commands
+        botisimo: !social, !wizard, !roll, !super

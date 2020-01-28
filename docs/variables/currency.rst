@@ -3,12 +3,15 @@ $(currency)
 
 Resolve the currency amount for the command issuer
 
-Usage
+Usage:
     $(currency)
 
-Example
-    Output ``375`` if the user's has ``375`` currency::
+Example Command:
+    **name**: !currency
 
-        Currency: $(currency)
+    **response**: Currency: $(currency)
 
-    ``!currency`` -> ``Currency: 375``
+    **output**::
+
+        user:     !currency
+        botisimo: Currency: 375

@@ -3,14 +3,20 @@ $(username)
 
 Resolves the command issuer's username as a mention.
 
-Usage
+Usage:
     $(username)
 
-Example
-    ::
+Example Command:
+    **name**: !hi
 
-        Hi, $(username)!
+    **response**: Hi, $(username)!
 
-    ``!hi`` -> twitch/mixer/youtube -> ``Hi, @bob!``
+    **twitch/mixer/youtube output**::
 
-    ``!hi`` -> discord -> ``Hi, <@112338494039>!``
+        user:     !hi
+        botisimo: Hi, @bob!
+
+    **discord output**::
+
+        user:     !hi
+        botisimo: Hi, <@112338494039>!

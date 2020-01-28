@@ -3,12 +3,15 @@ $(target)
 
 Resolve targeted username from command.
 
-Usage
+Usage:
     $(target)
 
-Example
-    ::
+Example Command:
+    **name**: !shoutout
 
-        Shout out to $(target)!
+    **response**: Shout out to $(target)!
 
-    ``!shoutout @bob`` -> ``Shout out to @bob!``
+    **output**::
+
+        user:     !shoutout @bob
+        botisimo: Shout out to @bob!

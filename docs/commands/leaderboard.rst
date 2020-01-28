@@ -3,10 +3,11 @@
 
 Display link to the leaderboard.
 
-Usage
+Usage:
     !leaderboard
 
-Example
+Example:
     ::
 
-        !leaderboard
+        user:     !leaderboard
+        botisimo: ​https://botisimo.com/u/user/leaderboard

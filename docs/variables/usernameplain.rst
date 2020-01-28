@@ -3,14 +3,20 @@ $(usernameplain)
 
 Resolves the command issuer's username as plain text.
 
-Usage
+Usage:
     $(usernameplain)
 
-Example
-    ::
+Example Command:
+    **name**: !hi
 
-        Hi, $(usernameplain)!
+    **response**: Hi, $(usernameplain)!
 
-    ``!hi`` -> twitch/mixer/youtube -> ``Hi, bob!``
+    **twitch/mixer/youtube output**::
 
-    ``!hi`` -> discord -> ``Hi, bob!``
+        user:     !hi
+        botisimo: Hi, bob!
+
+    **discord output**::
+
+        user:     !hi
+        botisimo: Hi, bob!

@@ -83,3 +83,4 @@ html_static_path = ['_static']
 master_doc = 'index'
 source_suffix = ['.rst', '.md']
 html_show_sphinx = False
+html_favicon = 'favicon.ico'

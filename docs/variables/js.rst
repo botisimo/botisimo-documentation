@@ -6,6 +6,9 @@ Resolves the value of a javascript expression
 Usage:
     $(js ``<javascript>``)
 
+Arguments:
+    * ``javascript`` **<required>** - The javascript expression to evaluate
+
 Example Command:
     **name**: !js
 

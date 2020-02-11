@@ -6,6 +6,9 @@ Resolves a response from the given options in sequence.
 Usage:
     $(rotate ``<option>`` | ``[option]`` | ``[option]`` | ...)
 
+Arguments:
+    * ``option`` **<required>** - The message to display in chat (to add multiple options separate with a ``|`` character)
+
 Example Command:
     **name**: !rotate
 

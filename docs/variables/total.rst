@@ -4,7 +4,7 @@ $(total)
 Resolves the total numbers of ranked users.
 
 Usage:
-    $(rank)
+    $(total)
 
 Example Command:
     **name**: !total

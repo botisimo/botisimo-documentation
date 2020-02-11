@@ -6,6 +6,10 @@ Resolve a random number between given numbers.
 Usage:
     $(rng ``<min>`` ``<max>``)
 
+Arguments:
+    * ``min`` **<required>** - The minimum number that can be chosen
+    * ``max`` **<required>** - The maximum number that can be chosen
+
 Example Command:
     **name**: !roll
 

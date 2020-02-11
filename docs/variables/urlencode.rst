@@ -4,7 +4,10 @@ $(urlencode)
 Resolves a url encoded string.
 
 Usage:
-    $(urlencode ``<string>``)
+    $(urlencode ``<text>``)
+
+Arguments:
+    * ``text`` **<required>** - The text to url encode
 
 Example Command:
     **name**: !encode

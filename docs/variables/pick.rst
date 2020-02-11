@@ -6,6 +6,9 @@ Resolves a random response from the given options.
 Usage:
     $(pick ``<option>`` | ``[option]`` | ``[option]`` | ...)
 
+Arguments:
+    * ``option`` **<required>** - The message to display in chat (to add multiple options separate with a ``|`` character)
+
 Example Command:
     **name**: !pick
 

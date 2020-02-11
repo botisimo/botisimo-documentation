@@ -6,6 +6,9 @@ Resolve a value from the cache. Values can be save to the cache using the :doc:`
 Usage:
     $(cache ``<key>``)
 
+Arguments:
+    ``key`` **<required>** - The key of the value to fetch from the cache
+
 Example Command:
     **name**: !cache
 

@@ -1,10 +1,14 @@
 $(repeat)
 =========
 
-Resolves a repeated string.
+Resolves some text repeatedly.
 
 Usage:
-    $(repeat ``<count>`` ``<string>``)
+    $(repeat ``<count>`` ``<text>``)
+
+Arguments:
+    * ``count`` **<required>** - The number of times to repeat the text
+    * ``text`` **<required>** - The text to repeat
 
 Example Command:
     **name**: !repeat

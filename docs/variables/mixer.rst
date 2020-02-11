@@ -6,6 +6,9 @@ Show text in Mixer chat only.
 Usage:
     $(mixer ``<message>``)
 
+Arguments:
+    * ``message`` **<required>** - The message to display in chat
+
 Example Command:
     **name**: !example
 

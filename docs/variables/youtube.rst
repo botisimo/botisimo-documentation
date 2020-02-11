@@ -6,6 +6,9 @@ Show text in YouTube chat only.
 Usage:
     $(youtube ``<message>``)
 
+Arguments:
+    * ``message`` **<required>** - The message to display in chat
+
 Example Command:
     **name**: !example
 

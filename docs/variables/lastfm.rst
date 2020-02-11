@@ -6,6 +6,9 @@ Resolves the last scrobbled song from lastfm for the given username (must be las
 Usage:
     $(lastfm ``<username>``)
 
+Arguments:
+    * ``username`` **<required>** - The name of the lastfm user
+
 Example Command:
     **name**: !lastfm
 

@@ -6,6 +6,9 @@ Show text in Discord chat only.
 Usage:
     $(discord ``<message>``)
 
+Arguments:
+    * ``message`` **<required>** - The message to display in chat
+
 Example Command:
     **name**: !example
 

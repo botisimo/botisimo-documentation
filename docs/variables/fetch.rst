@@ -10,6 +10,9 @@ Resolves the response from the url using a GET request.
 Usage:
     $(fetch ``<url>``)
 
+Arguments:
+    * ``url`` **<required>** - The url to send the request to
+
 Example Command:
     **name**: !foaas
 

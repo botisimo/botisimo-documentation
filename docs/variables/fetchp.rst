@@ -10,6 +10,10 @@ Resolves the response from the url using a POST request. Similar to :doc:`$(fetc
 Usage:
     $(fetchp ``<url>`` ``[data]``)
 
+Arguments:
+    * ``url`` **<required>** - The url to send the request to
+    * ``data`` **[optional]** - The data string to send to the url
+
 Example Command:
     **name**: !foaas
 

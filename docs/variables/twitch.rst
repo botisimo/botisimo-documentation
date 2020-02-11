@@ -6,6 +6,9 @@ Show text in Twitch chat only.
 Usage:
     $(twitch ``<message>``)
 
+Arguments:
+    * ``message`` **<required>** - The message to display in chat
+
 Example Command:
     **name**: !example
 

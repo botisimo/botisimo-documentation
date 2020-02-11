@@ -1,6 +1,8 @@
 !buy
 ====
 
+**Default Permission:** Everyone
+
 Purchase an item from the shop using currency.
 
 Usage:

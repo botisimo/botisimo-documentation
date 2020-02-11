@@ -1,6 +1,8 @@
 !leaderboard
 ============
 
+**Default Permission:** Everyone
+
 Display link to the leaderboard.
 
 Usage:

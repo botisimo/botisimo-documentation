@@ -6,6 +6,9 @@ Directs the bot to wait some seconds before responding.
 Usage:
     $[delay ``<seconds>``]
 
+Arguments:
+    * ``seconds`` **<required>** - The number of seconds it should delay
+
 Example Command:
     **name**: !delay
 

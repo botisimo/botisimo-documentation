@@ -3,6 +3,8 @@
 !logout (Discord only)
 ======================
 
+**Default Permission:** Everyone
+
 Disable chat mirroring for your Discord user (platform can be ``twitch`` or ``mixer``).
 
 Usage:

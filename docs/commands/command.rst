@@ -1,6 +1,8 @@
 !command
 ========
 
+**Default Permission:** Moderator
+
 The ``!command`` command is used to create/edit/delete/enable/disable `custom commands <https://botisimo.com/account/commands>`_ via chat.
 
     - ``delete`` - Delete command `view docs`__

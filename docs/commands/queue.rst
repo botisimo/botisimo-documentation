@@ -1,5 +1,8 @@
 !queue
 ======
+
+**Default Permission:** Moderator
+
 The ``!queue`` command is used to join/leave/list users in the queue via chat
 
     - ``clear`` - Clear the queue `view docs`__

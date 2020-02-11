@@ -1,6 +1,8 @@
 !giveaway
 =========
 
+**Default Permission:** Moderator
+
 The ``!giveaway`` command is used to create/view/close/end `giveaways <https://botisimo.com/account/giveaways>`_ via chat.
 
     - ``close`` - Close entry for the current giveaway `view docs`__

@@ -1,6 +1,8 @@
 !subscribe (Discord only)
 =========================
 
+**Default Permission:** Moderator
+
 Subscribe to other Botisimo users' stream up announcements (platform should be ``twitch`` or ``mixer``).
 
 Usage:

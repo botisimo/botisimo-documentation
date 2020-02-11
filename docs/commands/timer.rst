@@ -1,6 +1,8 @@
 !timer
 ======
 
+**Default Permission:** Moderator
+
 The ``!timer`` command is used to create/edit/delete/start/stop `custom timers <https://botisimo.com/account/timers>`_ via chat.
 
     - ``delete`` - Delete a timer `view docs`__

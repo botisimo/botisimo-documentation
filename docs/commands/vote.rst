@@ -1,6 +1,8 @@
 !vote
 =====
 
+**Default Permission:** Everyone
+
 The ``!vote`` command is used to vote in `polls <https://botisimo.com/account/polls>`_ via chat.
 
 .. warning::

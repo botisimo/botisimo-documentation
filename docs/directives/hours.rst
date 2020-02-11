@@ -6,6 +6,9 @@ Directs the bot to require minimum hours for the command.
 Usage:
     $[hours ``<hours>``]
 
+Arguments:
+    * ``hours`` **[required]** - The number of hours to require the user to have
+
 Example Command:
     **name**: !special
 

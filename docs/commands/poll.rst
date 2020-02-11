@@ -1,6 +1,8 @@
 !poll
 =====
 
+**Default Permission:** Moderator
+
 The ``!poll`` command is used to create/view/close/end `polls <https://botisimo.com/account/polls>`_ via chat.
 
     - ``close`` - Close voting for a poll `view docs`__

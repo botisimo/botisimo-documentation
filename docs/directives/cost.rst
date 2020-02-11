@@ -6,6 +6,9 @@ Directs the bot to add a currency cost to the command.
 Usage:
     $[cost ``<amount>``]
 
+Arguments:
+    * ``amount`` **<required>** - Amount of currency it should cost
+
 Example Command:
     **name**: !cost
 

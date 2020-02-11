@@ -22,6 +22,7 @@ Commands are used to allow you and your moderators/users to interact with the bo
    clip
    command
    commands
+   currency
    enter
    game
    gameall
@@ -33,9 +34,11 @@ Commands are used to allow you and your moderators/users to interact with the bo
    leave
    link
    live
+   music
    nextsong
    optin
    optout
+   permit
    ping
    poll
    prefix

@@ -1,6 +1,8 @@
 !title
 ======
 
+**Default Permission:** Moderator
+
 Get or set the title for the stream.
 
 Usage:

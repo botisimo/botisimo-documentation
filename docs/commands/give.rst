@@ -1,6 +1,8 @@
 !give
 =====
 
+**Default Permission:** Moderator
+
 Give to users by username
 
 Usage:

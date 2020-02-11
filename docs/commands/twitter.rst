@@ -1,6 +1,8 @@
 !twitter
 ========
 
+**Default Permission:** Everyone
+
 Responds with the latest tweet from the given ``username`` (must be a Twitter username).
 
 Usage:

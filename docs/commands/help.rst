@@ -1,6 +1,8 @@
 !help
 =====
 
+**Default Permission:** Everyone
+
 Link to Botisimo docs.
 
 Usage:

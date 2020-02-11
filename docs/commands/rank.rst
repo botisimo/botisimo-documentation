@@ -1,6 +1,8 @@
 !rank
 =====
 
+**Default Permission:** Everyone
+
 Display rank information for the current user or the ``username``.
 
 Usage:

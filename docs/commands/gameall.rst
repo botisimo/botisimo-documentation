@@ -1,6 +1,8 @@
 !gameall
 ========
 
+**Default Permission:** Moderator
+
 Set the game on all connections on the account.
 
 Usage:

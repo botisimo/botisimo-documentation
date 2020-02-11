@@ -4,7 +4,11 @@ $[give]
 Directs the bot to give currency to the user who uses the command or optionally the targeted user.
 
 Usage:
-    $[give ``<amount>`` ``[target]``]
+    $[give ``<amount>`` ``[user]``]
+
+Arguments:
+    * ``amount`` **[required]** - The amount of currency to give
+    * ``user`` **[optional]** - The user to give the currency to (if no user then it will give to the user issuing the command)
 
 Example Command:
     **name**: !give

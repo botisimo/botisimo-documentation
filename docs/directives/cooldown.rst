@@ -6,6 +6,9 @@ Directs the bot to enforce a cooldown in seconds for the command.
 Usage:
     $[cooldown ``<seconds>``]
 
+Arguments:
+    * ``seconds`` **<required>** - Number of seconds it should wait to cooldown
+
 Example Command:
     **name**: !cool
 

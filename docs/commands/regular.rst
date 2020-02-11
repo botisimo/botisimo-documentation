@@ -1,6 +1,8 @@
 !regular
 ========
 
+**Default Permission:** Moderator
+
 Add this user to regulars.
 
 Usage:

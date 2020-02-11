@@ -1,6 +1,8 @@
 !optin
 ======
 
+**Default Permission:** Everyone
+
 Opt in to Level Up and DyneOps announcements for your user.
 
 Usage:

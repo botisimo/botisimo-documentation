@@ -4,7 +4,11 @@ $[transfer]
 Directs the bot to transfer currency from the user who uses the command to the targeted user.
 
 Usage:
-    $[transfer ``<amount>`` ``<target>``]
+    $[transfer ``<amount>`` ``<user>``]
+
+Arguments:
+    * ``amount`` **[required]** - The amount of currency to transfer
+    * ``user`` **[required]** - The user to transfer the currency to
 
 Example Command:
     **name**: !transfer

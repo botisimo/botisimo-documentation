@@ -1,6 +1,8 @@
 !titleall
 =========
 
+**Default Permission:** Moderator
+
 Set the title on all connections on the account.
 
 Usage:

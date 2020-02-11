@@ -1,6 +1,8 @@
 !bridge (Discord only)
 ======================
 
+**Default Permission:** Moderator
+
 A Discord bridge is a way to send messages between multiple Discord servers running Botisimo. The `!bridge` command is used to create/join/leave/delete Discord bridges via chat.
 
     - ``delete`` - Delete or leave a bridge `view docs`__

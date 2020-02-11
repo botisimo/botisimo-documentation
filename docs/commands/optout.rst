@@ -1,6 +1,8 @@
 !optout
 =======
 
+**Default Permission:** Everyone
+
 Opt out of Level Up and DyneOps announcements for your user.
 
 Usage:

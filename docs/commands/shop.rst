@@ -1,6 +1,8 @@
 !shop
 =====
 
+**Default Permission:** Everyone
+
 Display available shop items for channel in chat.
 
 Usage:

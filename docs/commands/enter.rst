@@ -1,6 +1,8 @@
 !enter
 ======
 
+**Default Permission:** Everyone
+
 The ``!enter`` command is used to enter `giveaways <https://botisimo.com/account/giveaways>`_ via chat.
 
 Usage:

@@ -1,6 +1,8 @@
 !irregular
 ==========
 
+**Default Permission:** Moderator
+
 Remove user from regulars.
 
 Usage:

@@ -1,6 +1,8 @@
 !game
 =====
 
+**Default Permission:** Moderator
+
 Get or set the game for the stream.
 
 Usage:

@@ -1,6 +1,8 @@
 !unsubscribe (Discord only)
 ===========================
 
+**Default Permission:** Moderator
+
 Unsubscribe from other Botisimo users' stream up announcements (platform should be ``twitch`` or ``mixer``).
 
 Usage:

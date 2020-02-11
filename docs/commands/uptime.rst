@@ -1,6 +1,8 @@
 !uptime
 =======
 
+**Default Permission:** Everyone
+
 Display time the stream started in chat.
 
 Usage

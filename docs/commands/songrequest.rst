@@ -1,6 +1,8 @@
 !songrequest
 ============
 
+**Default Permission:** Everyone
+
 Request a song (works with the `music player <https://botisimo.com/account/music>`_).
 
 Usage:

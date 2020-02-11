@@ -54,7 +54,11 @@ new
 Create a new poll. This will end the current poll if it exists.
 
 Usage:
-    !poll new ``<option>`` | ``[option]`` | ``[option]`` | ...
+    !poll new ``<title>`` | ``<option>`` | ``[option]`` | ...
+
+Arguments:
+    * ``title`` **<required>** - The title of the poll
+    * ``option`` **<required>** - The name of the option for the poll (to add multiple options separate with a ``|`` character)
 
 Example:
     ::
@@ -94,6 +98,9 @@ Select a random winner from the given option
 
 Usage:
     !poll winner ``<option>``
+
+Arguments:
+    * ``option`` **<required>** - The poll option to select as the winner
 
 Example:
     ::

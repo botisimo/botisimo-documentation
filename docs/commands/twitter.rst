@@ -8,6 +8,9 @@ Responds with the latest tweet from the given ``username`` (must be a Twitter us
 Usage:
     !twitter ``<username>``
 
+Arguments:
+    * ``username`` **<required>** - The twitter username to search for
+
 Example:
     ::
 

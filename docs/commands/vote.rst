@@ -12,6 +12,10 @@ The ``!vote`` command is used to vote in `polls <https://botisimo.com/account/po
 Usage:
     !vote ``<option>`` ``[bet]``
 
+Arguments:
+    * ``option`` **<required>** - The poll option to vote for
+    * ``bet`` **[optional]** - The amount of currency to bet (default: 0)
+
 Example:
     ::
 

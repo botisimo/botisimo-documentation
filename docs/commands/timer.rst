@@ -36,6 +36,9 @@ Delete a timer
 Usage:
     !timer delete ``<name>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the timer to delete
+
 Example:
     ::
 
@@ -49,6 +52,11 @@ Edit a timer
 Usage:
     !timer edit ``<name>`` ``<interval>`` ``<message>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the timer
+    * ``interval`` **<required>** - The interval of the timer in minutes (valid values: ``5`` to ``60``)
+    * ``message`` **<required>** - The message for the timer
+
 Example:
     ::
 
@@ -61,6 +69,9 @@ Get info for a timer
 
 Usage:
     !timer info ``<name>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the timer to get the info for
 
 Example:
     ::
@@ -88,6 +99,11 @@ Create a new timer
 Usage:
     !timer new ``<name>`` ``<interval>`` ``<message>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the timer
+    * ``interval`` **<required>** - The interval of the timer in minutes (valid values: ``5`` to ``60``)
+    * ``message`` **<required>** - The message for the timer
+
 Example:
     ::
 
@@ -101,6 +117,9 @@ Starts a timer in the current channel
 Usage:
     !timer start ``<name>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the timer to start
+
 Example:
     ::
 
@@ -113,6 +132,9 @@ Stops a timer
 
 Usage:
     !timer stop ``<name>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the timer to stop
 
 Example:
     ::

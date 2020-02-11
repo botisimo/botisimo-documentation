@@ -10,6 +10,9 @@ Disable chat mirroring for your Discord user (platform can be ``twitch`` or ``mi
 Usage:
     !logout ``<platform>``
 
+Arguments:
+    * ``platform`` **<required>** - The platform to deauthorize (valid values: ``twitch``, ``mixer``)
+
 Example:
     ::
 

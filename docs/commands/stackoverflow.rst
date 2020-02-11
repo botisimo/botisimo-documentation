@@ -8,6 +8,9 @@ Search Stackoverflow questions. Returns top 10 results in Discord and top result
 Usage:
     !stackoverflow ``<search>``
 
+Arguments:
+    * ``search`` **<required>** - The search term(s) to use
+
 Example:
     ::
 

@@ -8,6 +8,10 @@ Pick a random winner from chat who sent a message in last 10 minutes. Optionally
 Usage:
     !winner ``[message]`` ``[|minutes]``
 
+Arguments:
+    * ``message`` **[optional]** - The message that the user must have typed in chat to be qualified to enter the giveaway
+    * ``minutes`` **[optional]** - The number of minutes to look back to find qualifying messages
+
 Example:
     ::
 

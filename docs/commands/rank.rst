@@ -8,6 +8,9 @@ Display rank information for the current user or the ``username``.
 Usage:
     !rank ``[username]``
 
+Arguments:
+    * ``username`` **[optional]** - The name of the user to get rank for (if no user then it will use the username of the user issuing the command)
+
 Example:
     ::
 

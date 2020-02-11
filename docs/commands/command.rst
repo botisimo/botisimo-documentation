@@ -34,6 +34,9 @@ Delete command
 Usage:
     !command delete ``<name>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the command to delete
+
 Example:
     ::
 
@@ -46,6 +49,9 @@ Disable command
 
 Usage:
     !command disable ``<name>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the command to disable
 
 Example:
     ::
@@ -60,6 +66,10 @@ Edit command response
 Usage:
     !command edit ``<name>`` ``<response>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the command to delete
+    * ``response`` **<required>** - The command response
+
 Example:
     ::
 
@@ -73,6 +83,9 @@ Enable command
 Usage:
     !command enable ``<name>``
 
+Arguments:
+    * ``name`` **<required>** - The name of the command to enable
+
 Example:
     ::
 
@@ -85,6 +98,9 @@ Get info for a command
 
 Usage:
     !command info ``<name>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the command to get info for
 
 Example:
     ::
@@ -105,13 +121,16 @@ Example:
         user:     !command list
         botisimo: Commands: !social, !wizard, !roll, !super
 
-
 new
 ^^^
 Create a new command
 
 Usage:
     !command new ``<name>`` ``<response>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the command to delete
+    * ``response`` **<required>** - The command response
 
 Example:
     ::
@@ -125,6 +144,10 @@ Edit command minimum permission
 
 Usage:
     !command permission ``<name>`` ``<permission=everyone|regs|subs|mods|admin>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the command to delete
+    * ``permission`` **<required>** - The minimum permission required to use the command (valid values: ``everyone``, ``regs``, ``subs``, ``mods``, ``admin``)
 
 Example:
     ::

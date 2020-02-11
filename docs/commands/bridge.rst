@@ -33,6 +33,9 @@ Join a bridge using a token
 Usage:
     !bridge ``<token>``
 
+Arguments:
+    * ``token`` **<required>** - The token of the bridge to join
+
 Example:
     ::
 

@@ -58,6 +58,13 @@ Create a new giveaway. This will end the current giveaway if it exists.
 Usage:
     !giveaway new ``<title>`` | ``[cost=0]`` | ``[multiple_entries]`` | ``[max_entries=0]`` | ``[multiple_wins]``
 
+Arguments:
+    * ``title`` **<required>** - The title of the giveaway
+    * ``cost`` **[optional]** - The cost to enter the giveaway (default: 0)
+    * ``multiple_entries`` **[optional]** - Set to any value to allow multiple entries (default: false)
+    * ``max_entries`` **[optional]** - The maximum number of entries that a single user can enter the giveaway (0 means unlimited) (default: unlimited)
+    * ``multiple_wins`` **[optional]** - Set to any value to allow a single user to win multiple times (default: false)
+
 Example:
     ::
 

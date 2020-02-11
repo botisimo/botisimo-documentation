@@ -7,8 +7,8 @@ Usage:
     $[transfer ``<amount>`` ``<user>``]
 
 Arguments:
-    * ``amount`` **[required]** - The amount of currency to transfer
-    * ``user`` **[required]** - The user to transfer the currency to
+    * ``amount`` **<required>** - The amount of currency to transfer
+    * ``user`` **<required>** - The user to transfer the currency to
 
 Example Command:
     **name**: !transfer

@@ -8,6 +8,9 @@ Set the game on all connections on the account.
 Usage:
     !gameall ``<game>``
 
+Arguments:
+    * ``game`` **<required>** - The name of the game to set
+
 Example:
     ::
 

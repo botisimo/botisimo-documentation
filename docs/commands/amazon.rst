@@ -8,6 +8,9 @@ Search Amazon products. Returns top 10 results in Discord and top result in Twit
 Usage:
     !amazon ``<search>``
 
+Arguments:
+    * ``search`` **<required>** - The search term(s) to use
+
 Example:
     ::
 

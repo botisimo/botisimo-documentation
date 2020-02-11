@@ -8,6 +8,10 @@ Unsubscribe from other Botisimo users' stream up announcements (platform should 
 Usage:
     !unsubscribe ``<platform>`` ``<username>``
 
+Arguments:
+    * ``platform`` **<required>** - The platform of the user to subscribe to (valid values: ``twitch``, ``mixer``)
+    * ``username`` **<required>** - The username of the user to subscribe to
+
 Example:
     ::
 

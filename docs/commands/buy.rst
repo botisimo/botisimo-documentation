@@ -8,6 +8,9 @@ Purchase an item from the shop using currency.
 Usage:
     !buy ``<key>``
 
+Arguments:
+    * ``key`` **<required>** - The key for the item you wish to purchase
+
 Example:
     ::
 

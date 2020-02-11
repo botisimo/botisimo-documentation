@@ -97,6 +97,9 @@ Retrieve the next user(s) from the queue
 Usage:
     !queue next ``[users=1]``
 
+Arguments:
+    * ``users`` **[optional]** - The number of users to get from the queue (default: 1)
+
 Example:
     ::
 
@@ -123,12 +126,14 @@ Edit queue minimum permission
 Usage:
     !queue permission ``<permission=everyone|regs|subs|mods|admin>``
 
+Arguments:
+    * ``permission`` **<required>** - The minimum permission required to use the queue (valid values: ``everyone``, ``regs``, ``subs``, ``mods``, ``admin``)
+
 Example:
     ::
 
         user:     !queue permission everyone
         botisimo: Queue permission updated: everyone
-
 
 random
 ^^^^^^

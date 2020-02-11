@@ -8,6 +8,9 @@ Get or set the title for the stream.
 Usage:
     !title ``[title]``
 
+Arguments:
+    * ``title`` **[optional]** - The title of the stream to set (if no title then it will respond with the current title)
+
 Example:
     ::
 

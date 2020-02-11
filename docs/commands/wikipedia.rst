@@ -8,6 +8,9 @@ Search Wikipedia topics. Returns top 10 results in Discord and top result in Twi
 Usage:
     !wikipedia ``<search>``
 
+Arguments:
+    * ``search`` **<required>** - The search term(s) to use
+
 Example:
     ::
 

@@ -8,6 +8,9 @@ Permit a user to bypass the whitelist domain spam filter for 1 minute.
 Usage:
     !permit ``<username>``
 
+Arguments:
+    * ``username`` **<required>** - Name of the user to permit
+
 Example:
     ::
 

@@ -8,6 +8,9 @@ Get the latest post(s) for a subreddit. Returns top 10 results in Discord and to
 Usage:
     !reddit ``<subreddit>``
 
+Arguments:
+    * ``subreddit`` **<required>** - The subreddit to search
+
 Example:
     ::
 

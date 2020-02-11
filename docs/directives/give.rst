@@ -7,7 +7,7 @@ Usage:
     $[give ``<amount>`` ``[user]``]
 
 Arguments:
-    * ``amount`` **[required]** - The amount of currency to give
+    * ``amount`` **<required>** - The amount of currency to give
     * ``user`` **[optional]** - The user to give the currency to (if no user then it will give to the user issuing the command)
 
 Example Command:

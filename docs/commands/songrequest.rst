@@ -8,6 +8,9 @@ Request a song (works with the `music player <https://botisimo.com/account/music
 Usage:
     !songrequest ``<search>``
 
+Arguments:
+    * ``search`` **<required>** - The search term(s) or video url to use to search YouTube
+
 Example:
     ::
 

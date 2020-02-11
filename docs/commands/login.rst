@@ -10,6 +10,9 @@ Receive a link to authorize chat mirroring for your Discord user (platform can b
 Usage:
     !login ``<platform>``
 
+Arguments:
+    * ``platform`` **<required>** - The platform to authorize (valid values: ``twitch``, ``mixer``)
+
 Example:
     ::
 

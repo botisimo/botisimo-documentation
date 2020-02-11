@@ -8,6 +8,9 @@ Set the title on all connections on the account.
 Usage:
     !titleall ``<title>``
 
+Arguments:
+    * ``title`` **<required>** - The title of the stream to set
+
 Example:
     ::
 

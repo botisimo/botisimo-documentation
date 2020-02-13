@@ -13,6 +13,7 @@ The ``!command`` command is used to create/edit/delete/enable/disable `custom co
     - ``list`` - List commands `view docs`__
     - ``new`` - Create a new command `view docs`__
     - ``permission`` - Edit command minimum permission `view docs`__
+    - ``reset`` - Reset the command use counter `view docs`__
 
 __ #delete
 __ #disable
@@ -22,6 +23,7 @@ __ #info
 __ #list
 __ #new
 __ #permission
+__ #reset
 
 .. note::
 
@@ -129,7 +131,7 @@ Usage:
     !command new ``<name>`` ``<response>``
 
 Arguments:
-    * ``name`` **<required>** - The name of the command to delete
+    * ``name`` **<required>** - The name of the command
     * ``response`` **<required>** - The command response
 
 Example:
@@ -146,7 +148,7 @@ Usage:
     !command permission ``<name>`` ``<permission=everyone|regs|subs|mods|admin>``
 
 Arguments:
-    * ``name`` **<required>** - The name of the command to delete
+    * ``name`` **<required>** - The name of the command to update
     * ``permission`` **<required>** - The minimum permission required to use the command (valid values: ``everyone``, ``regs``, ``subs``, ``mods``, ``admin``)
 
 Example:
@@ -154,3 +156,19 @@ Example:
 
         user:     !command permission !social everyone
         botisimo: Command updated: !social
+
+reset
+^^^^^
+Reset the command use counter
+
+Usage:
+    !command reset ``<name>``
+
+Arguments:
+    * ``name`` **<required>** - The name of the command
+
+Example:
+    ::
+
+        user:     !command reset !social
+        botisimo: Command reset: !social

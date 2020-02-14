@@ -7,7 +7,7 @@ Usage:
     $[discord role add ``<role>`` ``[user]``]
 
 Arguments:
-    * ``role`` **<required>** - URL encoded role name (ex: ``$(urlencode My Awesome Role)``)
+    * ``role`` **<required>** - URL encoded role name
     * ``user`` **[optional]** - Discord user to add the role to
 
 Example Command:
@@ -29,7 +29,12 @@ Usage:
     $[discord role check ``<role>``]
 
 Arguments:
-    * ``role`` **<required>** - URL encoded role name (ex: ``$(urlencode My Awesome Role)``)
+    * ``role`` **<required>** - URL encoded role name
+
+Options:
+    * ``-p, --public`` **[optional]** - If present then error message will be sent to public chat (instead of direct message)
+    * ``-s, --silent`` **[optional]** - If present then no error message will be sent
+    * ``--error-message <message>`` **[optional]** - URL encoded error message
 
 Example Command:
     **name**: !expelliarmus
@@ -50,7 +55,7 @@ Usage:
     $[discord role remove ``<role>`` ``[user]``]
 
 Arguments:
-    * ``role`` **<required>** - URL encoded role name (ex: ``$(urlencode My Awesome Role)``)
+    * ``role`` **<required>** - URL encoded role name
     * ``user`` **[optional]** - Discord user to remove the role from
 
 Example Command:

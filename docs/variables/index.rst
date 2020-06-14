@@ -1,7 +1,7 @@
 Variables
 =========
 
-Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ responses. See also :doc:`response directives </directives/index>`.
+Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ and `timer <https://botisimo.com/account/timers>`_ responses. See also :doc:`response directives </directives/index>`.
 
 .. note::
 

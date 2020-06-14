@@ -1,7 +1,7 @@
 Directives
 ==========
 
-Response directives are used to make dynamic actions for your `custom commands <https://botisimo.com/account/commands>`_. Directives will be processed after :doc:`response variables </variables/index>` and in the order they appear in the response text.
+Response directives are used to make dynamic actions for your `custom commands <https://botisimo.com/account/commands>`_ and `timers <https://botisimo.com/account/timers>`_. Directives will be processed after :doc:`response variables <variables/index>` and in the order they appear in the response text.
 
 .. note::
 

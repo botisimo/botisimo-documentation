@@ -14,11 +14,11 @@ Arguments:
     * ``url`` **<required>** - The url to send the request to
 
 Example Command:
-    **name**: !foaas
+    **name**: !kanye
 
-    **response**: $(fetch https://foaas.com/you/Peter/Bob)
+    **response**: $(fetch https://api.kanye.rest/?format=text) - Kanye
 
     **output**::
 
-        user:     !foaas
-        botisimo: Fuck you, Peter. -Bob
+        user:     !kanye
+        botisimo: I'm a creative genius - Kanye

@@ -15,11 +15,11 @@ Arguments:
     * ``data`` **[optional]** - The data string to send to the url
 
 Example Command:
-    **name**: !foaas
+    **name**: !kanye
 
-    **response**: $(fetchp https://foaas.com/you/Peter/Bob)
+    **response**: $(fetchp https://api.kanye.rest/?format=text) - Kanye
 
     **output**::
 
-        user:     !foaas
-        botisimo: Fuck you, Peter. -Bob
+        user:     !kanye
+        botisimo: I'm a creative genius - Kanye

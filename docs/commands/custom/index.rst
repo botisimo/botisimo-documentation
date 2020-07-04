@@ -14,3 +14,8 @@ You can create custom commands by visiting the `commands page <https://botisimo.
 
    ../default/command
    ../default/commands
+
+Related Videos
+^^^^^^^^^^^^^^
+
+.. youtube:: 5j-QSMc23nk

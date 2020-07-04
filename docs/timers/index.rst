@@ -13,3 +13,8 @@ You can create timers by visiting the `timers page <https://botisimo.com/account
    :caption: Related Commands
 
    ../commands/default/timer
+
+Related Videos
+^^^^^^^^^^^^^^
+
+.. youtube:: 5CYHP_1KEKc

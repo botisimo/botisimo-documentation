@@ -50,7 +50,7 @@ class IframeVideo(Directive):
 
 
 class Youtube(IframeVideo):
-  html = '<iframe style="margin-bottom: 20px" src="http://www.youtube.com/embed/%(video_id)s" \
+  html = '<iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/%(video_id)s" \
   width="%(width)u" height="%(height)u" frameborder="0" \
   webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>'
 

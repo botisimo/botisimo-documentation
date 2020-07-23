@@ -27,7 +27,7 @@ __ #reset
 
 .. note::
 
-    Commands are enabled and disabled based on the platform (Twitch, Mixer, YouTube, etc.) the command was issued from. Commands will respond to the channel they are called from.
+    Commands are enabled and disabled based on the platform (Twitch, YouTube, Facebook, etc.) the command was issued from. Commands will respond to the channel they are called from.
 
 delete
 ^^^^^^

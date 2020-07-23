@@ -3,7 +3,7 @@
 
 **Default Permission:** Everyone
 
-Search Amazon products. Returns top 10 results in Discord and top result in Twitch, Mixer, & YouTube.
+Search Amazon products. Returns top 10 results in Discord and top result in Twitch, YouTube, & Facebook.
 
 Usage:
     !amazon ``<search>``

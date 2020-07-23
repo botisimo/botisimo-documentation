@@ -3,7 +3,7 @@
 
 **Default Permission:** Everyone
 
-Search Wikipedia topics. Returns top 10 results in Discord and top result in Twitch & Mixer.
+Search Wikipedia topics. Returns top 10 results in Discord and top result in Twitch, YouTube, & Facebook.
 
 Usage:
     !wikipedia ``<search>``

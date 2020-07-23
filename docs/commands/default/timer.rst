@@ -23,7 +23,7 @@ __ #stop
 
 .. note::
 
-    Timers are started and stopped based on the platform (Twitch, Mixer, YouTube, etc.) the command was issued from. Timers will only post to a single channel per platform.
+    Timers are started and stopped based on the platform (Twitch, YouTube, Facebook, etc.) the command was issued from. Timers will only post to a single channel per platform.
 
 .. note::
 

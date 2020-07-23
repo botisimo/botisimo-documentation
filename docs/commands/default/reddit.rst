@@ -3,7 +3,7 @@
 
 **Default Permission:** Everyone
 
-Get the latest post(s) for a subreddit. Returns top 10 results in Discord and top result in Twitch & Mixer.
+Get the latest post(s) for a subreddit. Returns top 10 results in Discord and top result in Twitch, YouTube, & Facebook.
 
 Usage:
     !reddit ``<subreddit>``

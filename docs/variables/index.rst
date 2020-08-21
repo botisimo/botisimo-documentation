@@ -27,7 +27,6 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
    lastfm
    level
    minutes
-   mixer
    pick
    query
    rank

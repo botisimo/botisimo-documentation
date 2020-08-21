@@ -9,9 +9,9 @@ Usage:
 Example Command:
     **name**: !follow
 
-    **response**: Go to mixer.com/$(targetplain) and drop a follow!
+    **response**: Go to twitch.tv/$(targetplain) and drop a follow!
 
     **output**::
 
         user:     !follow @bob
-        botisimo: Go to mixer.com/bob and drop a follow!
+        botisimo: Go to twitch.tv/bob and drop a follow!

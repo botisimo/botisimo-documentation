@@ -11,7 +11,7 @@ Example Command:
 
     **response**: Hi, $(usernameplain)!
 
-    **twitch/mixer/youtube output**::
+    **twitch/youtube output**::
 
         user:     !hi
         botisimo: Hi, bob!

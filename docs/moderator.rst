@@ -16,17 +16,6 @@ Twitch will respond with this if it worked::
 
     You have added botisimo as a moderator of this channel.
 
-Mixer
-^^^^^
-
-If you want to make Botisimo a moderator in your Mixer channel then go to your channel on Mixer and type this in your chat::
-
-    /mod Botisimo
-
-Mixer will respond with this if it worked::
-
-    Botisimo is now a moderator!
-
 YouTube
 ^^^^^^^
 

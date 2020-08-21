@@ -13,9 +13,9 @@ Arguments:
 Example Command:
     **name**: !shoutout
 
-    **response**: $(1) is one cool streamer, check them out at https://mixer.com/$(stripchar @ $(1))
+    **response**: $(1) is one cool streamer, check them out at https://twitch.tv/$(stripchar @ $(1))
 
     **output**::
 
         user:     !shoutout @username
-        botisimo: @username is one cool streamer, check them out at https://mixer.com/username
+        botisimo: @username is one cool streamer, check them out at https://twitch.tv/username

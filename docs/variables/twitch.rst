@@ -19,7 +19,7 @@ Example Command:
         user:     !example
         botisimo: You are a super awesome and cool dude!
 
-    **mixer/youtube/discord output**::
+    **youtube/discord output**::
 
         user:     !example
         botisimo: You are a cool dude

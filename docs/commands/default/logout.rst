@@ -5,13 +5,13 @@
 
 **Default Permission:** Everyone
 
-Disable chat mirroring for your Discord user (platform can be ``twitch`` or ``mixer``).
+Disable chat mirroring for your Discord user (platform can be ``twitch``).
 
 Usage:
     !logout ``<platform>``
 
 Arguments:
-    * ``platform`` **<required>** - The platform to deauthorize (valid values: ``twitch``, ``mixer``)
+    * ``platform`` **<required>** - The platform to deauthorize (valid values: ``twitch``)
 
 Example:
     ::

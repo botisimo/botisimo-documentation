@@ -85,7 +85,7 @@ Giveaways are used to reward your viewers. This is a great way to give back to y
 Shop
 ^^^^
 
-The shop is used to incentivize your viewers to watch and participate in your stream regularly. When viewers watch your stream they gets currency that they can spend in your shop. The shop often includes items like a personal shout out or maybe you have to do something silly like the ice bucket challenge, be creative.
+The shop is used to incentivize your viewers to watch and participate in your stream regularly. When viewers watch your stream they get currency that they can spend in your shop. The shop often includes items like a personal shout out or maybe you have to do something silly like the ice bucket challenge, be creative.
 
 :doc:`Learn About Shop → <shop/index>`
 
@@ -95,6 +95,20 @@ The shop is used to incentivize your viewers to watch and participate in your st
    :hidden:
 
    shop/index
+
+Music Player
+^^^^^^^^^^^^
+
+The music player is a great way to add music to your stream. You can also let viewers participate by requesting songs via chat!
+
+:doc:`Learn About Music Player → <music/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-music
+   :hidden:
+
+   music/index
 
 Response Variables
 ^^^^^^^^^^^^^^^^^^

@@ -19,8 +19,16 @@ Twitch will respond with this if it worked::
 YouTube
 ^^^^^^^
 
-If you want to make Botisimo a moderator in your Youtube channel then go to `https://www.youtube.com/comment_management <https://www.youtube.com/comment_management>`_ and paste this url to the Moderators section::
+If you want to make Botisimo a moderator in your YouTube channel then follow these steps::
 
-    https://youtube.com/botisimo
+    #. Go to https://studio.youtube.com
+    #. Click on "Settings" in the bottom left
+    #. Go to the "Community" tab
+    #. Paste this url to the Moderators section: https://youtube.com/botisimo
+    #. Select the Botisimo channel
+    #. Click "Save"
 
-Select Botisimo from the dropdown that appears after you paste the url.
+Facebook
+^^^^^^^^
+
+Facebook does not require any actions to enable moderator permissions. When you authorize Botisimo to manage your Facebook page it will automatically have moderator permissions.

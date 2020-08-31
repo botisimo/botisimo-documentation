@@ -15,7 +15,7 @@ Using Botisimo requires a monthly or annual membership.
 
     - **Pro** ($5/mo)
     - **Master** ($10/mo)
-    - **Guild** (starting at $50/mo)
+    - **Guild** (starting at $250/mo)
 
 `View Membership Details → <https://botisimo.com/membership.html>`_
 

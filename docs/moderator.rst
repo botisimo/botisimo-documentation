@@ -21,12 +21,12 @@ YouTube
 
 If you want to make Botisimo a moderator in your YouTube channel then follow these steps::
 
-    #. Go to https://studio.youtube.com
-    #. Click on "Settings" in the bottom left
-    #. Go to the "Community" tab
-    #. Paste this url to the Moderators section: https://youtube.com/botisimo
-    #. Select the Botisimo channel
-    #. Click "Save"
+#. Go to https://studio.youtube.com
+#. Click on "Settings" in the bottom left
+#. Go to the "Community" tab
+#. Paste this url to the Moderators section: https://youtube.com/botisimo
+#. Select the Botisimo channel
+#. Click "Save"
 
 Facebook
 ^^^^^^^^

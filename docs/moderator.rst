@@ -19,7 +19,7 @@ Twitch will respond with this if it worked::
 YouTube
 ^^^^^^^
 
-If you want to make Botisimo a moderator in your YouTube channel then follow these steps::
+If you want to make Botisimo a moderator in your YouTube channel then follow these steps:
 
 #. Go to https://studio.youtube.com
 #. Click on "Settings" in the bottom left

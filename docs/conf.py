@@ -64,7 +64,7 @@ html_theme_options = {
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
 html_context = {
   "display_github": True, # Integrate GitHub
-  "github_user": "botisimochatbot", # Username
+  "github_user": "botisimo", # Username
   "github_repo": "botisimo-documentation", # Repo name
   "github_version": "master", # Version
   "conf_py_path": "/", # Path in the checkout to the docs root
@@ -76,6 +76,9 @@ html_logo = 'images/botisimo-logo.png'
 # or fully qualified paths (eg. https://...)
 html_css_files = [
   'css/custom.css',
+]
+html_js_files = [
+  'js/user-echo.js',
 ]
 
 # Add any paths that contain custom static files (such as style sheets) here,

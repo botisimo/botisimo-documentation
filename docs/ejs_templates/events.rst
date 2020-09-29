@@ -16,12 +16,12 @@ Default EJS Template for Events Overlay
 
     <% if (event) { %>
         <% if (event.thumbnail) { %>
-            <% if (isVideo) { %>
+            <% if (event.isVideo) { %>
                 <video
                     src="<%= event.thumbnail %>"
                     autoPlay
                     loop
-                />
+                ></video>
             <% } else { %>
                 <img src="<%= event.thumbnail %>" />
             <% } %>

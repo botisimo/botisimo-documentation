@@ -32,3 +32,14 @@ Facebook
 ^^^^^^^^
 
 Facebook does not require any actions to enable moderator permissions. When you authorize Botisimo to manage your Facebook page it will automatically have moderator permissions.
+
+Trovo
+^^^^^^
+
+If you want to make Botisimo a moderator in your Trovo channel then go to your channel on Trovo and type this in your chat::
+
+    /mod Botisimo
+
+Trovo will respond with this if it worked::
+
+    You have added botisimo as a moderator of this channel.

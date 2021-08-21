@@ -3,8 +3,8 @@ $[chain]
 
 Break response into multiple, chained responses.
 
-    - `Pro members <https://botisimo.com/membership>`_ are limited to chaining 5 responses
-    - `Business members <https://botisimo.com/membership>`_ are limited to chaining 10 responses
+    - `Pro members <https://botisimo.com/pricing>`_ are limited to chaining 5 responses
+    - `Business members <https://botisimo.com/pricing>`_ are limited to chaining 10 responses
 
 Usage:
     $[chain]

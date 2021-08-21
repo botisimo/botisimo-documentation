@@ -14,11 +14,10 @@ Membership
 Using Botisimo requires a monthly or annual membership.
 
     - **Pro** ($10/mo or $60/yr)
-    - **Business** ($50/mo)
-    - **Team** (starting at $150/mo)
+    - **Plus** ($50/mo)
     - **Premium** (starting at $600/mo)
 
-`View Membership Details → <https://botisimo.com/membership>`_
+`View Membership Details → <https://botisimo.com/pricing>`_
 
 Moderation
 ^^^^^^^^^^
@@ -138,6 +137,20 @@ Response directives are used to make dynamic actions for your `custom commands <
    :hidden:
 
    directives/index
+
+Botisimo Sponsorship Program
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The **Botisimo Sponsorship Program** is a customer opt-in sponsorship and rewards program that matches participants to a sponsor within our vetted sponsor network. Eligible participants will earn points for impressions and clicks. Those points earn you a cash back reward.
+
+:doc:`Learn About Sponsorship → <sponsorship/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-sponsorship
+   :hidden:
+
+   sponsorship/index
 
 Extras
 ^^^^^^

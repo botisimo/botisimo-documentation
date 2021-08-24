@@ -28,4 +28,7 @@ Ready to get started? Let's go!
 
 `ACTIVATE YOUR SPONSORSHIP <https://botisimo.com/account/sponsorship>`_
 
-If you have questions, reach out to us - support@botisimo.com
+Related Videos
+^^^^^^^^^^^^^^
+
+.. youtube:: FSYnSIEPl_k

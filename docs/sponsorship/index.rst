@@ -15,7 +15,7 @@ Are you ready to tell that one family member at Thanksgiving that you CAN MAKE M
 
 **Here's How It Works:**
 
-.. image:: images/sponsorship-how-it-works.png
+.. image:: /images/sponsorship-how-it-works.png
 
 The **Botisimo Sponsorship Program** is a customer opt-in sponsorship and rewards program that matches participants to a sponsor within our vetted sponsor network. Eligible participants will earn points for impressions and clicks. Those points earn you a cash back reward. Botisimo will send a sponsored message to your chat every 15 minutes. A graphic will also be displayed in the Sponsor Overlay every 15 minutes.
 

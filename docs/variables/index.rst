@@ -52,5 +52,7 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
    usertype
    winner
    xp
+   xpnext
+   xpcurrent
    youtube
    advanced

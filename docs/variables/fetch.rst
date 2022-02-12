@@ -12,11 +12,12 @@ Usage:
 
 Arguments:
     * ``url`` **<required>** - The url to send the request to
+    * ``path`` **[optional]** - The path to the property in the response (JSON only)
 
 Example Command:
     **name**: !kanye
 
-    **response**: $(fetch https://api.kanye.rest/?format=text) - Kanye
+    **response**: $(fetch https://api.kanye.rest/ quote) - Kanye
 
     **output**::
 

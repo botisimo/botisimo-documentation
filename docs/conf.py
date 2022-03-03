@@ -20,7 +20,7 @@ import youtube
 # -- Project information -----------------------------------------------------
 
 project = 'Botisimo'
-copyright = '2020, Botisimo'
+copyright = '2022, Botisimo'
 author = 'Botisimo'
 
 # -- YouTube Embed Directive -------------------------------------------------

@@ -1,8 +1,5 @@
-=======
 Loyalty
 =======
-
-Loyalty rewards API.
 
 .. toctree::
    :maxdepth: 1

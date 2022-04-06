@@ -26,6 +26,7 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
    js
    lastfm
    level
+   message
    minutes
    pick
    query
@@ -44,6 +45,7 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
    target
    targetplain
    total
+   trigger
    twitch
    urlencode
    userid

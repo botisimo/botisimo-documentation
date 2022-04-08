@@ -18,6 +18,10 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team');
+
 Response
 
 ============================ ======== =======================================

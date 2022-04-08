@@ -27,9 +27,29 @@ API Documentation
 API Endpoint
 ------------
 
-The API is located at the following URL. You should replace ``:team`` with your team's name in your Botisimo account
+The API is located at the following URL. You should replace ``:team`` with your team's name in your Botisimo account::
 
-``https://botisimo.com/api/v1/loyalty/:team``
+   https://botisimo.com/api/v1/loyalty/:team
+
+Authenticating Requests
+-----------------------
+
+Authenticated requests should include the ``token`` received from :doc:`Authentication API <authentication>` as a header on the request ``x-user-auth-token``
+
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/mission/list', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
+Fetching Media Resources
+------------------------
+
+Some objects have a ``resourceId`` that correlates to a media file in S3. You can fetch any resource by using the ``resourceId``::
+
+   https://s3.amazonaws.com/prod.botisimo.com/resource/:resourceId
 
 Errors
 ------
@@ -43,3 +63,11 @@ Field       Type     Description
 =========== ======== ==========================================
 message     string   The message describing the error
 =========== ======== ==========================================
+
+Example
+
+.. code-block:: json
+
+   {
+      message: "An error has occurred"
+   }

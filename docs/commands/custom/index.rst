@@ -18,4 +18,4 @@ You can create custom commands by visiting the `commands page <https://botisimo.
 Related Videos
 ^^^^^^^^^^^^^^
 
-.. youtube:: 5j-QSMc23nk
+.. youtube:: PlwT6U3_Sf0

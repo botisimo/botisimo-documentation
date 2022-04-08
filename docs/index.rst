@@ -160,3 +160,12 @@ Extras
    :name: sec-extras
 
    extras/index
+
+Loyalty (Enterprise)
+^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-loyalty
+
+   loyalty/index

@@ -7,6 +7,7 @@ API Documentation
 - :doc:`Authentication API <authentication>`
 - :doc:`Billing API <billing>`
 - :doc:`Tiers API <tiers>`
+- :doc:`Creators API <creators>`
 - :doc:`Missions API <missions>`
 - :doc:`Shop Items API <shopItems>`
 - :doc:`Events API <events>`
@@ -20,8 +21,9 @@ API Documentation
    authentication
    billing
    tiers
-   shopItems
+   creators
    missions
+   shopItems
    events
 
 API Endpoint
@@ -66,7 +68,7 @@ message     string   The message describing the error
 
 Example
 
-.. code-block:: json
+.. code-block:: js
 
    {
       message: "An error has occurred"

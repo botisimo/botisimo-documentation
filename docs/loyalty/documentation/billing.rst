@@ -23,6 +23,18 @@ interval    string   The billing interval. Should be ``month`` or ``year``
 tier        number   Tier ID
 =========== ======== =====================================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/upgrade', {
+      params: {
+         interval: 'month',
+         tier: 1
+      },
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 =========== ======== =============================================================================================================================================================
@@ -31,6 +43,12 @@ Field       Type     Description
 amountDue   [number] The amount due in cents to process the upgrade. If included, the user should be prompted to confirm the amount and then use the ``/billing/confirm`` endpoint
 href        [string] If included, you should immediately redirect to this href
 =========== ======== =============================================================================================================================================================
+
+.. code-block:: js
+
+   {
+      "amountDue": 4999
+   }
 
 Confirm Upgrade Tier
 --------------------
@@ -48,6 +66,18 @@ interval    string   The billing interval. Should be ``month`` or ``year``
 tier        number   Tier ID
 =========== ======== =====================================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/confirm', {
+      params: {
+         interval: 'month',
+         tier: 1
+      },
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Manage Billing
 --------------
 
@@ -63,6 +93,14 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/manage', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 =========== ======== ==========================================
@@ -70,3 +108,9 @@ Field       Type     Description
 =========== ======== ==========================================
 href        string   The href to the billing management session
 =========== ======== ==========================================
+
+.. code-block:: js
+
+   {
+      "href": "https://xxxxx"
+   }

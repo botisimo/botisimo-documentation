@@ -20,6 +20,14 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/mission/list', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 ==================== ======== =======================================
@@ -51,6 +59,14 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/mission/1', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 =================== ======== =======================================
@@ -81,6 +97,14 @@ Field       Type     Description
 =========== ======== ==========================================
 \-          \-       \-
 =========== ======== ==========================================
+
+.. code-block:: js
+
+   const response = await axios.put('https://botisimo.com/api/v1/loyalty/:team/mission/1/redeem', {}, {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
 
 Response
 

@@ -26,12 +26,12 @@ tier        number   Tier ID
 .. code-block:: js
 
    const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/login', {
-       email: 'xxxxx',
-       password: 'xxxxx',
-       interval: 'month',
-       dateOfBirth: '12/25/1990',
-       tier: 1,
-       tags: [1, 2, 3, 4],
+      email: 'xxxxx',
+      password: 'xxxxx',
+      interval: 'month',
+      dateOfBirth: '12/25/1990',
+      tier: 1,
+      tags: [1, 2, 3, 4],
    });
 
 Response
@@ -86,8 +86,8 @@ password    string
 .. code-block:: js
 
    const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/login', {
-       email: 'xxxxx',
-       password: 'xxxxx',
+      email: 'xxxxx',
+      password: 'xxxxx',
    });
 
 Response
@@ -182,7 +182,7 @@ user.tags.name              string   The name of the tag
 
 Example
 
-.. code-block:: json
+.. code-block:: js
 
     {
         "unread": 0,

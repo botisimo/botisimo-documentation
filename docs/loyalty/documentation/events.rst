@@ -19,6 +19,14 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/event/list', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 =================== ======== =======================================
@@ -54,6 +62,14 @@ Field       Type     Description
 \-          \-       \-
 =========== ======== ==========================================
 
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/event/1', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
 Response
 
 ================== ======== ==================================================
@@ -73,3 +89,25 @@ event.tags         object[] List of tags
 event.tags.id      number   The ID of the tag
 event.tags.name    string   The name of the tag
 ================== ======== ==================================================
+
+Example
+
+.. code-block:: js
+
+   {
+      "event": {
+         "status": "completed",
+         "id": 6,
+         "name": "OpTic Major 1 Tournament",
+         "description": "Tickets Are Now Available for the OpTic Major I",
+         "callToAction": "GET TICKETS",
+         "url": "https://www.tixr.com/groups/optictexas/events/optic-texas-major-i-35567",
+         "location": "Esports Stadium Arlington",
+         "start": 1649008800,
+         "end": 1649296800,
+         "resourceId": 6681,
+         "createdAt": "2022-03-16T03:15:21.000Z",
+         "updatedAt": "2022-03-16T03:17:56.000Z",
+         "tags": []
+      }
+   }

@@ -128,12 +128,12 @@ user.tags.name              string   The name of the tag
 Initiate OAuth Flow
 -------------------
 
-To initiate an OAuth request, you should redirect the user to this URL. You should replace ``:team`` with your team's name in your Botisimo account. You should replace ``:platform`` with the platform you want to use.
+To initiate an OAuth request, you should redirect the user to this URL. You should replace ``:team`` with your team's name in your Botisimo account. You should replace ``:platform`` with the platform you want to use. If the user is already logged in and you want to connect to the same account, you should include the ``user_auth_token`` in the URL. If you do not include the ``user_auth_token`` in the URL then it will attempt to make a new account.
 
 Platform can be: ``twitch``, ``youtube``, ``facebook``, ``instagram``, ``discord``, ``twitter``, ``spotify``, ``steam``, ``battlenet``, ``chess``, ``tiktok``
 
-- **GET** https://botisimo.com/api/v1/auth/:platform/user/loyalty/:team
-- **GET** https://botisimo.com/api/v1/auth/:platform/user/loyalty/:team?user_auth_token=xxxxxx
+- **GET** https\://botisimo.com/api/v1/auth/:platform/user/loyalty/:team
+- **GET** https\://botisimo.com/api/v1/auth/:platform/user/loyalty/:team?user_auth_token=xxxxxx
 
 Request
 

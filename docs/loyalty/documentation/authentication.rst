@@ -3,6 +3,7 @@ Authentication API
 
 - `Sign Up`_
 - `Log In`_
+- `Initiate OAuth Flow`_
 - `Get User`_
 
 Sign Up
@@ -123,6 +124,24 @@ user.tags                   object[] List of tags the user is interested in
 user.tags.id                number   The ID of the tag
 user.tags.name              string   The name of the tag
 =========================== ======== ==========================================================================
+
+Initiate OAuth Flow
+-------------------
+
+To initiate an OAuth request, you should redirect the user to this URL. You should replace ``:team`` with your team's name in your Botisimo account. You should replace ``:platform`` with the platform you want to use.
+
+Platform can be: ``twitch``, ``youtube``, ``facebook``, ``instagram``, ``discord``, ``twitter``, ``spotify``, ``steam``, ``battlenet``, ``chess``, ``tiktok``
+
+- **GET** https://botisimo.com/api/v1/auth/:platform/user/loyalty/:team
+- **GET** https://botisimo.com/api/v1/auth/:platform/user/loyalty/:team?user_auth_token=xxxxxx
+
+Request
+
+=============== ======== ============================================================================================
+Field           Type     Description
+=============== ======== ============================================================================================
+user_auth_token [string] If the user is already logged in, you should include the authentication ``token`` in the URL
+=============== ======== ============================================================================================
 
 Get User
 --------

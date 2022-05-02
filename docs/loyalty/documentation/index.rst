@@ -5,6 +5,7 @@ API Documentation
 - `Errors`_
 - :doc:`Team API <team>`
 - :doc:`Authentication API <authentication>`
+- :doc:`User API <user>`
 - :doc:`Billing API <billing>`
 - :doc:`Tiers API <tiers>`
 - :doc:`Creators API <creators>`
@@ -19,6 +20,7 @@ API Documentation
 
    team
    authentication
+   user
    billing
    tiers
    creators

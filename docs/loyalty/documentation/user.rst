@@ -3,13 +3,15 @@ Authentication API
 
 - `List Users`_
 - `Get User`_
+- `Update User`_
+- `Upload A Custom Avatar`_
 
 List Users
 ----------
 
 List user leaderboard ranked by most points to least points (top 100)
 
-- **POST** /user/list
+- **GET** /user/list
 
 Request
 
@@ -29,9 +31,9 @@ Field       Type     Description
 
 Response
 
-=========================== ======== =================================================================================
-Field                       Type     Description
-=========================== ======== =================================================================================
+============================ ======== =================================================================================
+Field                        Type     Description
+============================ ======== =================================================================================
 users                        object   Information about the logged in user
 users.avatar                 string   URL to to user avatar
 users.createdAt              string   When the user was created
@@ -49,7 +51,7 @@ users.name                   string   The name of the user
 users.tags                   object[] List of tags the user is interested in
 users.tags.id                number   The ID of the tag
 users.tags.name              string   The name of the tag
-=========================== ======== =================================================================================
+============================ ======== =================================================================================
 
 Get User
 --------
@@ -231,3 +233,165 @@ Example
             "goldTotal": 12559385
         }
     }
+
+Update User
+-----------
+
+Update profile information for the authenticated user
+
+- **PUT** /user
+
+Request
+
+====================== ========== ==========================================================================
+Field                  Type       Description
+====================== ========== ==========================================================================
+email                  [string]   Update the email address
+dateOfBirth            [string]   Date of birth formatted as ``MM/DD/YYYY``
+shippingAddressCity    [string]   Shipping info for the user
+shippingAddressCountry [string]   Shipping info for the user
+shippingAddressName    [string]   Shipping info for the user
+shippingAddressState   [string]   Shipping info for the user
+shippingAddressStreet  [string]   Shipping info for the user
+shippingAddressSuite   [string]   Shipping info for the user
+shippingAddressZip     [string]   Shipping info for the user
+avatarResourceId       [number]   Update custom avatar resource (see `Upload A Custom Avatar`_)
+username               [string]   Update custom username
+tags                   [number[]] List of tag IDs the user is interested in
+====================== ========== ==========================================================================
+
+.. code-block:: js
+
+   const response = await axios.put('https://botisimo.com/api/v1/loyalty/:team/user', {
+      dateOfBirth: '01/01/1990',
+      username: 'myusername'
+   }, {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
+Response
+
+=========================== ======== ==========================================================================
+Field                       Type     Description
+=========================== ======== ==========================================================================
+unread                      number   Number of unread notifications for this user
+user                        object   Information about the logged in user
+user.avatar                 string   URL to to user avatar
+user.createdAt              string   When the user was created
+user.dateOfBirth            string   Date of birth formatted as ``MM/DD/YYYY``
+user.gold                   number   Number of loyalty points the user currently has available
+user.goldTotal              number   Number of loyalty points the user has earned all time
+user.goldSpent              number   Number of loyalty points the user has spent
+user.id                     number   The ID of the user
+user.loyaltyTier            object   The tier the user is subscribed to
+user.loyaltyTier.id         number   The ID of the tier
+user.loyaltyTier.name       string   The name of the tier
+user.loyaltyTier.priceMonth number   The cost of the tier per month in cents
+user.loyaltyTier.priceYear  number   The cost of the tier per year in cents
+user.loyaltyTier.resourceId number   The resource ID of the tier badge icon
+user.name                   string   The name of the user
+user.notifications          string   The last time the user read the notifications formatted as ISO date string
+user.shippingAddressCity    string   Shipping info for the user
+user.shippingAddressCountry string   Shipping info for the user
+user.shippingAddressName    string   Shipping info for the user
+user.shippingAddressState   string   Shipping info for the user
+user.shippingAddressStreet  string   Shipping info for the user
+user.shippingAddressSuite   string   Shipping info for the user
+user.shippingAddressZip     string   Shipping info for the user
+user.tags                   object[] List of tags the user is interested in
+user.tags.id                number   The ID of the tag
+user.tags.name              string   The name of the tag
+=========================== ======== ==========================================================================
+
+Upload A Custom Avatar
+----------------------
+
+Use this endpoint to get a URL for uploading a custom avatar
+
+- **GET** /resource
+
+Request
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+name        string   The name of the file
+type        string   The mime type of the file
+=========== ======== ==========================================
+
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/resource', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+      params: {
+         name: 'my-avatar.png',
+         type: 'image/png',
+      },
+   });
+
+Response
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+url         string   The URL to upload the image to
+resourceId  number   The ID of the resource
+=========== ======== ==========================================
+
+.. code-block:: js
+
+   {
+      "url": "https://s3.amazon-aws.com/xxxxx",
+      "resourceId": 65
+   }
+
+Full Example
+
+1. Get a URL to use to upload the file
+2. Upload the file to the URL
+3. Update the avatarResourceId for the user
+
+.. code-block:: js
+
+   async function onUploadFile(file) {
+      if (file) {
+         // Get a URL to use to upload the file
+         const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/resource', {
+            headers: {
+               'x-user-auth-token': 'xxxxxxx',
+            },
+            params: {
+               name: 'my-avatar.png',
+               type: 'image/png',
+            },
+         });
+
+         // Upload the file to the URL
+         const uploadResponse = await axios.put(response.data.url, file, {
+            headers: {
+               'Content-Type': file.type,
+            },
+         });
+
+         // Update the avatarResourceId for the user
+         if (uploadResponse.status === 200) {
+            const updateResponse = await axios.put(
+               'https://botisimo.com/api/v1/loyalty/:team/user',
+               { avatarResourceId: response.data.resourceId },
+               {
+                  headers: {
+                     'x-user-auth-token': 'xxxxxxx',
+                  },
+               }
+            );
+         }
+      }
+   }
+
+   ...
+
+   <input type="file" onchange="onUploadFile(this.files[0]);">

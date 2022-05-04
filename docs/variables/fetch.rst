@@ -8,7 +8,7 @@ Resolves the response from the url using a GET request.
     To avoid hitting any rate limits against remote APIs, all responses are cached for 5 seconds.
 
 Usage:
-    $(fetch ``<url>``)
+    $(fetch ``<url>`` ``[path]``)
 
 Arguments:
     * ``url`` **<required>** - The url to send the request to

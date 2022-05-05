@@ -5,14 +5,14 @@ Billing API
 - `Confirm Upgrade Tier`_
 - `Manage Billing`_
 
-Upgrade Tier
+Update Tier
 ------------
 
-The upgrade request should be made first when updating a subscription.
+The update request should be made first when updating a subscription.
 If the new tier is a free subscription, then the update will be processed immediately.
-If the new tier is a paid subscription, then it will return information about the upgrade to be confirmed by the user. If confirmation is required, then the client should ask the user to confirm and then use the ``/billing/confirm`` endpoint.
+If the new tier is a paid subscription, then it will return information about the update to be confirmed by the user. If confirmation is required, then the client should ask the user to confirm and then use the ``/billing/confirm`` endpoint.
 
-- **GET** /billing/upgrade
+- **GET** /billing/update
 
 Request
 
@@ -25,7 +25,7 @@ tier        number   Tier ID
 
 .. code-block:: js
 
-   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/upgrade', {
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/update', {
       params: {
          interval: 'month',
          tier: 1
@@ -40,7 +40,7 @@ Response
 =========== ======== =============================================================================================================================================================
 Field       Type     Description
 =========== ======== =============================================================================================================================================================
-amountDue   [number] The amount due in cents to process the upgrade. If included, the user should be prompted to confirm the amount and then use the ``/billing/confirm`` endpoint
+amountDue   [number] The amount due in cents to process the update. If included, the user should be prompted to confirm the amount and then use the ``/billing/confirm`` endpoint
 href        [string] If included, you should immediately redirect to this href
 =========== ======== =============================================================================================================================================================
 
@@ -50,10 +50,10 @@ href        [string] If included, you should immediately redirect to this href
       "amountDue": 4999
    }
 
-Confirm Upgrade Tier
---------------------
+Confirm Update Tier
+-------------------
 
-This endpoint should ONLY be used after first using the ``/billing/upgrade`` endpoint and prompting the user to confirm the transaction.
+This endpoint should ONLY be used after first using the ``/billing/update`` endpoint and prompting the user to confirm the transaction.
 
 - **GET** /billing/confirm
 
@@ -77,6 +77,14 @@ tier        number   Tier ID
          'x-user-auth-token': 'xxxxxxx',
       },
    });
+
+Response
+
+=========== ======== =============================================================================================================================================================
+Field       Type     Description
+=========== ======== =============================================================================================================================================================
+href        [string] If included, you should redirect to this href for adding a card
+=========== ======== =============================================================================================================================================================
 
 Manage Billing
 --------------

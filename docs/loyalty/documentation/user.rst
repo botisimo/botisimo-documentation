@@ -1,5 +1,5 @@
-Authentication API
-==================
+User API
+========
 
 - `List Users`_
 - `Get User`_

@@ -110,6 +110,34 @@ The music player is a great way to add music to your stream. You can also let vi
 
    music/index
 
+Creator Site
+^^^^^^^^^^^^
+
+Your creator site is where your fans can learn more about you, find links to your content around the web, and watch your stream!
+
+:doc:`Learn About Creator Site → <creator-site/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-creator-site
+   :hidden:
+
+   creator-site/index
+
+Stream Overlays
+^^^^^^^^^^^^^^^
+
+Stream overlays are browser based sources that you can add into your streaming software such as OBS or Lightstream.
+
+:doc:`Learn About Stream Overlays → <overlays/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-overlays
+   :hidden:
+
+   overlays/index
+
 Response Variables
 ^^^^^^^^^^^^^^^^^^
 

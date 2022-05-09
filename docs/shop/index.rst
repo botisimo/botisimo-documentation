@@ -1,7 +1,7 @@
-Shop
-====
+Loyalty Shop
+============
 
-The shop is used to incentivize your viewers to watch and participate in your stream regularly. When viewers watch your stream they gets currency that they can spend in your shop. The shop often includes items like a personal shout out or maybe you have to do something silly like the ice bucket challenge, be creative.
+The loyalty shop is used to incentivize your viewers to watch and participate in your stream regularly. When viewers watch your stream they gets currency that they can spend in your shop. The shop often includes items like a personal shout out or maybe you have to do something silly like the ice bucket challenge, be creative.
 
 You can create shop items by visiting the `shop page <https://botisimo.com/account/shop>`_ and clicking on **"+ Create New"**.
 
@@ -12,3 +12,8 @@ You can create shop items by visiting the `shop page <https://botisimo.com/accou
 
    ../commands/default/shop
    ../commands/default/buy
+
+Related Videos
+^^^^^^^^^^^^^^
+
+.. youtube:: 4c23Oka2RmI

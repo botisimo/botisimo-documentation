@@ -1,8 +1,8 @@
 Billing API
 ===========
 
-- `Upgrade Tier`_
-- `Confirm Upgrade Tier`_
+- `Update Tier`_
+- `Confirm Update Tier`_
 - `Manage Billing`_
 
 Update Tier

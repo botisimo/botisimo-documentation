@@ -1,5 +1,5 @@
-Default
-=======
+Default Commands
+================
 
 Default commands are the commands that come built-in to Botisimo. See below for the complete list. Click on any command to see how it works.
 

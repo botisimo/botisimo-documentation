@@ -1,5 +1,5 @@
-Custom
-======
+Custom Commands
+===============
 
 Custom commands are commands created by you.
 

@@ -7,6 +7,7 @@ API Documentation
 - :doc:`Authentication API <authentication>`
 - :doc:`User API <user>`
 - :doc:`Billing API <billing>`
+- :doc:`Memberships API <memberships>`
 - :doc:`Tiers API <tiers>`
 - :doc:`Creators API <creators>`
 - :doc:`Missions API <missions>`
@@ -22,6 +23,7 @@ API Documentation
    authentication
    user
    billing
+   memberships
    tiers
    creators
    missions

@@ -1,16 +1,16 @@
 Billing API
 ===========
 
-- `Update Tier`_
-- `Confirm Update Tier`_
+- `Update Membership`_
+- `Confirm Update Membership`_
 - `Manage Billing`_
 
-Update Tier
-------------
+Update Membership
+-----------------
 
 The update request should be made first when updating a subscription.
-If the new tier is a free subscription, then the update will be processed immediately.
-If the new tier is a paid subscription, then it will return information about the update to be confirmed by the user. If confirmation is required, then the client should ask the user to confirm and then use the ``/billing/confirm`` endpoint.
+If the new membership is a free subscription, then the update will be processed immediately.
+If the new membership is a paid subscription, then it will return information about the update to be confirmed by the user. If confirmation is required, then the client should ask the user to confirm and then use the ``/billing/confirm`` endpoint.
 
 - **GET** /billing/update
 
@@ -20,7 +20,7 @@ Request
 Field       Type     Description
 =========== ======== =====================================================
 interval    string   The billing interval. Should be ``month`` or ``year``
-tier        number   Tier ID
+membership  number   Membership ID
 =========== ======== =====================================================
 
 .. code-block:: js
@@ -28,7 +28,7 @@ tier        number   Tier ID
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/update', {
       params: {
          interval: 'month',
-         tier: 1
+         membership: 1
       },
       headers: {
          'x-user-auth-token': 'xxxxxxx',
@@ -50,8 +50,8 @@ href        [string] If included, you should immediately redirect to this href
       "amountDue": 4999
    }
 
-Confirm Update Tier
--------------------
+Confirm Update Membership
+-------------------------
 
 This endpoint should ONLY be used after first using the ``/billing/update`` endpoint and prompting the user to confirm the transaction.
 
@@ -63,7 +63,7 @@ Request
 Field       Type     Description
 =========== ======== =====================================================
 interval    string   The billing interval. Should be ``month`` or ``year``
-tier        number   Tier ID
+membership  number   Membership ID
 =========== ======== =====================================================
 
 .. code-block:: js
@@ -71,7 +71,7 @@ tier        number   Tier ID
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/confirm', {
       params: {
          interval: 'month',
-         tier: 1
+         membership: 1
       },
       headers: {
          'x-user-auth-token': 'xxxxxxx',

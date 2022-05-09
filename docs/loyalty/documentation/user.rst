@@ -31,27 +31,32 @@ Field       Type     Description
 
 Response
 
-============================ ======== =================================================================================
-Field                        Type     Description
-============================ ======== =================================================================================
-users                        object   Information about the logged in user
-users.avatar                 string   URL to to user avatar
-users.createdAt              string   When the user was created
-users.gold                   number   Number of loyalty points the user currently has available
-users.goldTotal              number   Number of loyalty points the user has earned all time
-users.goldSpent              number   Number of loyalty points the user has spent
-users.id                     number   The ID of the user
-users.loyaltyTier            object   The tier the user is subscribed to
-users.loyaltyTier.id         number   The ID of the tier
-users.loyaltyTier.name       string   The name of the tier
-users.loyaltyTier.priceMonth number   The cost of the tier per month in cents
-users.loyaltyTier.priceYear  number   The cost of the tier per year in cents
-users.loyaltyTier.resourceId number   The resource ID of the tier badge icon
-users.name                   string   The name of the user
-users.tags                   object[] List of tags the user is interested in
-users.tags.id                number   The ID of the tag
-users.tags.name              string   The name of the tag
-============================ ======== =================================================================================
+================================== ======== =================================================================================
+Field                              Type     Description
+================================== ======== =================================================================================
+users                              object   Information about the logged in user
+users.avatar                       string   URL to to user avatar
+users.createdAt                    string   When the user was created
+users.gold                         number   Number of loyalty points the user currently has available
+users.goldTotal                    number   Number of loyalty points the user has earned all time
+users.goldSpent                    number   Number of loyalty points the user has spent
+users.id                           number   The ID of the user
+users.loyaltyMembership            [object] The membership the user is subscribed to
+users.loyaltyMembership.id         number   The ID of the membership
+users.loyaltyMembership.name       string   The name of the membership
+users.loyaltyMembership.priceMonth number   The cost of the membership per month in cents
+users.loyaltyMembership.priceYear  number   The cost of the membership per year in cents
+users.loyaltyMembership.resourceId number   The resource ID of the membership badge icon
+users.loyaltyTier                  [object] The tier the user is subscribed to
+users.loyaltyTier.id               number   The ID of the tier
+users.loyaltyTier.name             string   The name of the tier
+users.loyaltyTier.gold             number   The points required to achieve tier
+users.loyaltyTier.resourceId       number   The resource ID of the tier badge icon
+users.name                         string   The name of the user
+users.tags                         object[] List of tags the user is interested in
+users.tags.id                      number   The ID of the tag
+users.tags.name                    string   The name of the tag
+================================== ======== =================================================================================
 
 Get User
 --------
@@ -78,37 +83,42 @@ Field       Type     Description
 
 Response
 
-=========================== ======== ==========================================================================
-Field                       Type     Description
-=========================== ======== ==========================================================================
-unread                      number   Number of unread notifications for this user
-user                        object   Information about the logged in user
-user.avatar                 string   URL to to user avatar
-user.createdAt              string   When the user was created
-user.dateOfBirth            string   Date of birth formatted as ``MM/DD/YYYY``
-user.gold                   number   Number of loyalty points the user currently has available
-user.goldTotal              number   Number of loyalty points the user has earned all time
-user.goldSpent              number   Number of loyalty points the user has spent
-user.id                     number   The ID of the user
-user.loyaltyTier            object   The tier the user is subscribed to
-user.loyaltyTier.id         number   The ID of the tier
-user.loyaltyTier.name       string   The name of the tier
-user.loyaltyTier.priceMonth number   The cost of the tier per month in cents
-user.loyaltyTier.priceYear  number   The cost of the tier per year in cents
-user.loyaltyTier.resourceId number   The resource ID of the tier badge icon
-user.name                   string   The name of the user
-user.notifications          string   The last time the user read the notifications formatted as ISO date string
-user.shippingAddressCity    string   Shipping info for the user
-user.shippingAddressCountry string   Shipping info for the user
-user.shippingAddressName    string   Shipping info for the user
-user.shippingAddressState   string   Shipping info for the user
-user.shippingAddressStreet  string   Shipping info for the user
-user.shippingAddressSuite   string   Shipping info for the user
-user.shippingAddressZip     string   Shipping info for the user
-user.tags                   object[] List of tags the user is interested in
-user.tags.id                number   The ID of the tag
-user.tags.name              string   The name of the tag
-=========================== ======== ==========================================================================
+================================= ======== ==========================================================================
+Field                             Type     Description
+================================= ======== ==========================================================================
+unread                            number   Number of unread notifications for this user
+user                              object   Information about the logged in user
+user.avatar                       string   URL to to user avatar
+user.createdAt                    string   When the user was created
+user.dateOfBirth                  string   Date of birth formatted as ``MM/DD/YYYY``
+user.gold                         number   Number of loyalty points the user currently has available
+user.goldTotal                    number   Number of loyalty points the user has earned all time
+user.goldSpent                    number   Number of loyalty points the user has spent
+user.id                           number   The ID of the user
+user.loyaltyMembership            [object] The membership the user is subscribed to
+user.loyaltyMembership.id         number   The ID of the membership
+user.loyaltyMembership.name       string   The name of the membership
+user.loyaltyMembership.priceMonth number   The cost of the membership per month in cents
+user.loyaltyMembership.priceYear  number   The cost of the membership per year in cents
+user.loyaltyMembership.resourceId number   The resource ID of the membership badge icon
+user.loyaltyTier                  [object] The tier the user is subscribed to
+user.loyaltyTier.id               number   The ID of the tier
+user.loyaltyTier.name             string   The name of the tier
+user.loyaltyTier.gold             number   The points required to achieve tier
+user.loyaltyTier.resourceId       number   The resource ID of the tier badge icon
+user.name                         string   The name of the user
+user.notifications                string   The last time the user read the notifications formatted as ISO date string
+user.shippingAddressCity          string   Shipping info for the user
+user.shippingAddressCountry       string   Shipping info for the user
+user.shippingAddressName          string   Shipping info for the user
+user.shippingAddressState         string   Shipping info for the user
+user.shippingAddressStreet        string   Shipping info for the user
+user.shippingAddressSuite         string   Shipping info for the user
+user.shippingAddressZip           string   Shipping info for the user
+user.tags                         object[] List of tags the user is interested in
+user.tags.id                      number   The ID of the tag
+user.tags.name                    string   The name of the tag
+================================= ======== ==========================================================================
 
 Example
 
@@ -187,20 +197,31 @@ Example
             "name": "otothea",
             "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/974caf6e-4ad3-4d42-a495-7e73280a2c36-profile_image-300x300.png",
             "notifications": "2022-04-08T16:53:36.000Z",
-            "loyaltyTier": {
+            "loyaltyMembership": {
                 "id": 4,
                 "enabled": true,
+                "archived": false,
                 "order": 0,
-                "name": "Silver",
+                "name": "Gold",
                 "description": "Stay connected with your favorite teams, players, and creators at OpTic!",
-                "priceMonth": 0,
-                "priceYear": 0,
-                "gold": 0,
+                "priceMonth": 500,
+                "priceYear": 3000,
                 "goldMultiplier": 1,
                 "stripeProductId": "prod_xxxxx",
                 "stripeMonthlyPlanId": "plan_xxxxx
                 "stripeYearlyPlanId": "plan_xxxxx",
-                "stripePointsPlanId": "price_xxxxx",
+                "resourceId": 6812,
+                "badgeResourceId": null,
+                "createdAt": "2022-03-07T22:58:17.000Z",
+                "updatedAt": "2022-03-19T15:25:25.000Z"
+            },
+            "loyaltyTier": {
+                "id": 4,
+                "enabled": true,
+                "order": 0,
+                "name": "Prestige 1",
+                "description": "Stay connected with your favorite teams, players, and creators at OpTic!",
+                "gold": 0,
                 "resourceId": 6812,
                 "badgeResourceId": null,
                 "createdAt": "2022-03-07T22:58:17.000Z",
@@ -273,37 +294,42 @@ tags                   [number[]] List of tag IDs the user is interested in
 
 Response
 
-=========================== ======== ==========================================================================
-Field                       Type     Description
-=========================== ======== ==========================================================================
-unread                      number   Number of unread notifications for this user
-user                        object   Information about the logged in user
-user.avatar                 string   URL to to user avatar
-user.createdAt              string   When the user was created
-user.dateOfBirth            string   Date of birth formatted as ``MM/DD/YYYY``
-user.gold                   number   Number of loyalty points the user currently has available
-user.goldTotal              number   Number of loyalty points the user has earned all time
-user.goldSpent              number   Number of loyalty points the user has spent
-user.id                     number   The ID of the user
-user.loyaltyTier            object   The tier the user is subscribed to
-user.loyaltyTier.id         number   The ID of the tier
-user.loyaltyTier.name       string   The name of the tier
-user.loyaltyTier.priceMonth number   The cost of the tier per month in cents
-user.loyaltyTier.priceYear  number   The cost of the tier per year in cents
-user.loyaltyTier.resourceId number   The resource ID of the tier badge icon
-user.name                   string   The name of the user
-user.notifications          string   The last time the user read the notifications formatted as ISO date string
-user.shippingAddressCity    string   Shipping info for the user
-user.shippingAddressCountry string   Shipping info for the user
-user.shippingAddressName    string   Shipping info for the user
-user.shippingAddressState   string   Shipping info for the user
-user.shippingAddressStreet  string   Shipping info for the user
-user.shippingAddressSuite   string   Shipping info for the user
-user.shippingAddressZip     string   Shipping info for the user
-user.tags                   object[] List of tags the user is interested in
-user.tags.id                number   The ID of the tag
-user.tags.name              string   The name of the tag
-=========================== ======== ==========================================================================
+================================= ======== ==========================================================================
+Field                             Type     Description
+================================= ======== ==========================================================================
+unread                            number   Number of unread notifications for this user
+user                              object   Information about the logged in user
+user.avatar                       string   URL to to user avatar
+user.createdAt                    string   When the user was created
+user.dateOfBirth                  string   Date of birth formatted as ``MM/DD/YYYY``
+user.gold                         number   Number of loyalty points the user currently has available
+user.goldTotal                    number   Number of loyalty points the user has earned all time
+user.goldSpent                    number   Number of loyalty points the user has spent
+user.id                           number   The ID of the user
+user.loyaltyMembership            [object] The membership the user is subscribed to
+user.loyaltyMembership.id         number   The ID of the membership
+user.loyaltyMembership.name       string   The name of the membership
+user.loyaltyMembership.priceMonth number   The cost of the membership per month in cents
+user.loyaltyMembership.priceYear  number   The cost of the membership per year in cents
+user.loyaltyMembership.resourceId number   The resource ID of the membership badge icon
+user.loyaltyTier                  [object] The tier the user is subscribed to
+user.loyaltyTier.id               number   The ID of the tier
+user.loyaltyTier.name             string   The name of the tier
+user.loyaltyTier.gold             number   The points required to achieve tier
+user.loyaltyTier.resourceId       number   The resource ID of the tier badge icon
+user.name                         string   The name of the user
+user.notifications                string   The last time the user read the notifications formatted as ISO date string
+user.shippingAddressCity          string   Shipping info for the user
+user.shippingAddressCountry       string   Shipping info for the user
+user.shippingAddressName          string   Shipping info for the user
+user.shippingAddressState         string   Shipping info for the user
+user.shippingAddressStreet        string   Shipping info for the user
+user.shippingAddressSuite         string   Shipping info for the user
+user.shippingAddressZip           string   Shipping info for the user
+user.tags                         object[] List of tags the user is interested in
+user.tags.id                      number   The ID of the tag
+user.tags.name                    string   The name of the tag
+================================= ======== ==========================================================================
 
 Upload A Custom Avatar
 ----------------------

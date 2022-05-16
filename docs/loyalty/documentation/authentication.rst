@@ -98,7 +98,7 @@ password    string
 Response
 
 ================================= ======== ==========================================================================
-Field                       Type     Description
+Field                             Type     Description
 ================================= ======== ==========================================================================
 token                             string   Token for future requests that require authentication
 user                              object   Information about the logged in user

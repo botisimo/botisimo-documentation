@@ -138,6 +138,20 @@ Stream overlays are browser based sources that you can add into your streaming s
 
    overlays/index
 
+Stream Frame
+^^^^^^^^^^^^
+
+Your Stream Frame is a ready-made template with automatic stream labels, alerts, and live chat overlay.
+
+:doc:`Learn About Stream Frame → <frame/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-frame
+   :hidden:
+
+   frame/index
+
 Response Variables
 ^^^^^^^^^^^^^^^^^^
 

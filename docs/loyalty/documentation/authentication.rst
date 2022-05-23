@@ -21,6 +21,7 @@ interval    string   The billing interval. Should be ``month`` or ``year``
 password    string
 tags        number[] Array of Tag IDs
 membership  number   Membership ID
+returnPath  [string] The URL path to return to after stripe checkout
 =========== ======== ======================================================
 
 .. code-block:: js
@@ -32,6 +33,7 @@ membership  number   Membership ID
       dateOfBirth: '12/25/1990',
       membership: 1,
       tags: [1, 2, 3, 4],
+      returnPath: '/'
    });
 
 Response

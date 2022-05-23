@@ -21,6 +21,7 @@ Field       Type     Description
 =========== ======== =====================================================
 interval    string   The billing interval. Should be ``month`` or ``year``
 membership  number   Membership ID
+returnPath  [string] The URL path to return to after stripe checkout
 =========== ======== =====================================================
 
 .. code-block:: js
@@ -28,7 +29,8 @@ membership  number   Membership ID
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/update', {
       params: {
          interval: 'month',
-         membership: 1
+         membership: 1,
+         returnPath: '/billing'
       },
       headers: {
          'x-user-auth-token': 'xxxxxxx',
@@ -64,6 +66,7 @@ Field       Type     Description
 =========== ======== =====================================================
 interval    string   The billing interval. Should be ``month`` or ``year``
 membership  number   Membership ID
+returnPath  [string] The URL path to return to after stripe checkout
 =========== ======== =====================================================
 
 .. code-block:: js
@@ -71,7 +74,8 @@ membership  number   Membership ID
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/confirm', {
       params: {
          interval: 'month',
-         membership: 1
+         membership: 1,
+         returnPath: '/billing'
       },
       headers: {
          'x-user-auth-token': 'xxxxxxx',
@@ -98,12 +102,15 @@ Request
 =========== ======== ==========================================
 Field       Type     Description
 =========== ======== ==========================================
-\-          \-       \-
+returnPath  [string] The URL path to return to after stripe checkout
 =========== ======== ==========================================
 
 .. code-block:: js
 
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/billing/manage', {
+      params: {
+         returnPath: '/billing'
+      },
       headers: {
          'x-user-auth-token': 'xxxxxxx',
       },

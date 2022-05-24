@@ -1,7 +1,7 @@
 Stream Frame
 ============
 
-Your Stream Frame is a ready-made template with automatic stream labels, alerts, and live chat overlay.
+Your Stream Frame is an all-in-one stream overlay with automatic stream labels, alerts, live chat overlay, and more.
 
 You can manage your Stream Frame from `this page <https://botisimo.com/account/frame>`_.
 
@@ -30,3 +30,8 @@ You can manage your Stream Frame from `this page <https://botisimo.com/account/f
 * Start streaming with your new look!
 
 .. image:: /images/stream-frame-6.gif
+
+Related Videos
+^^^^^^^^^^^^^^
+
+.. youtube:: FIMMkH28m9A

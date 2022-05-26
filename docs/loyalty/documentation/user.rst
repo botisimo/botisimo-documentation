@@ -345,6 +345,7 @@ Field       Type     Description
 =========== ======== ==========================================
 name        string   The name of the file
 type        string   The mime type of the file
+base64      [string] Set to "true" to enable base64 upload
 =========== ======== ==========================================
 
 .. code-block:: js
@@ -391,8 +392,8 @@ Full Example
                'x-user-auth-token': 'xxxxxxx',
             },
             params: {
-               name: 'my-avatar.png',
-               type: 'image/png',
+               name: file.name, // ex: my-avatar.png
+               type: file.type, // ex: image/png
             },
          });
 
@@ -401,6 +402,7 @@ Full Example
             headers: {
                'Content-Type': file.type,
             },
+            withCredentials: false,
          });
 
          // Update the avatarResourceId for the user
@@ -421,3 +423,48 @@ Full Example
    ...
 
    <input type="file" onchange="onUploadFile(this.files[0]);">
+
+Also supports Base64 uploads
+
+.. code-block:: js
+
+   async function onUploadBase64(name, type, base64String) {
+      // Get a URL to use to upload the file
+      const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/resource', {
+         headers: {
+            'x-user-auth-token': 'xxxxxxx',
+         },
+         params: {
+            name: name,     // ex: my-avatar.png
+            type: type,     // ex: image/png
+            base64: 'true', // set to 'true' to enable base64 upload
+         },
+      });
+
+      // Upload the file to the URL
+      const uploadResponse = await axios.put(
+         response.data.url,
+         Buffer.from(base64String, 'base64'),
+         {
+            headers: {
+               'Content-Type': type,
+               'Content-Encoding': 'base64', // Must set Content-Encoding to 'base64'
+            },
+            withCredentials: false,
+         }
+      );
+
+      // Update the avatarResourceId for the user
+      if (uploadResponse.status === 200) {
+         const updateResponse = await axios.put(
+            'https://botisimo.com/api/v1/loyalty/:team/user',
+            { avatarResourceId: response.data.resourceId },
+            {
+               headers: {
+                  'x-user-auth-token': 'xxxxxxx',
+               },
+            }
+         );
+      }
+   }
+

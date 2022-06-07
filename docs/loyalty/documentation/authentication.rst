@@ -4,6 +4,7 @@ Authentication API
 - `Sign Up`_
 - `Log In`_
 - `Initiate OAuth Flow`_
+- `Forgot Password`_
 
 Sign Up
 -------
@@ -153,3 +154,69 @@ Field           Type     Description
 =============== ======== ============================================================================================
 user_auth_token [string] If the user is already logged in, you should include the authentication ``token`` in the URL
 =============== ======== ============================================================================================
+
+Forgot Password
+---------------
+
+After intiating a forgot password request, an email will be sent to the user if the email exists in our system. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
+
+   https://yourapp.com/?password_token=xxxxx
+
+When the user lands on this page, the user should be prompted to enter a new password and you should submit the token and the new password to the ``/password/reset`` endpoint
+
+- **POST** /password/forgot
+
+Request
+
+=========== ======== ======================================================
+Field       Type     Description
+=========== ======== ======================================================
+email       string   Email address used on the account
+returnPath  [string] The URL path to link to in the forgot password email
+=========== ======== ======================================================
+
+.. code-block:: js
+
+   const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/password/forgot', {
+      email: 'xxxxx',
+      returnPath: '/password'
+   });
+
+Response
+
+================================= ======== =================================================================================
+Field                             Type     Description
+================================= ======== =================================================================================
+\-                                \-       \-
+================================= ======== =================================================================================
+
+Reset Password
+--------------
+
+This endpoint should ONLY be used if you have a token from a ``/password/forgot`` request
+
+- **POST** /password/reset
+
+Request
+
+=========== ======== ======================================================
+Field       Type     Description
+=========== ======== ======================================================
+password    string   The new password to set on the account
+token       string   The token from the forgot password email
+=========== ======== ======================================================
+
+.. code-block:: js
+
+   const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/password/reset', {
+      password: 'xxxxx',
+      token: 'xxxxx'
+   });
+
+Response
+
+================================= ======== =================================================================================
+Field                             Type     Description
+================================= ======== =================================================================================
+\-                                \-       \-
+================================= ======== =================================================================================

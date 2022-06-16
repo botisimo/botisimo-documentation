@@ -4,6 +4,7 @@ User API
 - `List Users`_
 - `Get User`_
 - `Update User`_
+- `Verify Email Address`_
 - `Upload A Custom Avatar`_
 
 List Users
@@ -330,6 +331,68 @@ user.tags                         object[] List of tags the user is interested i
 user.tags.id                      number   The ID of the tag
 user.tags.name                    string   The name of the tag
 ================================= ======== ==========================================================================
+
+Verify Email Address
+--------------------
+
+After intiating an email verification request, an email will be sent to the user's inbox. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
+
+   https://yourapp.com/?email_token=xxxxx
+
+When the user lands on this page, you should submit the token to the ``/email/verify`` endpoint
+
+- **POST** /email/request
+
+Request
+
+=========== ======== ======================================================
+Field       Type     Description
+=========== ======== ======================================================
+returnPath  [string] The URL path to link to in the verification email
+=========== ======== ======================================================
+
+.. code-block:: js
+
+   const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/email/request', {
+      returnPath: '/profile'
+   });
+
+Response
+
+================================= ======== =================================================================================
+Field                             Type     Description
+================================= ======== =================================================================================
+\-                                \-       \-
+================================= ======== =================================================================================
+
+Verify Email
+------------
+
+This endpoint should ONLY be used if you have a token from a ``/email/request`` request
+
+- **POST** /email/verify
+
+Request
+
+=========== ======== ======================================================
+Field       Type     Description
+=========== ======== ======================================================
+token       string   The token from the email verification
+=========== ======== ======================================================
+
+.. code-block:: js
+
+   const response = await axios.post('https://botisimo.com/api/v1/loyalty/:team/email/verify', {
+      token: 'xxxxx'
+   });
+
+Response
+
+================================= ======== =================================================================================
+Field                             Type     Description
+================================= ======== =================================================================================
+\-                                \-       \-
+================================= ======== =================================================================================
 
 Upload A Custom Avatar
 ----------------------

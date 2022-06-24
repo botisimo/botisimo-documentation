@@ -54,6 +54,20 @@ Timers are used to automate messages based on time interval and chat activity. T
 
    timers/index
 
+Videos
+^^^^^^
+
+Videos are used to run pre-recorded video content like promotional videos or commercials. Add the `video overlay <https://botisimo.com/account/overlays>` to your stream and we host the videos and run them in the overlay for you.
+
+:doc:`Learn About Videos → <videos/index>`
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-videos
+   :hidden:
+
+   videos/index
+
 Polls
 ^^^^^
 
@@ -155,7 +169,7 @@ Your Stream Frame is a ready-made template with automatic stream labels, alerts,
 Response Variables
 ^^^^^^^^^^^^^^^^^^
 
-Response variables are used to make dynamic `custom command <https://botisimo.com/account/commands>`_ and `timer <https://botisimo.com/account/timers>`_ responses.
+Response variables are used to make dynamic `custom commands <https://botisimo.com/account/commands>`_ and `timers <https://botisimo.com/account/timers>`_ responses.
 
 :doc:`View Response Variables → <variables/index>`
 

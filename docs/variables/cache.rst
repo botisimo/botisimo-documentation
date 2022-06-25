@@ -1,7 +1,7 @@
 $(cache)
 ========
 
-Resolve a value from the cache. Values can be save to the cache using the :doc:`cache directive </directives/cache>`.
+Resolve a value from the cache. Values can be saved to the cache using the :doc:`cache directive </directives/cache>`.
 
 Usage:
     $(cache ``<key>``)

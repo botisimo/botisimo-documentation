@@ -27,5 +27,6 @@ Response directives are used to make dynamic actions for your `custom commands <
    predelay
    prehours
    transfer
+   video
    whisper
    advanced

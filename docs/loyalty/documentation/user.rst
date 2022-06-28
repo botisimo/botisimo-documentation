@@ -6,6 +6,7 @@ User API
 - `Update User`_
 - `Verify Email Address`_
 - `Upload A Custom Avatar`_
+- `Create Shopify Multipass Session`_
 
 List Users
 ----------
@@ -529,5 +530,47 @@ Also supports Base64 uploads
             }
          );
       }
+   }
+
+Create Shopify Multipass Session
+--------------------------------
+
+Use this endpoint to request a URL for a Shopify Multipass session. The authenticated user's email address must be verified in our system for this to work. Otherwise anyone could put any email address in their profile and access that person's Shopify account.
+
+Must be a Shopify Plus account holder. Contact support@botisimo.com to get this feature enabled for your account.
+
+- **GET** /user/multipass
+
+Request
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+shopifyPath [string] The URL path to the product to open
+=========== ======== ==========================================
+
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/user/multipass', {
+      params: {
+         shopifyPath: '/product/xxxxxx',
+      },
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
+Response
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+href        string   The href to the Shopify Multipass session
+=========== ======== ==========================================
+
+.. code-block:: js
+
+   {
+      "href": "https://xxxxx"
    }
 

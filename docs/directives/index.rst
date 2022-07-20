@@ -11,6 +11,7 @@ Response directives are used to make dynamic actions for your `custom commands <
    :maxdepth: 1
    :name: toc-directives
 
+   announce
    cache
    chain
    cooldown

@@ -13,6 +13,7 @@ API Documentation
 - :doc:`Missions API <missions>`
 - :doc:`Shop Items API <shopItems>`
 - :doc:`Events API <events>`
+- :doc:`Transactions API <transactions>`
 - :doc:`Notifications API <notifications>`
 
 .. toctree::
@@ -30,6 +31,7 @@ API Documentation
    missions
    shopItems
    events
+   transactions
    notifications
 
 API Endpoint

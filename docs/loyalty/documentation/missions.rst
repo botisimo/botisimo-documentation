@@ -36,6 +36,7 @@ Response
 Field                Type     Description
 ==================== ======== =======================================
 missions             object[]
+missions.id          number   The ID of the mission
 missions.name        string   The name of the mission
 missions.description string   The mission description
 missions.type        string   The mission type
@@ -75,6 +76,7 @@ Response
 Field               Type     Description
 =================== ======== =======================================
 mission             object
+mission.id          number   The ID of the mission
 mission.name        string   The name of the mission
 mission.description string   The mission description
 mission.type        string   The mission type
@@ -114,6 +116,7 @@ Response
 Field               Type     Description
 =================== ======== =======================================
 mission             object
+mission.id          number   The ID of the mission
 mission.name        string   The name of the mission
 mission.description string   The mission description
 mission.type        string   The mission type

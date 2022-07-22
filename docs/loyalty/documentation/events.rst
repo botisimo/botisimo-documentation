@@ -33,6 +33,7 @@ Response
 Field               Type     Description
 =================== ======== =======================================
 events              object[]
+events.id           number   The ID of the event
 events.name         string   The name of the event
 events.description  string   The event description
 events.url          string   The event URL
@@ -76,6 +77,7 @@ Response
 Field              Type     Description
 ================== ======== ==================================================
 event              object
+event.id           number   The ID of the event
 event.name         string   The name of the event
 event.description  string   The event description
 event.url          string   The event URL

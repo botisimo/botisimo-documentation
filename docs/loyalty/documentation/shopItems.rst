@@ -34,6 +34,7 @@ Response
 Field                   Type     Description
 ======================= ======== =======================================
 shopItems               object[]
+shopItems.id            number   The ID of the shop item
 shopItems.name          string   The name of the shop item
 shopItems.description   string   The shop item description
 shopItems.type          string   The shop item type
@@ -75,6 +76,7 @@ Response
 Field                  Type     Description
 ====================== ======== =======================================
 shopItem               object
+shopItem.id            number   The ID of the shop item
 shopItem.name          string   The name of the shop item
 shopItem.description   string   The shop item description
 shopItem.type          string   The shop item type
@@ -116,6 +118,7 @@ Response
 Field                  Type     Description
 ====================== ======== =======================================
 shopItem               object
+shopItem.id            number   The ID of the shop item
 shopItem.name          string   The name of the shop item
 shopItem.description   string   The shop item description
 shopItem.type          string   The shop item type

@@ -13,6 +13,7 @@ API Documentation
 - :doc:`Missions API <missions>`
 - :doc:`Shop Items API <shopItems>`
 - :doc:`Events API <events>`
+- :doc:`Notifications API <notifications>`
 
 .. toctree::
    :maxdepth: 1
@@ -29,6 +30,7 @@ API Documentation
    missions
    shopItems
    events
+   notifications
 
 API Endpoint
 ------------

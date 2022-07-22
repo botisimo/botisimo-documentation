@@ -32,7 +32,7 @@ Response
 Field                                            Type     Description
 ================================================ ======== =======================================
 creators                                         object[]
-creators.id                                      string   The ID of the creator
+creators.id                                      number   The ID of the creator
 creators.hasTwitch                               boolean
 creators.twitchConnections                       object[]
 creators.twitchConnections.twitchId              string

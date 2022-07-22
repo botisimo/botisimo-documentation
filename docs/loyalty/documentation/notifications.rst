@@ -1,11 +1,10 @@
-Events API
-==========
+Notifications API
+=================
 
 - `List Notifications`_
-- `Read Event`_
 
 List Notifications
------------------
+------------------
 
 List notifications
 

@@ -12,7 +12,7 @@ List available missions
 
 - **GET** /mission/list
 
-Mission type can be: ``follow``, ``profile``, ``code``, ``qr-code``
+Mission type can be: ``follow``, ``profile``, ``connections``, ``platform``, ``media``, ``code``, ``qr-code``
 
 Request
 

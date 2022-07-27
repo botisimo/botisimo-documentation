@@ -7,6 +7,7 @@ User API
 - `Verify Email Address`_
 - `Upload A Custom Avatar`_
 - `Create Shopify Multipass Session`_
+- `Disconnect Platform From Profile`_
 
 List Users
 ----------
@@ -574,3 +575,35 @@ href        string   The href to the Shopify Multipass session
       "href": "https://xxxxx"
    }
 
+Disconnect Platform From Profile
+--------------------------------
+
+Use this input to disconnect a platform from their profile. You should replace ``:platform`` with the platform you want to disconnect.
+
+Platform can be: ``twitch``, ``youtube``, ``facebook``, ``instagram``, ``discord``, ``twitter``, ``spotify``, ``steam``, ``battlenet``, ``chess``, ``tiktok``
+
+- **DELETE** /user/profile/:platform
+
+Request
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+\-          \-       \-
+=========== ======== ==========================================
+
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/:team/user/profile/twitch', {
+      headers: {
+         'x-user-auth-token': 'xxxxxxx',
+      },
+   });
+
+Response
+
+=========== ======== ==========================================
+Field       Type     Description
+=========== ======== ==========================================
+\-          \-       \-
+=========== ======== ==========================================

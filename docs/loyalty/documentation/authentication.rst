@@ -23,6 +23,8 @@ password    string
 tags        number[] Array of Tag IDs
 membership  number   Membership ID
 returnPath  [string] The URL path to return to after stripe checkout
+username    [string] Custom username
+referralId  [number] The ID from a referral link (this is the ID of another user)
 =========== ======== ======================================================
 
 .. code-block:: js

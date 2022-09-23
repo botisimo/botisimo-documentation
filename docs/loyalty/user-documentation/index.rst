@@ -1,5 +1,5 @@
-API Documentation
-=================
+User API Documentation
+======================
 
 - `API Endpoint`_
 - `Errors`_
@@ -18,7 +18,7 @@ API Documentation
 
 .. toctree::
    :maxdepth: 1
-   :name: toc-loyalty-documentation
+   :name: toc-loyalty-user-documentation
    :hidden:
 
    team

@@ -5,4 +5,5 @@ Loyalty
    :maxdepth: 1
    :name: toc-loyalty
 
-   documentation/index
+   user-documentation/index
+   admin-documentation/index

@@ -15,6 +15,7 @@ User API Documentation
 - :doc:`Events API <events>`
 - :doc:`Transactions API <transactions>`
 - :doc:`Notifications API <notifications>`
+- :doc:`Gifts API <gifts>`
 
 .. toctree::
    :maxdepth: 1
@@ -33,6 +34,7 @@ User API Documentation
    events
    transactions
    notifications
+   gifts
 
 API Endpoint
 ------------

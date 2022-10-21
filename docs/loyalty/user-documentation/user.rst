@@ -337,7 +337,7 @@ user.tags.name                    string   The name of the tag
 Verify Email Address
 --------------------
 
-After intiating an email verification request, an email will be sent to the user's inbox. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
+After initiating an email verification request, an email will be sent to the user's inbox. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
 
    https://yourapp.com/?email_token=xxxxx
 

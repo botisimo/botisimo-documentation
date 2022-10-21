@@ -25,6 +25,7 @@ membership  number   Membership ID
 returnPath  [string] The URL path to return to after stripe checkout
 username    [string] Custom username
 referralId  [number] The ID from a referral link (this is the ID of another user)
+giftToken   [string] The token for the gift
 =========== ======== ======================================================
 
 .. code-block:: js
@@ -91,6 +92,7 @@ Field       Type     Description
 =========== ======== ==========================================
 email       string
 password    string
+giftToken   [string] The token for the gift
 =========== ======== ==========================================
 
 .. code-block:: js
@@ -160,7 +162,7 @@ user_auth_token [string] If the user is already logged in, you should include th
 Forgot Password
 ---------------
 
-After intiating a forgot password request, an email will be sent to the user if the email exists in our system. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
+After initiating a forgot password request, an email will be sent to the user if the email exists in our system. The email will have a link with a token in it. Your client should be able to handle this token when the user clicks on the link. The link looks like this::
 
    https://yourapp.com/?password_token=xxxxx
 

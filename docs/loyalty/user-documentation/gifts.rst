@@ -1,4 +1,4 @@
-User API
+Gift API
 ========
 
 - `Send Gift`_

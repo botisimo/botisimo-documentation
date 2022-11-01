@@ -40,6 +40,7 @@ Field                              Type     Description
 users                              object   Information about the logged in user
 users.avatar                       string   URL to to user avatar
 users.createdAt                    string   When the user was created
+users.dateOfBirth                  string   Date of birth formatted as ``MM/DD/YYYY``
 users.gold                         number   Number of loyalty points the user currently has available
 users.goldTotal                    number   Number of loyalty points the user has earned all time
 users.goldSpent                    number   Number of loyalty points the user has spent
@@ -56,6 +57,14 @@ users.loyaltyTier.name             string   The name of the tier
 users.loyaltyTier.gold             number   The points required to achieve tier
 users.loyaltyTier.resourceId       number   The resource ID of the tier badge icon
 users.name                         string   The name of the user
+users.notifications                string   The last time the user read the notifications formatted as ISO date string
+users.shippingAddressCity          string   Shipping info for the user
+users.shippingAddressCountry       string   Shipping info for the user
+users.shippingAddressName          string   Shipping info for the user
+users.shippingAddressState         string   Shipping info for the user
+users.shippingAddressStreet        string   Shipping info for the user
+users.shippingAddressSuite         string   Shipping info for the user
+users.shippingAddressZip           string   Shipping info for the user
 users.tags                         object[] List of tags the user is interested in
 users.tags.id                      number   The ID of the tag
 users.tags.name                    string   The name of the tag

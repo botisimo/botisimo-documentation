@@ -1,7 +1,73 @@
 User API
 ========
 
+- `Get User`_
 - `Add Points`_
+
+Get User
+--------
+
+Get or create a user by email address
+
+- **GET** /user
+
+Request
+
+=========== ======== =============================================================================================================
+Field       Type     Description
+=========== ======== =============================================================================================================
+email       string   The email address of the user
+tags        string   Comma separated list of tag IDs
+=========== ======== =============================================================================================================
+
+.. code-block:: js
+
+   const response = await axios.get('https://botisimo.com/api/v1/loyalty/admin/user', {
+      params: {
+         email: 'joe.someone@example.com',
+      },
+      headers: {
+         'client-id': 'xxxxx-xxxxx-xxxxx-xxxxx',
+      },
+   });
+
+Response
+
+================================= ======== =================================================================================
+Field                             Type     Description
+================================= ======== =================================================================================
+user                              object   Information about the logged in user
+user.avatar                       string   URL to to user avatar
+user.createdAt                    string   When the user was created
+user.dateOfBirth                  string   Date of birth formatted as ``MM/DD/YYYY``
+user.gold                         number   Number of loyalty points the user currently has available
+user.goldTotal                    number   Number of loyalty points the user has earned all time
+user.goldSpent                    number   Number of loyalty points the user has spent
+user.id                           number   The ID of the user
+user.loyaltyMembership            [object] The membership the user is subscribed to
+user.loyaltyMembership.id         number   The ID of the membership
+user.loyaltyMembership.name       string   The name of the membership
+user.loyaltyMembership.priceMonth number   The cost of the membership per month in cents
+user.loyaltyMembership.priceYear  number   The cost of the membership per year in cents
+user.loyaltyMembership.resourceId number   The resource ID of the membership badge icon
+user.loyaltyTier                  [object] The tier the user is subscribed to
+user.loyaltyTier.id               number   The ID of the tier
+user.loyaltyTier.name             string   The name of the tier
+user.loyaltyTier.gold             number   The points required to achieve tier
+user.loyaltyTier.resourceId       number   The resource ID of the tier badge icon
+user.name                         string   The name of the user
+user.notifications                string   The last time the user read the notifications formatted as ISO date string
+user.shippingAddressCity          string   Shipping info for the user
+user.shippingAddressCountry       string   Shipping info for the user
+user.shippingAddressName          string   Shipping info for the user
+user.shippingAddressState         string   Shipping info for the user
+user.shippingAddressStreet        string   Shipping info for the user
+user.shippingAddressSuite         string   Shipping info for the user
+user.shippingAddressZip           string   Shipping info for the user
+user.tags                         object[] List of tags the user is interested in
+user.tags.id                      number   The ID of the tag
+user.tags.name                    string   The name of the tag
+================================= ======== =================================================================================
 
 Add Points
 ----------

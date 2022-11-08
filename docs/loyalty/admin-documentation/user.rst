@@ -16,7 +16,8 @@ Request
 =========== ======== =============================================================================================================
 Field       Type     Description
 =========== ======== =============================================================================================================
-email       string   The email address of the user
+id          [string] The SSO identifier of the user, usually an internal ID from your system (required if no ``email`` included)
+email       [string] The email address of the user (required if no ``id`` included)
 tags        string   Comma separated list of tag IDs
 =========== ======== =============================================================================================================
 
@@ -24,6 +25,7 @@ tags        string   Comma separated list of tag IDs
 
    const response = await axios.get('https://botisimo.com/api/v1/loyalty/admin/user', {
       params: {
+         id: '1234567890',
          email: 'joe.someone@example.com',
       },
       headers: {
@@ -44,6 +46,7 @@ user.gold                         number   Number of loyalty points the user cur
 user.goldTotal                    number   Number of loyalty points the user has earned all time
 user.goldSpent                    number   Number of loyalty points the user has spent
 user.id                           number   The ID of the user
+user.ssoId                        [string] The SSO identifier of the user
 user.loyaltyMembership            [object] The membership the user is subscribed to
 user.loyaltyMembership.id         number   The ID of the membership
 user.loyaltyMembership.name       string   The name of the membership

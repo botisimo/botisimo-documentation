@@ -3,6 +3,7 @@ User API
 
 - `Get User`_
 - `Add Points`_
+- `Delete User`_
 
 Get User
 --------
@@ -96,6 +97,31 @@ key         [string] If included, transactions will be limited to one key per us
       message: 'Watched VOD content',
       key: '12345xyz',
    }, {
+      headers: {
+         'client-id': 'xxxxx-xxxxx-xxxxx-xxxxx',
+      },
+   });
+
+Response
+
+================================== ======== =================================================================================
+Field                              Type     Description
+================================== ======== =================================================================================
+success                            boolean  always true
+================================== ======== =================================================================================
+
+Delete User
+-----------
+
+Delete a user
+
+- **DELETE** /user/:id
+
+Request
+
+.. code-block:: js
+
+   const response = await axios.delete('https://botisimo.com/api/v1/loyalty/admin/user/1', {
       headers: {
          'client-id': 'xxxxx-xxxxx-xxxxx-xxxxx',
       },

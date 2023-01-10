@@ -141,6 +141,10 @@ Example
 
     {
         "unread": 0,
+        "rank": {
+          "position": 100,
+          "rank": 10000
+        },
         "user": {
             "id": 30758,
             "createdAt": "2021-07-12T21:15:53.000Z",

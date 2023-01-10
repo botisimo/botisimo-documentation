@@ -99,6 +99,9 @@ Response
 Field                             Type     Description
 ================================= ======== ==========================================================================
 unread                            number   Number of unread notifications for this user
+rank                              object   Rank information for the user
+rank.position                     number   Rank position for this user
+rank.total                        number   Total ranked users
 user                              object   Information about the logged in user
 user.avatar                       string   URL to to user avatar
 user.createdAt                    string   When the user was created
@@ -310,6 +313,9 @@ Response
 Field                             Type     Description
 ================================= ======== ==========================================================================
 unread                            number   Number of unread notifications for this user
+rank                              object   Rank information for the user
+rank.position                     number   Rank position for this user
+rank.total                        number   Total ranked users
 user                              object   Information about the logged in user
 user.avatar                       string   URL to to user avatar
 user.createdAt                    string   When the user was created

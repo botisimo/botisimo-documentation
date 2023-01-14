@@ -61,7 +61,7 @@ Request
 Field       Type     Description
 =========== ======== =============================================================================================================
 id          string   The SSO identifier of the account, usually an internal ID from your system
-email       string   The email address of the user
+email       string   The email address of the account
 =========== ======== =============================================================================================================
 
 .. code-block:: js

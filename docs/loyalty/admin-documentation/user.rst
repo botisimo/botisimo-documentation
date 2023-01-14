@@ -17,8 +17,8 @@ Request
 =========== ======== =============================================================================================================
 Field       Type     Description
 =========== ======== =============================================================================================================
-id          [string] The SSO identifier of the user, usually an internal ID from your system (required if no ``email`` included)
-email       [string] The email address of the user (required if no ``id`` included)
+id          string   The SSO identifier of the user, usually an internal ID from your system
+email       string   The email address of the user
 tags        string   Comma separated list of tag IDs
 =========== ======== =============================================================================================================
 

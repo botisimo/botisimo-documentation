@@ -234,3 +234,12 @@ Loyalty (Enterprise)
    :name: sec-loyalty
 
    loyalty/index
+
+Webhooks (Enterprise)
+^^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+   :name: sec-webhooks
+
+   webhooks/index

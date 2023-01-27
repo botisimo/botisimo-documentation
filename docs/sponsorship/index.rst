@@ -7,11 +7,9 @@ Are you ready to take that awesome community you have built and earn cash from t
 
 Are you ready to tell that one family member at Thanksgiving that you CAN MAKE MONEY STREAMING VIDEO GAMES?!? I..uh...urm....anyway.
 
-**Earn Points and Get Paid!**
+**Promote Sponsors and Get Paid!**
 
-* 💲 Earn 1 point for every 1,000 impressions made in your channel.
-* 💰 Earn 1 point for every 100 unique clicks captured from your channel.
-* 💸 We will convert your points to cash every month. 1 point = $1 USD.
+* 💲 Earn $1 for every 1,000 impressions made in your channel.
 
 **Here's How It Works:**
 

@@ -14,7 +14,7 @@ Membership
 Using Botisimo requires a monthly or annual membership.
 
     - **Basic** (free)
-    - **Pro** ($10/mo or $60/yr)
+    - **Pro** ($10/mo or $100/yr)
     - **Plus** ($50/mo)
 
 `View Membership Details → <https://botisimo.com>`_

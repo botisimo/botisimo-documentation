@@ -11,6 +11,7 @@ Response variables are used to make dynamic `custom command <https://botisimo.co
    :maxdepth: 1
    :name: toc-variables
 
+   ai
    arguments
    bot
    botplain

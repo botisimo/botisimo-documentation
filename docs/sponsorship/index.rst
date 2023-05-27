@@ -15,7 +15,7 @@ Are you ready to tell that one family member at Thanksgiving that you CAN MAKE M
 
 .. image:: /images/sponsorship-how-it-works.png
 
-The **Botisimo Sponsorship Program** is a customer opt-in sponsorship and rewards program that matches participants to a sponsor within our vetted sponsor network. Eligible participants will earn points for impressions and clicks. Those points earn you a cash back reward. Botisimo will send a sponsored message to your chat every 15 minutes. A graphic will also be displayed in the Sponsor Overlay every 15 minutes.
+The **Botisimo Sponsorship Program** is a customer opt-in sponsorship and rewards program that matches participants to a sponsor within our vetted sponsor network. Eligible participants will earn points for impressions and clicks. Those points earn you a cash back reward. Botisimo can send a sponsored message to your chat every 10 minutes. A graphic can also be displayed in the Sponsor Overlay every 10 minutes.
 
 **Eligible Participants:**
 
@@ -23,7 +23,7 @@ The **Botisimo Sponsorship Program** is a customer opt-in sponsorship and reward
 * ⌛ Stream at least 15 hours per month using Botisimo
 * 👀 Have at least 10 average concurrent viewers
 * 📹 Must enable VOD recordings on streaming platform(s)
-* 🖥️ Must display the Sponsor Overlay in your stream
+* 🖥️ Must display the Sponsor Overlay in your stream at 600px x 600px
 * 📋 Must agree to the Botisimo Sponsorship Program Terms & Conditions
 
 Ready to get started? Let's go!

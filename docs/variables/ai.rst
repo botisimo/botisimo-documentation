@@ -1,16 +1,16 @@
 $(ai)
 ======
 
-AI generated response based on context and prompt. Must have a Pro membership and at least $1 balance in your account.
+AI generated response based on context and prompt.
 
-`Manage my balance <https://botisimo.com/account/billing>`_
+Must have a Pro membership and at least $1 balance in your account. `Manage my balance <https://botisimo.com/account/billing>`_
 
 Usage:
     $(ai ``<context>`` | ``<prompt>``)
 
 Arguments:
-    ``context`` **<required>** - The context of the AI to use for the response
-    ``prompt`` **<required>** - The prompt to send to the AI to generate a response
+    * ``context`` **<required>** - The context of the AI to use for the response
+    * ``prompt`` **<required>** - The prompt to send to the AI to generate a response
 
 Example Command:
     **name**: !rng

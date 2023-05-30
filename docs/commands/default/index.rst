@@ -20,6 +20,7 @@ You can change the minimum permissions or disable any of the default commands by
    amazon
    bridge
    buy
+   chat
    clear
    clip
    command

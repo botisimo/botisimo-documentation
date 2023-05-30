@@ -28,7 +28,7 @@ Many features of Botisimo require moderator privileges in your channel. It is hi
 Chat with AI
 ^^^^^^^^^^^^
 
-Enhance your chats with AI-generated responses. Ask botisimo questions directly using the ``!chat`` command or create AI-powered custom commands and timers
+Enhance your chats with AI-generated responses. Ask botisimo questions directly using the ``!chat`` command or create AI-powered custom commands and timers.
 
 :doc:`Learn How to Use Botisimo AI → <ai/index>`
 

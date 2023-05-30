@@ -15,9 +15,8 @@ Using Botisimo requires a monthly or annual membership.
 
     - **Basic** (free)
     - **Pro** ($10/mo or $100/yr)
-    - **Plus** ($50/mo)
 
-`View Membership Details → <https://botisimo.com>`_
+`View Membership Details → <https://botisimo.com/pro>`_
 
 Moderation
 ^^^^^^^^^^
@@ -31,7 +30,7 @@ Chat with AI
 
 Enhance your chats with AI-generated responses. Ask botisimo questions directly using the ``!chat`` command or create AI-powered custom commands and timers
 
-:doc:`Learn How to Use Botisimo AI → <ai>`
+:doc:`Learn How to Use Botisimo AI → <ai/index>`
 
 Commands
 ^^^^^^^^

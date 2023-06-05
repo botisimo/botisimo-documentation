@@ -32,6 +32,13 @@ Enhance your chats with AI-generated responses. Ask botisimo questions directly 
 
 :doc:`Learn How to Use Botisimo AI → <ai/index>`
 
+.. toctree::
+   :maxdepth: 1
+   :name: sec-ai
+   :hidden:
+
+   ai/index
+
 Commands
 ^^^^^^^^
 

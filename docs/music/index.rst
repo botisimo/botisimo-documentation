@@ -7,12 +7,23 @@ You can configure your music player settings by visiting the `music player page 
 
 .. toctree::
    :maxdepth: 1
-   :name: toc-music
+   :name: toc-music-commands
    :caption: Related Commands
 
    ../commands/default/music
    ../commands/default/nextsong
    ../commands/default/songrequest
+
+.. toctree::
+   :maxdepth: 1
+   :name: toc-music-variables
+   :caption: Related Variables
+
+   ../variables/songrequester
+   ../variables/songthumbnail
+   ../variables/songtitle
+   ../variables/songurl
+   ../variables/songusername
 
 Related Videos
 ^^^^^^^^^^^^^^

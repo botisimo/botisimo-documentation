@@ -5,7 +5,7 @@ Enhance your chats with AI-generated interactions. Ask botisimo questions direct
 
 Must have a Pro membership and at least $1 balance in your account. `Manage my balance <https://botisimo.com/account/billing>`_.
 
-.. image:: /images/ai-chat-commands.jpeg
+.. image:: /images/ai-chat-command.jpeg
 
 **Ready to start chatting with AI in your channels?**
 
